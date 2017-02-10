@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Tutoriales</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let herramienta of herramientas">
+      <ion-avatar item-left>
+        <img src="{{herramienta.icono}}">
+      </ion-avatar>
+      <h2>{{herramienta.titulo}}</h2>
+      <h3>{{herramienta.subtitulo}}</h3>
+      <p>{{herramienta.descripcion}}</p>
+    </ion-item>
+  </ion-list>
+
+  <!-- <ion-list>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/Actuacion.png">
+    </ion-avatar>
+    <h2>Actuación</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/globoflexia.png">
+    </ion-avatar>
+    <h2>Globoflexia</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/malabares.png">
+    </ion-avatar>
+    <h2>Malabares</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/Papiroflexia.png">
+    </ion-avatar>
+    <h2>Papiroflexia</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/Pintacaritas.png">
+    </ion-avatar>
+    <h2>Pintacaritas</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/titeres.png">
+    </ion-avatar>
+    <h2>Titeres</h2>
+    <h3>Don't Know What To Do!</h3>
+    <p>I've had a pretty messed up day. If we just...</p>
+  </ion-item>
+
+</ion-list> -->
+
+</ion-content>
