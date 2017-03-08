@@ -13,6 +13,28 @@
     <img src="assets/img/2.jpg"/>
   </ion-card>
 
+  <ion-fab top right edge>
+    <button ion-fab color="vibrant" mini><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab (click)="openPage()"><ion-icon name="logo-facebook" color="facebook">
+        <!-- <a class="item" href="#" onclick="openPage()" target="_blank"></a> -->
+      </ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter" color="twitter"><a href="#"></a></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-instagram" color="instagram"><a href="#"></a></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-youtube" color="youtube"><a href="https://www.youtube.com/user/FDSGuatemala"></a></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
+  <ion-fab left bottom>
+    <button ion-fab color="primary"><ion-icon name="ios-arrow-dropright"></ion-icon></button>
+    <ion-fab-list side="right">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
   <p class="texto">
     Somos una asociación que trabaja de manera voluntaria llevando alegría, amor y tiempo a todas las personas.
 

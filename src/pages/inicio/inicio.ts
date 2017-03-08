@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ModalController, Platform, NavParams, ViewController } from 'ionic-angular';
 
 import { NavController } from 'ionic-angular';
 import { QuienesSomosPage } from '../quienes-somos/quienes-somos';
@@ -15,7 +16,7 @@ import { DonativoPage } from '../donativo/donativo';
 export class InicioPage {
   items = [];
 
-  constructor(public navCtrl: NavController) {
+  constructor(public platform: Platform, public params: NavParams, public viewCtrl: ViewController, public navCtrl: NavController) {
   this.items = [
     {
       'titulo': '¿Quiénes',

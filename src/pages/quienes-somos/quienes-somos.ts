@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ViewController } from 'ionic-angular';
 
 /*
   Generated class for the QuienesSomos page.
@@ -13,10 +13,16 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class QuienesSomosPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController,) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad QuienesSomosPage');
+  }
+
+  openPage(){
+    console.log("Entré a la función");
+    window.open('https://www.facebook.com/FDS.Guatemala/', '_self');
+    console.log("Mandé");
   }
 
 }
