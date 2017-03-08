@@ -1,6 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
+//import 'reflect-metadata';
+//import 'zone.js/dist/zone';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, ViewController } from 'ionic-angular';
+import { NavController, NavParams, ViewController, Platform } from 'ionic-angular';
+import { Device, AppAvailability } from 'ionic-native';
 
 /*
   Generated class for the QuienesSomos page.
@@ -13,16 +14,50 @@ import { NavController, NavParams, ViewController } from 'ionic-angular';
 })
 export class QuienesSomosPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController,) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public platform: Platform) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad QuienesSomosPage');
   }
 
-  openPage(){
+  openPage(red){
     console.log("Entré a la función");
-    window.open('https://www.facebook.com/FDS.Guatemala/', '_self');
-    console.log("Mandé");
+    if(red === "facebook"){
+      window.open('https://www.facebook.com/FDS.Guatemala/', '_self');
+      console.log("Mandé");
+    }
+    else if(red === "twitter"){
+      window.open('https://twitter.com/fds_guate', '_self');
+      console.log("Mandé");
+    }
+    else if(red === "instagram"){
+      window.open('https://www.instagram.com/fdsguate/', '_self');
+      console.log("Mandé");
+    }
+    else if(red === "youtube"){
+      window.open('https://www.youtube.com/user/FDSGuatemala', '_self');
+      console.log("Mandé");
+    }
   }
+
+  /*onDeviceReady() {
+
+        let app="";
+
+        // Don't forget to add the org.apache.cordova.device plugin!
+        if(Device.platform === 'iOS') {
+            app = 'twitter://';
+        }
+        else if(Device.platform === 'Android') {
+            app = 'com.twitter.android';
+        }
+
+        AppAvailability.check(app)
+          .then(
+            (yes: string) => console.log(app + ' is available'),
+            (no: string) => console.log(app + ' is NOT available')
+        );
+
+    }*/
 
 }
