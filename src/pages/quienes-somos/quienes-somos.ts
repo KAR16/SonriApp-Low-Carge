@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController, Platform } from 'ionic-angular';
-import { Device, AppAvailability } from 'ionic-native';
+import { Device, AppAvailability, InAppBrowser } from 'ionic-native';
 
 /*
   Generated class for the QuienesSomos page.
@@ -20,25 +20,37 @@ export class QuienesSomosPage {
     console.log('ionViewDidLoad QuienesSomosPage');
   }
 
+  /*openPage(red){
+  this.platform.ready().then(() => {
+          InAppBrowser.show('https://www.facebook.com/FDS.Guatemala/', "_blank", "location=true");
+      });
+  }*/
+
   openPage(red){
     console.log("Entré a la función");
     if(red === "facebook"){
-      window.open('https://www.facebook.com/FDS.Guatemala/', '_self');
+      //window.open = InAppBrowser.open('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=yes');
+      /*let browser = new InAppBrowser('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=yes');
+      browser.show();
+      browser.close();*/
+      window.open('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=true');
       console.log("Mandé");
     }
     else if(red === "twitter"){
-      window.open('https://twitter.com/fds_guate', '_self');
+      window.open('https://twitter.com/fds_guate', '_blank', 'location=yes');
       console.log("Mandé");
     }
     else if(red === "instagram"){
-      window.open('https://www.instagram.com/fdsguate/', '_self');
+      window.open('https://www.instagram.com/fdsguate/', '_blank', 'location=yes');
       console.log("Mandé");
     }
     else if(red === "youtube"){
-      window.open('https://www.youtube.com/user/FDSGuatemala', '_self');
+      window.open('https://www.youtube.com/user/FDSGuatemala', '_blank', 'location=yes');
       console.log("Mandé");
     }
   }
+
+
 
   /*onDeviceReady() {
 

@@ -12,6 +12,7 @@ import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia'
 import { SolicitaVisitaPage } from '../pages/solicita-visita/solicita-visita';
 import { DonativoPage } from '../pages/donativo/donativo';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
+import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TutorialesPage } from '../pages/tutoriales/tutoriales';
     NuestraHistoriaPage,
     SolicitaVisitaPage,
     DonativoPage,
-    TutorialesPage
+    TutorialesPage,
+    ConstelacionesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -40,7 +42,8 @@ import { TutorialesPage } from '../pages/tutoriales/tutoriales';
     NuestraHistoriaPage,
     SolicitaVisitaPage,
     DonativoPage,
-    TutorialesPage
+    TutorialesPage,
+    ConstelacionesPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

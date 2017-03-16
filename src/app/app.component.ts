@@ -12,6 +12,7 @@ import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
 import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
 import { SolicitaVisitaPage }  from '../pages/solicita-visita/solicita-visita';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
+import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +31,7 @@ export class MyApp {
     this.pages = [
       { title: 'Inicio', component: InicioPage },
       { title: 'Tutoriales', component: TutorialesPage },
-      { title: 'Constelaciones', component: Page2 },
+      { title: 'Constelaciones', component: ConstelacionesPage },
       { title: 'Lugares de Visita', component: Page2 },
       { title: 'Sonrisauros', component: Page2 },
       { title: 'Contactanos', component: Page2 },
