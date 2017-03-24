@@ -9,18 +9,18 @@
 
 
 <ion-content padding>
-  <!-- <ion-list>
-    <ion-item *ngFor="let herramienta of herramientas">
-      <ion-thumbnail item-left>
-          <img src="assets/img/sedes/balam.jpg">
-        </ion-thumbnail>
-      <h2>{{herramienta.titulo}}</h2>
-      <h3>{{herramienta.subtitulo}}</h3>
-      <p>{{herramienta.descripcion}}</p>
-    </ion-item>
-  </ion-list> -->
-
   <ion-list>
+    <ion-item *ngFor="let constelacion of constelaciones">
+      <ion-avatar item-left>
+          <img src="{{constelacion.img_const}}">
+      </ion-avatar>
+      <h2>{{constelacion.nombre_const}}</h2>
+      <h3>{{constelacion.sede}}</h3>
+      <p>{{constelacion.nacimiento}}</p>
+    </ion-item>
+  </ion-list>
+
+  <!-- <ion-list>
     <ion-item>
       <ion-avatar item-left>
         <img src="assets/img/sedes/balam.jpg">
@@ -29,6 +29,6 @@
       <h3>Quetzaltenango, Guatemala</h3>
       <p>2014</p>
     </ion-item>
-  </ion-list>
+  </ion-list> -->
 
 </ion-content>
