@@ -1,5 +1,24 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { Pipe, PipeTransform } from "@angular/core";
+
+@Pipe({
+    name: "filter",
+    pure: false
+})
+export class ArrayFilterPipe implements PipeTransform {
+
+    transform(items: Array<any>, conditions: {[field: string]: any}): Array<any> {
+        return items.filter(item => {
+            for (let field in conditions) {
+                if (item[field] !== conditions[field]) {
+                    return false;
+                }
+            }
+            return true;
+        });
+    }
+}
 
 /*
   Generated class for the Constelaciones page.
@@ -19,9 +38,10 @@ export class ConstelacionesPage {
   this.constelaciones = [
     {
       'nombre_const': 'Draco',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/draco.png',
       'color_const': 'Rojo',
       'nacimiento': 'Junio 2009',
+      'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Dragón',
       'nombre_mascota': 'Drake',
@@ -31,9 +51,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Fénix',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/fenix.png',
       'color_const': 'Amarillo',
       'nacimiento': 'Junio 2009',
+      'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Fénix',
       'nombre_mascota': 'Flamito',
@@ -43,9 +64,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Unicornio',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/unicornio.png',
       'color_const': 'Turquesa',
       'nacimiento': 'Junio 2009',
+      'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Unicornio',
       'nombre_mascota': 'Chuby',
@@ -55,9 +77,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Camaleón',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/camaleon.png',
       'color_const': 'Blanco',
       'nacimiento': 'Julio 2011',
+      'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Camaleón',
       'nombre_mascota': 'Duf',
@@ -67,9 +90,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Batz',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/batz.png',
       'color_const': 'Café',
       'nacimiento': 'Julio 2011',
+      'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Mono',
       'nombre_mascota': 'Wirik',
@@ -79,9 +103,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Ursus',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/ursus.png',
       'color_const': 'Azul Marino',
       'nacimiento': 'Enero 2013',
+      'fecha': new Date(2013, 0, 1),
       'sede': 'Guatemala, Guatemala',
       'mascota': 'Osa',
       'nombre_mascota': 'Nuru',
@@ -91,9 +116,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Crux del Sur',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/crux_del_sur.png',
       'color_const': 'Verde Grama',
       'nacimiento': '2009',
+      'fecha': new Date(2009, 0, 1),
       'sede': 'Coatepeque, Guatemala',
       'mascota': 'Culebra',
       'nombre_mascota': 'Cruxito',
@@ -103,9 +129,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Orión',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/orion.png',
       'color_const': 'Naranja',
       'nacimiento': '2009',
+      'fecha': new Date(2009, 0, 1),
       'sede': 'San Salvador, El Salvador',
       'mascota': 'Niño',
       'nombre_mascota': 'Regil',
@@ -115,9 +142,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Pegasus',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/pegasus.png',
       'color_const': 'Gris',
       'nacimiento': 'Junio 2010',
+      'fecha': new Date(2010, 5, 1),
       'sede': 'Jalapa, Guatemala',
       'mascota': 'Pegaso',
       'nombre_mascota': 'Ras',
@@ -127,9 +155,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Balam',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/balam4.png',
       'color_const': 'Morado',
       'nacimiento': 'Noviembre 2010',
+      'fecha': new Date(2010, 10, 1),
       'sede': 'Quetzaltenango, Guatemala',
       'mascota': 'Jaguar',
       'nombre_mascota': 'Kawi',
@@ -139,9 +168,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Leo',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/leo.png',
       'color_const': 'Verde fosforecente',
       'nacimiento': 'Marzo 2011',
+      'fecha': new Date(2011, 2, 1),
       'sede': 'Chiquimula, Guatemala',
       'mascota': 'León',
       'nombre_mascota': 'Leonardo',
@@ -151,9 +181,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Áquila',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/aquila.png',
       'color_const': 'Negro',
       'nacimiento': 'Junio 2011',
+      'fecha': new Date(2011, 5, 1),
       'sede': 'Cobán, Guatemala',
       'mascota': 'Aguila',
       'nombre_mascota': 'Chahim',
@@ -163,9 +194,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Picis',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/picis.png',
       'color_const': 'Aqua',
       'nacimiento': 'Septiembre 2011',
+      'fecha': new Date(2011, 8, 1),
       'sede': 'Zacapa, Guatemala',
       'mascota': 'Delfines',
       'nombre_mascota': 'Sonri y Sueños',
@@ -175,9 +207,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Keh',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/keh.png',
       'color_const': 'Beige',
       'nacimiento': '2013',
+      'fecha': new Date(2013, 0, 1),
       'sede': 'Mazatenango, Guatemala',
       'mascota': 'Venado',
       'nombre_mascota': 'Venadin',
@@ -187,9 +220,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Taurus',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/taurus.png',
       'color_const': 'Fucsia',
       'nacimiento': '2012',
+      'fecha': new Date(2012, 0, 1),
       'sede': 'Retalhuleu, Guatemala',
       'mascota': 'Toro',
       'nombre_mascota': 'Torivio',
@@ -199,9 +233,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Cisne',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/cisne.png',
       'color_const': 'Rosado',
       'nacimiento': '2013',
+      'fecha': new Date(2013, 0, 1),
       'sede': 'Santa Ana, Guatemala',
       'mascota': 'Cisne',
       'nombre_mascota': 'Whip',
@@ -211,9 +246,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Scutum',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/scutum.png',
       'color_const': 'Azul Pavo',
       'nacimiento': '2013',
+      'fecha': new Date(2013, 0, 1),
       'sede': 'Antigua Guatemala, Guatemala',
       'mascota': 'Guacamaya',
       'nombre_mascota': 'Qinich',
@@ -223,9 +259,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Andromeda',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/andromeda.png',
       'color_const': 'Vinotinto',
       'nacimiento': 'Marzo 2014',
+      'fecha': new Date(2014, 2, 1),
       'sede': 'San Marcos, Guatemala',
       'mascota': 'Quetzal',
       'nombre_mascota': 'Gugú',
@@ -235,9 +272,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Centaurus',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Amarillo Mostaza',
       'nacimiento': 'Junio 2014',
+      'fecha': new Date(2014, 5, 1),
       'sede': 'Huehuetenango, Guatemala',
       'mascota': 'Centauro',
       'nombre_mascota': '-',
@@ -247,9 +285,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Scorpius',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/scorpius.png',
       'color_const': 'Verde Limón',
       'nacimiento': 'Noviembre 2014',
+      'fecha': new Date(2014, 10, 1),
       'sede': 'Sololá, Guatemala',
       'mascota': 'Escorpión',
       'nombre_mascota': 'Baxter',
@@ -259,9 +298,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Lobo',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Lila',
       'nacimiento': 'Marzo 2015',
+      'fecha': new Date(2015, 2, 1),
       'sede': 'Jutiapa, Guatemala',
       'mascota': 'Lobo',
       'nombre_mascota': 'Lupin',
@@ -271,9 +311,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Tortuga',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Verde Musgo',
       'nacimiento': 'Mayo 2015',
+      'fecha': new Date(2015, 4, 1),
       'sede': 'Chimaltenango, Guatemala',
       'mascota': 'Tortuga',
       'nombre_mascota': 'Tugui',
@@ -283,9 +324,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Moan',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Turquesa',
       'nacimiento': 'Julio 2015',
+      'fecha': new Date(2015, 6, 1),
       'sede': 'San Salvador, El Salvador',
       'mascota': 'Lechuza',
       'nombre_mascota': 'Tlamati',
@@ -295,9 +337,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Triángulum',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Azul Pavo',
       'nacimiento': 'Marzo 2016',
+      'fecha': new Date(2016, 2, 1),
       'sede': 'Malacatán, Guatemala',
       'mascota': 'Tigrillo',
       'nombre_mascota': '-',
@@ -307,9 +350,10 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Grulla',
-      'img_const': 'assets/img/sedes/balam.jpg',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Blanco',
       'nacimiento': 'Agosto 2016',
+      'fecha': new Date(2016, 7, 1),
       'sede': 'Salamá, Guatemala',
       'mascota': 'Grulla',
       'nombre_mascota': 'Gros',
@@ -318,6 +362,9 @@ export class ConstelacionesPage {
       'historia': '-'
     }
   ];
+
+  //this.constelaciones.orderByDate('fecha', -1);
+  //alert(constelaciones[0].nombre_const)
   }
 
   ionViewDidLoad() {
