@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back"></ion-icon>
+    </button>
+    <ion-title>{{ item.nombre_const }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding [ngStyle]="{'background-color': item.cod_color}">
+  <!-- <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}"></ion-icon> -->
+  <h1>{{ item.nombre_const }}</h1>
+</ion-content>

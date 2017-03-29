@@ -1,6 +1,5 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { Pipe, PipeTransform } from "@angular/core";
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
@@ -12,6 +11,7 @@ import { SolicitaVisitaPage } from '../pages/solicita-visita/solicita-visita';
 import { DonativoPage } from '../pages/donativo/donativo';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
+import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
     SolicitaVisitaPage,
     DonativoPage,
     TutorialesPage,
-    ConstelacionesPage
+    ConstelacionesPage,
+    DetalleConstelacionesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +43,8 @@ import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
     SolicitaVisitaPage,
     DonativoPage,
     TutorialesPage,
-    ConstelacionesPage
+    ConstelacionesPage,
+    DetalleConstelacionesPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

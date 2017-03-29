@@ -1,8 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
-//import 'reflect-metadata';
-//import 'zone.js/dist/zone';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
@@ -10,9 +8,10 @@ import { PayaescuelaPage } from '../pages/payaescuela/payaescuela';
 import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
 import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
 import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
-import { SolicitaVisitaPage }  from '../pages/solicita-visita/solicita-visita';
+//import { SolicitaVisitaPage }  from '../pages/solicita-visita/solicita-visita';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
+//import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';
 
 @Component({
   templateUrl: 'app.html'

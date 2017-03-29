@@ -1,31 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Pipe, PipeTransform } from "@angular/core";
+import { DetalleConstelacionesPage } from '../detalle-constelaciones/detalle-constelaciones';
 
-@Pipe({
-    name: "filter",
-    pure: false
-})
-export class ArrayFilterPipe implements PipeTransform {
-
-    transform(items: Array<any>, conditions: {[field: string]: any}): Array<any> {
-        return items.filter(item => {
-            for (let field in conditions) {
-                if (item[field] !== conditions[field]) {
-                    return false;
-                }
-            }
-            return true;
-        });
-    }
-}
-
-/*
-  Generated class for the Constelaciones page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-constelaciones',
   templateUrl: 'constelaciones.html'
@@ -40,6 +16,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Draco',
       'img_const': 'assets/img/sedes/draco.png',
       'color_const': 'Rojo',
+      'cod_color': '#FE0000',
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
@@ -53,6 +30,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Fénix',
       'img_const': 'assets/img/sedes/fenix.png',
       'color_const': 'Amarillo',
+      'cod_color': '#FFFF38',
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
@@ -66,6 +44,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Unicornio',
       'img_const': 'assets/img/sedes/unicornio.png',
       'color_const': 'Turquesa',
+      'cod_color': '#03FFFE',
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
@@ -79,6 +58,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Camaleón',
       'img_const': 'assets/img/sedes/camaleon.png',
       'color_const': 'Blanco',
+      'cod_color': '#FFF',
       'nacimiento': 'Julio 2011',
       'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
@@ -92,6 +72,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Batz',
       'img_const': 'assets/img/sedes/batz.png',
       'color_const': 'Café',
+      'cod_color': '#4F2B15',
       'nacimiento': 'Julio 2011',
       'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
@@ -105,6 +86,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Ursus',
       'img_const': 'assets/img/sedes/ursus.png',
       'color_const': 'Azul Marino',
+      'cod_color': '#000022',
       'nacimiento': 'Enero 2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Guatemala, Guatemala',
@@ -118,6 +100,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Crux del Sur',
       'img_const': 'assets/img/sedes/crux_del_sur.png',
       'color_const': 'Verde Grama',
+      'cod_color': '#008804',
       'nacimiento': '2009',
       'fecha': new Date(2009, 0, 1),
       'sede': 'Coatepeque, Guatemala',
@@ -131,6 +114,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Orión',
       'img_const': 'assets/img/sedes/orion.png',
       'color_const': 'Naranja',
+      'cod_color': '#FF7900',
       'nacimiento': '2009',
       'fecha': new Date(2009, 0, 1),
       'sede': 'San Salvador, El Salvador',
@@ -144,6 +128,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Pegasus',
       'img_const': 'assets/img/sedes/pegasus.png',
       'color_const': 'Gris',
+      'cod_color': '#959595',
       'nacimiento': 'Junio 2010',
       'fecha': new Date(2010, 5, 1),
       'sede': 'Jalapa, Guatemala',
@@ -155,8 +140,9 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Balam',
-      'img_const': 'assets/img/sedes/balam4.png',
+      'img_const': 'assets/img/sedes/balam.png',
       'color_const': 'Morado',
+      'cod_color': '#B500BC',
       'nacimiento': 'Noviembre 2010',
       'fecha': new Date(2010, 10, 1),
       'sede': 'Quetzaltenango, Guatemala',
@@ -170,6 +156,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Leo',
       'img_const': 'assets/img/sedes/leo.png',
       'color_const': 'Verde fosforecente',
+      'cod_color': '#12FF01',
       'nacimiento': 'Marzo 2011',
       'fecha': new Date(2011, 2, 1),
       'sede': 'Chiquimula, Guatemala',
@@ -183,6 +170,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Áquila',
       'img_const': 'assets/img/sedes/aquila.png',
       'color_const': 'Negro',
+      'cod_color': '#323232',
       'nacimiento': 'Junio 2011',
       'fecha': new Date(2011, 5, 1),
       'sede': 'Cobán, Guatemala',
@@ -196,6 +184,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Picis',
       'img_const': 'assets/img/sedes/picis.png',
       'color_const': 'Aqua',
+      'cod_color': '#00F1C6',
       'nacimiento': 'Septiembre 2011',
       'fecha': new Date(2011, 8, 1),
       'sede': 'Zacapa, Guatemala',
@@ -209,6 +198,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Keh',
       'img_const': 'assets/img/sedes/keh.png',
       'color_const': 'Beige',
+      'cod_color': '#E3A745',
       'nacimiento': '2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Mazatenango, Guatemala',
@@ -222,6 +212,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Taurus',
       'img_const': 'assets/img/sedes/taurus.png',
       'color_const': 'Fucsia',
+      'cod_color': '#FF00C0',
       'nacimiento': '2012',
       'fecha': new Date(2012, 0, 1),
       'sede': 'Retalhuleu, Guatemala',
@@ -235,6 +226,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Cisne',
       'img_const': 'assets/img/sedes/cisne.png',
       'color_const': 'Rosado',
+      'cod_color': '#FF84BD',
       'nacimiento': '2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Santa Ana, Guatemala',
@@ -248,6 +240,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Scutum',
       'img_const': 'assets/img/sedes/scutum.png',
       'color_const': 'Azul Pavo',
+      'cod_color': '#0170C1',
       'nacimiento': '2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Antigua Guatemala, Guatemala',
@@ -261,6 +254,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Andromeda',
       'img_const': 'assets/img/sedes/andromeda.png',
       'color_const': 'Vinotinto',
+      'cod_color': '#CD0043',
       'nacimiento': 'Marzo 2014',
       'fecha': new Date(2014, 2, 1),
       'sede': 'San Marcos, Guatemala',
@@ -274,6 +268,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Centaurus',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Amarillo Mostaza',
+      'cod_color': '#FFC300',
       'nacimiento': 'Junio 2014',
       'fecha': new Date(2014, 5, 1),
       'sede': 'Huehuetenango, Guatemala',
@@ -285,8 +280,9 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Scorpius',
-      'img_const': 'assets/img/sedes/scorpius.png',
+      'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Verde Limón',
+      'cod_color': '#C2DA00',
       'nacimiento': 'Noviembre 2014',
       'fecha': new Date(2014, 10, 1),
       'sede': 'Sololá, Guatemala',
@@ -300,6 +296,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Lobo',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Lila',
+      'cod_color': '#C979F2',
       'nacimiento': 'Marzo 2015',
       'fecha': new Date(2015, 2, 1),
       'sede': 'Jutiapa, Guatemala',
@@ -313,6 +310,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Tortuga',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Verde Musgo',
+      'cod_color': '#4C5D16',
       'nacimiento': 'Mayo 2015',
       'fecha': new Date(2015, 4, 1),
       'sede': 'Chimaltenango, Guatemala',
@@ -326,6 +324,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Moan',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Turquesa',
+      'cod_color': '#03FFFE',
       'nacimiento': 'Julio 2015',
       'fecha': new Date(2015, 6, 1),
       'sede': 'San Salvador, El Salvador',
@@ -339,6 +338,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Triángulum',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Azul Pavo',
+      'cod_color': '#0170C1',
       'nacimiento': 'Marzo 2016',
       'fecha': new Date(2016, 2, 1),
       'sede': 'Malacatán, Guatemala',
@@ -352,6 +352,7 @@ export class ConstelacionesPage {
       'nombre_const': 'Grulla',
       'img_const': 'assets/img/sedes/default.png',
       'color_const': 'Blanco',
+      'cod_color': '#FFF ',
       'nacimiento': 'Agosto 2016',
       'fecha': new Date(2016, 7, 1),
       'sede': 'Salamá, Guatemala',
@@ -362,13 +363,9 @@ export class ConstelacionesPage {
       'historia': '-'
     }
   ];
-
-  //this.constelaciones.orderByDate('fecha', -1);
-  //alert(constelaciones[0].nombre_const)
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ConstelacionesPage');
+  detalle(item) {
+    this.navCtrl.push(DetalleConstelacionesPage, {item:item});
   }
-
 }
