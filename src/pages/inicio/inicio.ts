@@ -55,6 +55,8 @@ export class InicioPage {
       'vista': 'DonativoPage'
     },
   ];
+
+  console.log(this.items);
 }
 
 open(item){

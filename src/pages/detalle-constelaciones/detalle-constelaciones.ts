@@ -13,13 +13,37 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class DetalleConstelacionesPage {
   item;
+  redesSociales=[];
 
   constructor(public navCtrl: NavController, public params: NavParams) {
     this.item = params.data.item;
+    this.redesSociales = this.item.redes;
+    console.log(this.item);
+    console.log(this.redesSociales);
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DetalleConstelacionesPage');
+  }
+
+  openPage(redSocial){
+    console.log("Entré a la función");
+    if(redSocial.nombre_red === "facebook"){
+      window.open(redSocial.url_red, '_blank', 'location=true');
+      console.log("Mandé fb");
+    }
+    else if(redSocial.nombre_red === "twitter"){
+      window.open(redSocial.url_red, '_blank', 'location=yes');
+      console.log("Mandé tw");
+    }
+    else if(redSocial.nombre_red === "instagram"){
+      window.open(redSocial.url_red, '_blank', 'location=yes');
+      console.log("Mandé inst");
+    }
+    else if(redSocial.nombre_red === "youtube"){
+      window.open(redSocial.url_red, '_blank', 'location=yes');
+      console.log("Mandé yb");
+    }
   }
 
 }

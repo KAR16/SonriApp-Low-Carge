@@ -29,11 +29,7 @@ export class QuienesSomosPage {
   openPage(red){
     console.log("Entré a la función");
     if(red === "facebook"){
-      //window.open = InAppBrowser.open('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=yes');
-      /*let browser = new InAppBrowser('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=yes');
-      browser.show();
-      browser.close();*/
-      window.open('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=true');
+      window.open('https://www.facebook.com/FDS.Guatemala/', '_blank', 'location=yes');
       console.log("Mandé");
     }
     else if(red === "twitter"){

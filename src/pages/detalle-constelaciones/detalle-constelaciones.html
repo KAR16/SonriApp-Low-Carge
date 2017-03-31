@@ -9,6 +9,13 @@
 
 
 <ion-content padding [ngStyle]="{'background-color': item.cod_color}">
+  <ion-fab top right edge>
+    <button ion-fab color="vibrant" mini><ion-icon name="ios-arrow-dropdown"></ion-icon></button>
+    <ion-fab-list>
+      <button *ngFor="let redSocial of redesSociales" ion-fab (click)="openPage(redSocial)"><ion-icon [name]="redSocial.icon_red" [color]="redSocial.color_red"></ion-icon></button>
+    </ion-fab-list>
+
+  </ion-fab>
   <!-- <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}"></ion-icon> -->
   <h1>{{ item.nombre_const }}</h1>
 </ion-content>

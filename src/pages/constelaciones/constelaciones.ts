@@ -20,6 +20,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Dragón',
       'nombre_mascota': 'Drake',
       'img_mascota': 'assets/img/mascotas/kaw.png',
@@ -34,6 +58,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Fénix',
       'nombre_mascota': 'Flamito',
       'img_mascota': 'assets/img/mascotas/kaw.png',
@@ -48,6 +96,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Unicornio',
       'nombre_mascota': 'Chuby',
       'img_mascota': 'assets/img/mascotas/kaw.png',
@@ -62,6 +134,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Julio 2011',
       'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Camaleón',
       'nombre_mascota': 'Duf',
       'img_mascota': 'assets/img/mascotas/kaw.png',
@@ -76,6 +172,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Julio 2011',
       'fecha': new Date(2011, 6, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Mono',
       'nombre_mascota': 'Wirik',
       'img_mascota': 'assets/img/mascotas/kaw.png',
@@ -90,6 +210,30 @@ export class ConstelacionesPage {
       'nacimiento': 'Enero 2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Osa',
       'nombre_mascota': 'Nuru',
       'img_mascota': 'assets/img/mascotas/kaw.png',
