@@ -248,6 +248,30 @@ export class ConstelacionesPage {
       'nacimiento': '2009',
       'fecha': new Date(2009, 0, 1),
       'sede': 'Coatepeque, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      },
+      {
+      'nombre_red': 'youtube',
+      'icon_red': 'logo-youtube',
+      'color_red': 'youtube',
+      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
+      }],
       'mascota': 'Culebra',
       'nombre_mascota': 'Cruxito',
       'img_mascota': 'assets/img/mascotas/kaw.png',
