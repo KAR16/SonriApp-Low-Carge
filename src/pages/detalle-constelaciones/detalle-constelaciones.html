@@ -16,6 +16,15 @@
     </ion-fab-list>
 
   </ion-fab>
-  <!-- <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}"></ion-icon> -->
-  <h1>{{ item.nombre_const }}</h1>
+  <!-- <ion-card>
+    <img class="imgMascota" src="{{item.img_mascota}}"/>
+  </ion-card> -->
+  <img class="imgMascota" src="{{item.img_mascota}}"/>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Constelación: {{ item.nombre_const }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Nacimiento: {{ item.nacimiento }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Sede: {{ item.sede }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Color: {{ item.color_const }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Mascota: {{ item.mascota }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Nombre: {{ item.nombre_mascota }}</h5>
+  <h5 class="infoConstelacion" [ngStyle]="{'color': item.text_color}">Lema: {{ item.lema }}</h5>
 </ion-content>

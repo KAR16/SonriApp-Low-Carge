@@ -46,8 +46,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Dragón',
       'nombre_mascota': 'Drake',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/drake.png',
       'lema': 'Vibra positiva',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -84,8 +85,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Fénix',
       'nombre_mascota': 'Flamito',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/flamito.png',
       'lema': 'Tengo el corazón de fuego y creo en los sueños',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -122,8 +124,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Unicornio',
       'nombre_mascota': 'Chuby',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/chuby.png',
       'lema': 'La imaginación es el límite',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -160,8 +163,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Camaleón',
       'nombre_mascota': 'Duf',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/duf.png',
       'lema': '-',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -198,8 +202,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Mono',
       'nombre_mascota': 'Wirik',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/wirik.png',
       'lema': 'Tu eres el inicio de tus sueños y el límite de tu destino',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -236,8 +241,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Osa',
       'nombre_mascota': 'Nuru',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/nuru.png',
       'lema': 'La fuerza sale del corazón',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -274,8 +280,9 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Culebra',
       'nombre_mascota': 'Cruxito',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/cruxito.png',
       'lema': 'El amor nos une',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -288,8 +295,9 @@ export class ConstelacionesPage {
       'sede': 'San Salvador, El Salvador',
       'mascota': 'Niño',
       'nombre_mascota': 'Regil',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/regil.png',
       'lema': 'Orión ilumina con sonrisas tu corazón',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -302,8 +310,9 @@ export class ConstelacionesPage {
       'sede': 'Jalapa, Guatemala',
       'mascota': 'Pegaso',
       'nombre_mascota': 'Ras',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/ras.png',
       'lema': 'Dejando huellas de amor',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -316,8 +325,9 @@ export class ConstelacionesPage {
       'sede': 'Quetzaltenango, Guatemala',
       'mascota': 'Jaguar',
       'nombre_mascota': 'Kawi',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/kawi.png',
       'lema': 'Dejando huella',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -330,8 +340,9 @@ export class ConstelacionesPage {
       'sede': 'Chiquimula, Guatemala',
       'mascota': 'León',
       'nombre_mascota': 'Leonardo',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/leo.png',
       'lema': 'La risa es algo serio',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -344,8 +355,9 @@ export class ConstelacionesPage {
       'sede': 'Cobán, Guatemala',
       'mascota': 'Aguila',
       'nombre_mascota': 'Chahim',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/chahim.png',
       'lema': 'La sonrisa y la alegría es nuestro idioma universal',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -358,8 +370,9 @@ export class ConstelacionesPage {
       'sede': 'Zacapa, Guatemala',
       'mascota': 'Delfines',
       'nombre_mascota': 'Sonri y Sueños',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/sonri_sueños.png',
       'lema': 'De los amigos siempre cerca',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -372,8 +385,9 @@ export class ConstelacionesPage {
       'sede': 'Mazatenango, Guatemala',
       'mascota': 'Venado',
       'nombre_mascota': 'Venadin',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/venadin.png',
       'lema': 'Un salto de amor y felicidad',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -386,8 +400,9 @@ export class ConstelacionesPage {
       'sede': 'Retalhuleu, Guatemala',
       'mascota': 'Toro',
       'nombre_mascota': 'Torivio',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/torivio.png',
       'lema': 'Una embestida de amor',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -400,8 +415,9 @@ export class ConstelacionesPage {
       'sede': 'Santa Ana, Guatemala',
       'mascota': 'Cisne',
       'nombre_mascota': 'Whip',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/whip.png',
       'lema': 'Sonreimos con pasión para alegrar tu corazón',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -414,8 +430,9 @@ export class ConstelacionesPage {
       'sede': 'Antigua Guatemala, Guatemala',
       'mascota': 'Guacamaya',
       'nombre_mascota': 'Qinich',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/qinich.png',
       'lema': 'Nuestras sonrisas, el mejor escudo',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -428,8 +445,9 @@ export class ConstelacionesPage {
       'sede': 'San Marcos, Guatemala',
       'mascota': 'Quetzal',
       'nombre_mascota': 'Gugú',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/gugu.png',
       'lema': 'Pintando el mundo de amor y alegría',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -441,9 +459,10 @@ export class ConstelacionesPage {
       'fecha': new Date(2014, 5, 1),
       'sede': 'Huehuetenango, Guatemala',
       'mascota': 'Centauro',
-      'nombre_mascota': '-',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'nombre_mascota': 'Kentaury',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Como luz y alegría, nuestro amor dibuja una sonrisa día tras día',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -456,8 +475,9 @@ export class ConstelacionesPage {
       'sede': 'Sololá, Guatemala',
       'mascota': 'Escorpión',
       'nombre_mascota': 'Baxter',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Inyectando gotas de amor',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -470,8 +490,9 @@ export class ConstelacionesPage {
       'sede': 'Jutiapa, Guatemala',
       'mascota': 'Lobo',
       'nombre_mascota': 'Lupin',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Una manada que ama con locura',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -484,13 +505,14 @@ export class ConstelacionesPage {
       'sede': 'Chimaltenango, Guatemala',
       'mascota': 'Tortuga',
       'nombre_mascota': 'Tugui',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Sabiduría de caparazón para alegrar el corazón',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
       'nombre_const': 'Moan',
-      'img_const': 'assets/img/sedes/default.png',
+      'img_const': 'assets/img/sedes/moan.png',
       'color_const': 'Turquesa',
       'cod_color': '#03FFFE',
       'nacimiento': 'Julio 2015',
@@ -498,8 +520,9 @@ export class ConstelacionesPage {
       'sede': 'San Salvador, El Salvador',
       'mascota': 'Lechuza',
       'nombre_mascota': 'Tlamati',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/tlamati.png',
       'lema': 'La sabiduría del amor es el fuego de nuestro corazón',
+      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -512,8 +535,9 @@ export class ConstelacionesPage {
       'sede': 'Malacatán, Guatemala',
       'mascota': 'Tigrillo',
       'nombre_mascota': '-',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Todo lo que somos y sabemos es para servir',
+      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -526,8 +550,9 @@ export class ConstelacionesPage {
       'sede': 'Salamá, Guatemala',
       'mascota': 'Grulla',
       'nombre_mascota': 'Gros',
-      'img_mascota': 'assets/img/mascotas/kaw.png',
+      'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': '-',
+      'text_color': '#000',
       'historia': '-'
     }
   ];
