@@ -1,16 +1,35 @@
 page-quienes-somos {
 
   .texto{
-    padding-left: 2%;
-    padding-right: 2%;
+    // padding-left: 5%;
+    margin-left: 35px;
+    padding-right: 5%;
     text-align: justify;
-    font-size: 1.2em;
-    font-family: 'SonriText' !important;
+    font-size: 18px;
+    font-family: 'SonriFont-Semilight' !important;
   }
 
-  .toolbar-title{
-    font-family: 'SonriTitle' !important;
+  .titulo{
+    // padding-left: 2%;
+    margin-left: 35px;
+    padding-right: 2%;
+    text-align: justify;
+    font-size: 26px;
+    font-family: 'SonriFont-Semibold' !important;
   }
+
+  ion-card, .card-md {
+    display: inline !important;
+    margin: 0px !important;
+  }
+
+  .img-qs{
+    height: 70%;
+  }
+
+  ion-app.md [padding], ion-app.md [padding] .scroll-content {
+    padding: 0px !important;
+}
 
 
 }

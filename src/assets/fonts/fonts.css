@@ -24,3 +24,27 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'SonriFont-Light';
+    src: url('weblysleekuil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SonriFont-Semibold';
+    src: url('weblysleekuisb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SonriFont-Semilight';
+    src: url('weblysleekuisl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

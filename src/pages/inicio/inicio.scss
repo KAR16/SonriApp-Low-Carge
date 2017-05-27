@@ -1,26 +1,38 @@
 page-inicio {
+
   ion-card {
     position: relative;
     text-align: center;
+    border-radius: 0px !important;
   }
 
   .card-title {
     position: absolute;
     top: 36%;
-    font-size: 3em;
+    font-size: 26px;
     width: 100%;
     font-weight: bold;
     color: #fff;
-    font-family: 'SonriTitle' !important;
+    font-family: 'SonriFont-Semibold' !important;
   }
 
   .card-subtitle {
-    font-size: 2.5em;
+    font-size: 26px;
     position: absolute;
     top: 52%;
     width: 100%;
     color: #fff;
-    font-family: 'SonriTitle' !important;
+    font-family: 'SonriFont-Semibold' !important;
+  }
+
+  .card-text{
+    width: 20px;
+    height: 50px;
+    background: black;
+  }
+
+  ion-app.md [padding], ion-app.md [padding] .scroll-content {
+    padding: 8px !important;
   }
 
 }

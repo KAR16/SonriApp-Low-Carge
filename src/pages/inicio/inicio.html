@@ -1,9 +1,9 @@
-<ion-header>
+<ion-header color='youtube'>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Inicio</ion-title>
+    <ion-title>Fábrica de Sonrisas</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -16,6 +16,8 @@
 
   <ion-card *ngFor="let item of items" (click)="open(item)">
     <img src="{{item.imagen}}"/>
+    <!-- <div class="card-text">
+    </div> -->
     <div class="card-title">{{item.titulo}}</div>
     <div class="card-subtitle">{{item.subtitulo}}</div>
   </ion-card>

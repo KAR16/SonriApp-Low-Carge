@@ -33,6 +33,7 @@ export class MyApp {
       { title: 'Constelaciones', component: ConstelacionesPage },
       { title: 'Lugares de Visita', component: Page2 },
       { title: 'Sonrisauros', component: Page2 },
+      { title: 'Galería', component: Page2 },
       { title: 'Contactanos', component: Page2 },
       { title: 'Créditos', component: Page2 }
     ];

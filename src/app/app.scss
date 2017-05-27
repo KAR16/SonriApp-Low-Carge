@@ -19,16 +19,71 @@ app{
 
 }
 
+ion-app.md [padding], ion-app.md [padding] .scroll-content {
+  padding: 8px !important;
+}
+
+ion-navbar.toolbar{
+  height: 80px !important;
+  // background-color: #FF0007 !important;
+  text-align: left;
+  // padding-right: 2% !important
+}
+
+ion-title{
+  padding-left: 10% !important;
+  font-family: 'SonriFont-Semibold' !important;
+  font-size: 18px !important;
+  color: #FFF;
+}
+
+//Background de la imagen del Menu
+.toolbar-background-md {
+    // border-color: #b2b2b2;
+    background: #FF0007;
+}
+
+.headerMenu{
+  background: #FFF !important;
+}
+
+// .toolbar-background {
+//     // border-color: #b2b2b2;
+//     background: #FFF !important;
+// }
+
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #FFF;
+}
+
+.toolbar-title-md{
+  color: #FFF !important;
+}
+
+
 .favHTitle ion-title{
-  font-family: 'SonriTitle' !important;
+  font-family: 'SonriFont-Semilight' !important;
 }
 
 // .toolbar-title{
 //   font-family: 'SonriTitle' !important;
 // }
 
+//Logo Menu
+.logo{
+  padding: 30px;
+  padding-left: 65px !important;
+}
+
+.img-logo{
+  height: 225px
+}
+
 .pages button{
-  font-family: 'SonriText' !important;
+  font-family: 'SonriFont-Semilight' !important;
+  height: 60px;
+  text-align: left;
+  vertical-align: middle;
 }
 
 // .input-wrapper{
