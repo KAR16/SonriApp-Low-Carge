@@ -21,26 +21,27 @@ export class MyApp {
 
   rootPage: any = InicioPage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, color: string}>;
 
   constructor(public platform: Platform) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Inicio', component: InicioPage },
-      { title: 'Tutoriales', component: TutorialesPage },
-      { title: 'Constelaciones', component: ConstelacionesPage },
-      { title: 'Lugares de Visita', component: Page2 },
-      { title: 'Sonrisauros', component: Page2 },
-      { title: 'Galería', component: Page2 },
-      { title: 'Contactanos', component: Page2 },
-      { title: 'Créditos', component: Page2 }
+      { title: 'Inicio', component: InicioPage, color: '#FAFAFA'  },
+      { title: 'Tutoriales', component: TutorialesPage, color: '#FFF' },
+      { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA' },
+      { title: 'Lugares de Visita', component: Page2, color: '#FFF' },
+      { title: 'Sonrisauros', component: Page2, color: '#FAFAFA' },
+      { title: 'Galería', component: Page2, color: '#FFF' },
+      { title: 'Contactanos', component: Page2, color: '#FAFAFA' },
+      { title: 'Créditos', component: Page2, color: '#FFF' }
     ];
 
   }
 
   initializeApp() {
+
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.

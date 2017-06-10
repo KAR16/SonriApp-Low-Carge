@@ -10,7 +10,7 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let constelacion of constelaciones" (click)="detalle(constelacion)">
+    <ion-item *ngFor="let constelacion of constelaciones" (click)="detalle(constelacion)" class="animated bounceInUp">
       <ion-avatar item-left>
           <img src="{{constelacion.img_const}}">
       </ion-avatar>
