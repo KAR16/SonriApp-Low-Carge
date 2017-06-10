@@ -558,6 +558,7 @@ export class ConstelacionesPage {
   ];
   }
 
+  //Mando el arreglo de las constelaciones a la vista del detalle de cada una
   detalle(item) {
     this.navCtrl.push(DetalleConstelacionesPage, {item:item});
   }

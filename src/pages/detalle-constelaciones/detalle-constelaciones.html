@@ -8,7 +8,7 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
   <ion-fab top right edge>
     <button ion-fab color="vibrant" mini><ion-icon name="ios-arrow-dropdown"></ion-icon></button>
     <ion-fab-list>
@@ -24,7 +24,7 @@
     <p class="card-title">{{ item.nombre_const }}</p>
   </div>
   <ion-segment [(ngModel)]="info">
-    <ion-segment-button value="biografia">
+    <ion-segment-button class="segment-button segment-activated" value="biografia">
       Bio
     </ion-segment-button>
     <ion-segment-button value="historia">
@@ -32,59 +32,24 @@
     </ion-segment-button>
   </ion-segment>
 
-  <div [ngSwitch]="info">
+  <div class="segment-biografia" [ngSwitch]="info">
     <ion-list *ngSwitchCase="'biografia'">
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-puppy-1.jpg">
-        </ion-thumbnail>
-        <h2>Ruby</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-puppy-2.jpg">
-        </ion-thumbnail>
-        <h2>Oscar</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-puppy-4.jpg">
-        </ion-thumbnail>
-        <h2>Zoey</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-puppy-3.jpg">
-        </ion-thumbnail>
-        <h2>Otto</h2>
-      </ion-item>
+      <div class="container-bio">
+        <h5 class="infoConstelacion"><span>Constelación: </span>{{ item.nombre_const }}</h5>
+        <h5 class="infoConstelacion"><span>Nacimiento: </span>{{ item.nacimiento }}</h5>
+        <h5 class="infoConstelacion"><span>Sede: </span>{{ item.sede }}</h5>
+        <h5 class="infoConstelacion"><span>Color: </span>{{ item.color_const }}</h5>
+        <h5 class="infoConstelacion"><span>Mascota: </span>{{ item.mascota }}</h5>
+        <h5 class="infoConstelacion"><span>Nombre: </span>{{ item.nombre_mascota }}</h5>
+        <h5 class="infoConstelacion"><span>Lema: </span>{{ item.lema }}</h5>
+      </div>
     </ion-list>
 
-    <ion-list *ngSwitchCase="'kittens'">
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-kitten-1.jpg">
-        </ion-thumbnail>
-        <h2>Luna</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-kitten-3.jpg">
-        </ion-thumbnail>
-        <h2>Milo</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-kitten-4.jpg">
-        </ion-thumbnail>
-        <h2>Bandit</h2>
-      </ion-item>
-      <ion-item>
-        <ion-thumbnail item-start>
-          <img src="assets/img/thumbnail-kitten-2.jpg">
-        </ion-thumbnail>
-        <h2>Nala</h2>
-      </ion-item>
+    <ion-list *ngSwitchCase="'historia'">
+      <h5 class="historia">{{ item.historia }}</h5>
+
+
+
     </ion-list>
 
     <ion-list *ngSwitchCase="'ducklings'">
@@ -114,12 +79,4 @@
       </ion-item>
     </ion-list>
   </div>
-
-  <h5 class="infoConstelacion">Constelación: {{ item.nombre_const }}</h5>
-  <h5 class="infoConstelacion">Nacimiento: {{ item.nacimiento }}</h5>
-  <h5 class="infoConstelacion">Sede: {{ item.sede }}</h5>
-  <h5 class="infoConstelacion">Color: {{ item.color_const }}</h5>
-  <h5 class="infoConstelacion">Mascota: {{ item.mascota }}</h5>
-  <h5 class="infoConstelacion">Nombre: {{ item.nombre_mascota }}</h5>
-  <h5 class="infoConstelacion">Lema: {{ item.lema }}</h5>
 </ion-content>

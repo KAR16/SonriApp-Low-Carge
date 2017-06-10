@@ -12,6 +12,8 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'detalle-constelaciones.html'
 })
 export class DetalleConstelacionesPage {
+  /*Inicializamos el segment de biografía en la vista detalle-constelaciones*/
+  info: string = "biografia";
   item;
   redesSociales=[];
 

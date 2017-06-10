@@ -1,5 +1,6 @@
 page-detalle-constelaciones {
 
+  // Imagen de la mascota
   .imgMascota{
     //width: 200px;
     display: block;
@@ -9,14 +10,21 @@ page-detalle-constelaciones {
     padding-left: 4%;
   }
 
+  // Contenedor de la mascota
   .container-mascota{
     height: 260px;
   }
 
+  // Datos de la constelación
+  //Contenido
   .infoConstelacion{
-    font-family: 'SonriFont' !important;
-    font-weight: bolder;
-    font-size: 2.5rem !important;
+    font-family: 'SonriFont-Semilight' !important;
+    font-size: 20px !important;
+  }
+
+  //Titulos
+  .infoConstelacion span{
+    font-family: 'SonriFont-Semibold' !important;
   }
 
   .card-title{
@@ -27,6 +35,10 @@ page-detalle-constelaciones {
     font-weight: bold;
     text-align: center;
     font-family: 'SonriFont-Semibold' !important;
+  }
+
+  .segment-biografia{
+    background-color: #FAFAFA;
   }
 
 }
