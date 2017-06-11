@@ -20,11 +20,11 @@ app{
 }
 
 ion-app.md [padding], ion-app.md [padding] .scroll-content {
-  padding: 8px !important;
+  padding: 5px !important;
 }
 
 ion-navbar.toolbar{
-  height: 80px !important;
+  height: 60px !important;
   // background-color: #FF0007 !important;
   text-align: left;
   // padding-right: 2% !important
@@ -38,7 +38,7 @@ ion-title{
 }
 
 //Background de la imagen del Menu
-.toolbar-background-md {
+.toolbar-background-md, .toolbar-background-ios {
     // border-color: #b2b2b2;
     background: #FF0007;
 }
@@ -61,11 +61,15 @@ button .item-inner{
 //     background: #FFF !important;
 // }
 
-.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+.header-ios .toolbar-ios:last-child .toolbar-background-ios{
+  border-width: 0 0 0 0 !important;
+}
+
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default, .bar-button-ios {
     color: #FFF;
 }
 
-.toolbar-title-md{
+.toolbar-title-md, .toolbar-title-ios{
   color: #FFF !important;
 }
 
@@ -74,11 +78,13 @@ button .item-inner{
   font-family: 'SonriFont-Semilight' !important;
 }
 
-// .toolbar-title{
-//   font-family: 'SonriTitle' !important;
-// }
-
 //Logo Menu
+.toolbar-content-ios{
+  .logo{
+    padding-left: 30px !important;
+  }
+}
+
 .logo{
   padding: 30px;
   padding-left: 65px !important;
