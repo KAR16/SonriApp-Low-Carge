@@ -21,7 +21,7 @@ export class InicioPage {
     {
       'titulo': '¿Quiénes',
       'subtitulo': 'Somos?',
-      'imagen': 'assets/img/card-saopaolo.png',
+      'imagen': 'assets/img/inicio/004.jpg',
       'vista': 'QuienesSomosPage'
     },
     {

@@ -46,6 +46,10 @@ export class DetalleConstelacionesPage {
       window.open(redSocial.url_red, '_blank', 'location=yes');
       console.log("Mandé yb");
     }
+    else if(redSocial.nombre_red === "sitio"){
+      window.open(redSocial.url_red, '_blank', 'location=yes');
+      console.log("Mandé yb");
+    }
   }
 
 }

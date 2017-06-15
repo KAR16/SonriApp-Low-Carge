@@ -10,6 +10,7 @@ export class ConstelacionesPage {
 
   constelaciones=[];
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   this.constelaciones = [
     {
@@ -21,6 +22,11 @@ export class ConstelacionesPage {
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
       'redes' : [{
+      'nombre_red': 'sitio',
+      'icon_red': 'md-globe',
+      'color_red': 'youtube',
+      'url_red': 'http://desonrisas.org/'},
+      {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
