@@ -52,4 +52,8 @@ export class DetalleConstelacionesPage {
     }
   }
 
+  openSite(){
+    window.open('http://desonrisas.org/', '_blank', 'location=true');
+  }
+
 }

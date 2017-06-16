@@ -9,7 +9,11 @@ import { DetalleConstelacionesPage } from '../detalle-constelaciones/detalle-con
 export class ConstelacionesPage {
 
   constelaciones=[];
-
+  /*{
+  'nombre_red': 'sitio',
+  'icon_red': 'md-globe',
+  'color_red': 'youtube',
+  'url_red': 'http://desonrisas.org/'},*/
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   this.constelaciones = [
@@ -21,11 +25,7 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2009',
       'fecha': new Date(2009, 5, 1),
       'sede': 'Guatemala, Guatemala',
-      'redes' : [{
-      'nombre_red': 'sitio',
-      'icon_red': 'md-globe',
-      'color_red': 'youtube',
-      'url_red': 'http://desonrisas.org/'},
+      'redes' : [
       {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
@@ -55,7 +55,7 @@ export class ConstelacionesPage {
       'img_mascota': 'assets/img/mascotas/drake.png',
       'lema': 'Vibra positiva',
       'text_color': '#FFF',
-      'historia': '-'
+      'historia': 'Estando reunidos en la primera sede de Fábrica de Sonrisas, por el crecimiento que estaba teniendo el grupo de voluntarios deciden crear “Constelaciones”. Los voluntarios de ese momento fueron separados en grupos y quedaron juntos la Dra. Colores, el Dr. Nano y la Dra. Mica, cuando les dijeron que pensaran en un nombre para su grupo, los tres coincidieron en el dragón, porque sería una buena forma de representar la fuerza del espíritu, convirtiéndose así en la “Constelación Draco”, la que se distinguía por su alegría y buena onda entre ellos. Surgiendo por eso su lema “Vibra Positiva”. Tres días después de nacer la constelación, nació también la mascota: Drake. En principio las playeras de la constelación representaban la cola de Drake, pero posteriormente, cuando la payaescuela empezó a realizarse en el parque la Democracia, la constelación se albergó cerca de uno de los árboles, al que nosotros le llamamos árbol de la sabiduría, volviéndose parte importante de la historia de la constelación a tal punto que este aparece en los diseños de las playeras que la representaban. Su primer director fue el Dr. Fantasía.'
     },
     {
       'nombre_const': 'Fénix',

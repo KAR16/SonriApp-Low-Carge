@@ -46,8 +46,6 @@ page-detalle-constelaciones {
 
   }
 
-
-
   // Datos de la constelación
   //Contenido
   .infoConstelacion{
@@ -58,6 +56,14 @@ page-detalle-constelaciones {
   //Titulos
   .infoConstelacion span{
     font-family: 'SonriFont-Semibold' !important;
+  }
+
+  // Historia
+  .historia{
+    font-family: 'SonriFont-Semilight' !important;
+    font-size: 18px !important;
+    text-align: justify;
+    line-height: 30px;
   }
 
   .card-title{
@@ -72,6 +78,12 @@ page-detalle-constelaciones {
 
   .segment-biografia{
     padding: 10%;
+  }
+
+  // boton e Icono para las redes sociales
+  .btn-red{
+    background-color: #FFF !important;
+    color: #FF0007 !important;
   }
 
 }
