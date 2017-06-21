@@ -1,18 +1,15 @@
 page-quienes-somos {
 
   .texto{
-    // padding-left: 5%;
-    margin-left: 35px;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: justify;
     font-size: 18px;
     font-family: 'SonriFont-Semilight' !important;
   }
 
   .titulo{
-    // padding-left: 2%;
-    margin-left: 35px;
-    padding-right: 2%;
+    padding-left: 10%;
     text-align: justify;
     font-size: 26px;
     font-family: 'SonriFont-Semibold' !important;
@@ -30,6 +27,4 @@ page-quienes-somos {
   ion-app.md [padding], ion-app.md [padding] .scroll-content {
     padding: 0px !important;
 }
-
-
 }
