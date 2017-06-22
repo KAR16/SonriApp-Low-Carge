@@ -9,6 +9,7 @@ import { DetalleConstelacionesPage } from '../detalle-constelaciones/detalle-con
 export class ConstelacionesPage {
 
   constelaciones=[];
+  fenix = '<p>Hola<br>Hola</p>';
   /*{
   'nombre_red': 'sitio',
   'icon_red': 'md-globe',
@@ -54,7 +55,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Drake',
       'img_mascota': 'assets/img/mascotas/drake.png',
       'lema': 'Vibra positiva',
-      'text_color': '#FFF',
       'historia': 'Estando reunidos en la primera sede de Fábrica de Sonrisas, por el crecimiento que estaba teniendo el grupo de voluntarios deciden crear “Constelaciones”. Los voluntarios de ese momento fueron separados en grupos y quedaron juntos la Dra. Colores, el Dr. Nano y la Dra. Mica, cuando les dijeron que pensaran en un nombre para su grupo, los tres coincidieron en el dragón, porque sería una buena forma de representar la fuerza del espíritu, convirtiéndose así en la “Constelación   Draco”, la que se distinguía por su alegría y buena onda entre ellos. Surgiendo por eso su lema “Vibra Positiva”. Tres días después de nacer la constelación, nació también la mascota: Drake. En principio las playeras de la constelación representaban la cola de Drake, pero posteriormente, cuando la payaescuela empezó a realizarse en el parque la Democracia, la constelación se albergó cerca de uno de los árboles, al que nosotros le llamamos árbol de la sabiduría, volviéndose parte importante de la historia de la constelación a tal punto que este aparece en los diseños de las playeras que la representaban. Su primer director fue el Dr. Fantasía.'
     },
     {
@@ -93,8 +93,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Flamito',
       'img_mascota': 'assets/img/mascotas/flamito.png',
       'lema': 'Tengo el corazón de fuego y creo en los sueños',
-      'text_color': '#000',
-      'historia': 'La constelación de Fénix nace en la 4ta generación junto a Draco y Unicornio, cada una de ellas es representada por una linda y mágica mascota. Fénix se rige con el lema “Tengo el corazón de fuego y creo en los sueños”, su mascota es un ave fénix llamada Flamito. Flamito nace en lo más profundo de la selva amazónica, donde hay diversidad de criaturas místicas, donde ningún ser humano ha podido llegar, se dice que en el árbol del bien y del mal, floreció un arbusto de rosas, junto a la primera Rosa nació un pájaro de un bello plumaje y un canto incomparable. Un día cayó una lluvia de meteoritos, cayendo uno sobre aquel nido y mágicamente aquel pájaro ardió en llamas y resurgió de las cenizas para convertirse en una nueva criatura llamada Flamito.'
+      'historia': this.fenix
     },
     {
       'nombre_const': 'Unicornio',
@@ -132,8 +131,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Chuby',
       'img_mascota': 'assets/img/mascotas/chuby.png',
       'lema': 'La imaginación es el límite',
-      'text_color': '#000',
-      'historia': '-'
+      'historia': 'Creada en el año 2009, por el crecimiento radical que Fábrica de Sonrisas tuvo durante la tercera generación y forma parte de las tres primeras constelaciones. Se le nombro Unicornio ya que este simboliza la pureza. Generalmente los unicornios viven en el bosque o jardines, por ello la primera payaescuela impartida en esta Constelación se desarrolló en un lugar rodeado de árboles y vegetación al que llamaban “Valle de Unicornio”. Su mascota es Chuby, un tierno unicornio fabuloso de naturaleza honrosa y pura. El lema de constelación es “la imaginación es el Limite”.'
     },
     {
       'nombre_const': 'Camaleón',
@@ -171,7 +169,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Duf',
       'img_mascota': 'assets/img/mascotas/duf.png',
       'lema': '-',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -210,7 +207,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Wirik',
       'img_mascota': 'assets/img/mascotas/wirik.png',
       'lema': 'Tu eres el inicio de tus sueños y el límite de tu destino',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -249,7 +245,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Nuru',
       'img_mascota': 'assets/img/mascotas/nuru.png',
       'lema': 'La fuerza sale del corazón',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -288,7 +283,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Cruxito',
       'img_mascota': 'assets/img/mascotas/cruxito.png',
       'lema': 'El amor nos une',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -303,7 +297,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Regil',
       'img_mascota': 'assets/img/mascotas/regil.png',
       'lema': 'Orión ilumina con sonrisas tu corazón',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -318,7 +311,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Ras',
       'img_mascota': 'assets/img/mascotas/ras.png',
       'lema': 'Dejando huellas de amor',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -333,7 +325,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Kawi',
       'img_mascota': 'assets/img/mascotas/kawi.png',
       'lema': 'Dejando huella',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -348,7 +339,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Leonardo',
       'img_mascota': 'assets/img/mascotas/leo.png',
       'lema': 'La risa es algo serio',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -363,7 +353,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Chahim',
       'img_mascota': 'assets/img/mascotas/chahim.png',
       'lema': 'La sonrisa y la alegría es nuestro idioma universal',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -378,7 +367,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Sonri y Sueños',
       'img_mascota': 'assets/img/mascotas/sonri_sueños.png',
       'lema': 'De los amigos siempre cerca',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -393,7 +381,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Venadin',
       'img_mascota': 'assets/img/mascotas/venadin.png',
       'lema': 'Un salto de amor y felicidad',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -408,7 +395,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Torivio',
       'img_mascota': 'assets/img/mascotas/torivio.png',
       'lema': 'Una embestida de amor',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -418,12 +404,11 @@ export class ConstelacionesPage {
       'cod_color': '#FF84BD',
       'nacimiento': '2013',
       'fecha': new Date(2013, 0, 1),
-      'sede': 'Santa Ana, Guatemala',
+      'sede': 'Santa Ana, El Salvador',
       'mascota': 'Cisne',
       'nombre_mascota': 'Whip',
       'img_mascota': 'assets/img/mascotas/whip.png',
       'lema': 'Sonreimos con pasión para alegrar tu corazón',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -438,7 +423,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Qinich',
       'img_mascota': 'assets/img/mascotas/qinich.png',
       'lema': 'Nuestras sonrisas, el mejor escudo',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -453,7 +437,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Gugú',
       'img_mascota': 'assets/img/mascotas/gugu.png',
       'lema': 'Pintando el mundo de amor y alegría',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -468,7 +451,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Kentaury',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Como luz y alegría, nuestro amor dibuja una sonrisa día tras día',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -483,7 +465,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Baxter',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Inyectando gotas de amor',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -498,7 +479,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Lupin',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Una manada que ama con locura',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -513,7 +493,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Tugui',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Sabiduría de caparazón para alegrar el corazón',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -528,7 +507,6 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Tlamati',
       'img_mascota': 'assets/img/mascotas/tlamati.png',
       'lema': 'La sabiduría del amor es el fuego de nuestro corazón',
-      'text_color': '#000',
       'historia': '-'
     },
     {
@@ -543,7 +521,6 @@ export class ConstelacionesPage {
       'nombre_mascota': '-',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': 'Todo lo que somos y sabemos es para servir',
-      'text_color': '#FFF',
       'historia': '-'
     },
     {
@@ -558,7 +535,20 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Gros',
       'img_mascota': 'assets/img/mascotas/fella.png',
       'lema': '-',
-      'text_color': '#000',
+      'historia': '-'
+    },
+    {
+      'nombre_const': 'Merak',
+      'img_const': 'assets/img/sedes/default.png',
+      'color_const': 'Blanco',
+      'cod_color': '#FFF ',
+      'nacimiento': 'Abril 2017',
+      'fecha': new Date(2017, 3, 22),
+      'sede': 'Santa Crúz del Quiché, Guatemala',
+      'mascota': 'Estrella',
+      'nombre_mascota': 'Gros',
+      'img_mascota': 'assets/img/mascotas/fella.png',
+      'lema': '-',
       'historia': '-'
     }
   ];
