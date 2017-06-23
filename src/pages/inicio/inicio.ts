@@ -37,13 +37,13 @@ export class InicioPage {
       'vista': 'NuestraHistoriaPage'
     },
     {
-      'titulo': 'Se Un',
+      'titulo': 'Sé Un',
       'subtitulo': 'Voluntario',
       'imagen': 'assets/img/card-amsterdam.png',
       'vista': 'V'
     },
     {
-      'titulo': 'Solicitanos',
+      'titulo': 'Solicita',
       'subtitulo': 'Una Visita',
       'imagen': 'assets/img/card-madison.png',
       'vista': 'SolicitaVisitaPage'
