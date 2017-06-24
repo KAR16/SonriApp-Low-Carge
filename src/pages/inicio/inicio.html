@@ -10,7 +10,7 @@
 <ion-content padding>
 
   <ion-card *ngFor="let item of items" (click)="open(item)">
-    <img class="animated bounceInUp" src="{{item.imagen}}"/>
+    <img src="{{item.imagen}}"/>
     <div class="card-title">{{item.titulo}}</div>
     <div class="card-subtitle">{{item.subtitulo}}</div>
   </ion-card>
