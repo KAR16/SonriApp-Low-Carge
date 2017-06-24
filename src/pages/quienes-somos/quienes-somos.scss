@@ -20,11 +20,16 @@ page-quienes-somos {
     margin: 0px !important;
   }
 
-  .img-qs{
-    height: 60%;
-  }
+
 
   ion-app.md [padding], ion-app.md [padding] .scroll-content {
     padding: 0px !important;
 }
+
+// @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+//   .img-qs{
+//     height: 60%;
+//   }
+// }
+
 }

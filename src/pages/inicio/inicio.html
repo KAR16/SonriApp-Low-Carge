@@ -11,8 +11,8 @@
 
   <ion-card *ngFor="let item of items" (click)="open(item)">
     <img src="{{item.imagen}}"/>
-    <div class="card-title">{{item.titulo}}</div>
-    <div class="card-subtitle">{{item.subtitulo}}</div>
+    <div class="box"><p class="card-title">{{item.titulo}}</p></div>
+    <div class="box1"><p class="card-subtitle">{{item.subtitulo}}</p></div>
   </ion-card>
 
   <!-- <ion-card (click)="open('QS')">
