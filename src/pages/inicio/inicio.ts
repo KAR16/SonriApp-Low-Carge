@@ -49,18 +49,15 @@ export class InicioPage {
       'vista': 'SolicitaVisitaPage'
     },
     {
-      'titulo': 'Has',
+      'titulo': 'Haz',
       'subtitulo': 'Un Donativo',
       'imagen': 'assets/img/card-sf.png',
       'vista': 'DonativoPage'
     },
   ];
-
-  console.log(this.items);
 }
 
 open(item){
-  console.log("Hola " + item.vista);
   if (item.vista == 'QuienesSomosPage' ){
     this.navCtrl.push(QuienesSomosPage);
   }

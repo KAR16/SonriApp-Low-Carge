@@ -18,41 +18,33 @@ export class TutorialesPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   this.herramientas = [
     {
-      'titulo': 'Actuación',
-      'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/Actuacion.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
-    },
-    {
       'titulo': 'Globoflexia',
       'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/globoflexia.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
+      'icono': 'assets/img/herramientas/globoflexia.png',
+      'descripcion': 'Ive had a pretty messed up day. If we just...',
+      'color': '#FFF'
     },
     {
       'titulo': 'Malabares',
       'subtitulo': 'Dont Know What To Do!',
       'icono': 'assets/img/malabares.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
+      'descripcion': 'Ive had a pretty messed up day. If we just...',
+      'color': '#FAFAFA'
     },
     {
       'titulo': 'Papiroflexia',
       'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/Papiroflexia.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
+      'icono': 'assets/img/herramientas/Papiroflexia.png',
+      'descripcion': 'Ive had a pretty messed up day. If we just...',
+      'color': '#FFF'
     },
     {
       'titulo': 'Pintacaritas',
       'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/Pintacaritas.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
-    },
-    {
-      'titulo': 'Titeres',
-      'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/titeres.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...'
-    },
+      'icono': 'assets/img/herramientas/Pintacaritas.png',
+      'descripcion': 'Ive had a pretty messed up day. If we just...',
+      'color': '#FAFAFA'
+    }
   ];
 
   }
