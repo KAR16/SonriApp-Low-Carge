@@ -27,7 +27,7 @@ export class TutorialesPage {
     {
       'titulo': 'Malabares',
       'subtitulo': 'Dont Know What To Do!',
-      'icono': 'assets/img/malabares.png',
+      'icono': 'assets/img/herramientas/malabares.png',
       'descripcion': 'Ive had a pretty messed up day. If we just...',
       'color': '#FAFAFA'
     },
