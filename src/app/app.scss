@@ -38,6 +38,10 @@ ion-title{
   text-align: center;
 }
 
+.title-ios{
+  padding-right: 20% !important;
+}
+
 //Background de la imagen del Menu
 .toolbar-background-md, .toolbar-background-ios {
     // border-color: #b2b2b2;
@@ -51,16 +55,6 @@ button .item-inner{
 .headerMenu{
   background: #FFF !important;
 }
-
-.label, .label-md{
-  // line-height: 30px !important;
-  padding-bottom: 3% !important;
-}
-
-// .toolbar-background {
-//     // border-color: #b2b2b2;
-//     background: #FFF !important;
-// }
 
 .header-ios .toolbar-ios:last-child .toolbar-background-ios{
   border-width: 0 0 0 0 !important;

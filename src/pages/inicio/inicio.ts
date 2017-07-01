@@ -5,6 +5,7 @@ import { NavController } from 'ionic-angular';
 import { QuienesSomosPage } from '../quienes-somos/quienes-somos';
 import { NuestraMisionPage } from '../nuestra-mision/nuestra-mision';
 import { NuestraHistoriaPage } from '../nuestra-historia/nuestra-historia';
+import { SeUnVoluntarioPage } from '../se-un-voluntario/se-un-voluntario';
 import { SolicitaVisitaPage } from '../solicita-visita/solicita-visita';
 import { DonativoPage } from '../donativo/donativo';
 
@@ -40,7 +41,7 @@ export class InicioPage {
       'titulo': 'Sé Un',
       'subtitulo': 'Voluntario',
       'imagen': 'assets/img/card-amsterdam.png',
-      'vista': 'V'
+      'vista': 'SeUnVoluntarioPage'
     },
     {
       'titulo': 'Solicita',
@@ -66,6 +67,9 @@ open(item){
   }
   else if(item.vista == 'NuestraHistoriaPage' ){
     this.navCtrl.push(NuestraHistoriaPage);
+  }
+  else if(item.vista == 'SeUnVoluntarioPage' ){
+    this.navCtrl.push(SeUnVoluntarioPage);
   }
   else if(item.vista == 'SolicitaVisitaPage' ){
     this.navCtrl.push(SolicitaVisitaPage);

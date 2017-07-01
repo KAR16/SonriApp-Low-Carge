@@ -2,21 +2,21 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 /*
-  Generated class for the Payaescuela page.
+  Generated class for the SeUnVoluntario page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-payaescuela',
-  templateUrl: 'payaescuela.html'
+  selector: 'page-se-un-voluntario',
+  templateUrl: 'se-un-voluntario.html'
 })
-export class PayaescuelaPage {
+export class SeUnVoluntarioPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PayaescuelaPage');
+    console.log('ionViewDidLoad SeUnVoluntarioPage');
   }
 
 }

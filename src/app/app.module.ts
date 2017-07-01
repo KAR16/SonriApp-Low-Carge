@@ -3,7 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
-import { PayaescuelaPage } from '../pages/payaescuela/payaescuela';
+import { SeUnVoluntarioPage } from '../pages/se-un-voluntario/se-un-voluntario';
 import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
 import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
 import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
@@ -18,7 +18,7 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
     MyApp,
     InicioPage,
     Page2,
-    PayaescuelaPage,
+    SeUnVoluntarioPage,
     QuienesSomosPage,
     NuestraMisionPage,
     NuestraHistoriaPage,
@@ -36,7 +36,7 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
     MyApp,
     InicioPage,
     Page2,
-    PayaescuelaPage,
+    SeUnVoluntarioPage,
     QuienesSomosPage,
     NuestraMisionPage,
     NuestraHistoriaPage,

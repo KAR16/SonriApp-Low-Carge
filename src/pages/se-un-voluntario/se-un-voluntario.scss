@@ -1,5 +1,4 @@
-page-quienes-somos {
-
+page-se-un-voluntario {
   // Imagen de Quienes Somos
   ion-card, .card-md {
     display: inline !important;
@@ -28,13 +27,14 @@ page-quienes-somos {
   font-family: 'SonriFont-Semilight' !important;
 }
 
+.texto span{
+  font-family: 'SonriFont-Semibold' !important;
+}
 
-
-
-// @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-//   .imageCard{
-//     height: 60%;
-//   }
-// }
+.texto-op{
+  line-height: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
 }

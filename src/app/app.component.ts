@@ -4,11 +4,9 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
-import { PayaescuelaPage } from '../pages/payaescuela/payaescuela';
-import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
-import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
-import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
-//import { SolicitaVisitaPage }  from '../pages/solicita-visita/solicita-visita';
+//import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
+//import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
+//import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 //import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';

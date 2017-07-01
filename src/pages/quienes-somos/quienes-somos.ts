@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController, Platform } from 'ionic-angular';
-import { Device, AppAvailability, InAppBrowser } from 'ionic-native';
 
 /*
   Generated class for the QuienesSomos page.

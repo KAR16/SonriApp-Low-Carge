@@ -49,7 +49,7 @@
     </ion-list>
 
     <ion-list *ngSwitchCase="'historia'">
-      <p class="historia">{{ item.historia }}</p>
+      <div class="historia" [innerHTML]="item.historia"></div>
     </ion-list>
   </div>
 </ion-content>
