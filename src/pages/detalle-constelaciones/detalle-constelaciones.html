@@ -16,6 +16,7 @@
       <button *ngFor="let redSocial of redesSociales" ion-fab (click)="openPage(redSocial)">
         <ion-icon [name]="redSocial.icon_red" [color]="redSocial.color_red"></ion-icon>
       </button>
+      <button ion-fab (click)="openYoutube()"><ion-icon name="logo-youtube" color="youtube"></ion-icon></button>
     </ion-fab-list>
 
   </ion-fab>

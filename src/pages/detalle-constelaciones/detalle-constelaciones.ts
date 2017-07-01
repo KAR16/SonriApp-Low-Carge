@@ -28,10 +28,11 @@ export class DetalleConstelacionesPage {
     console.log('ionViewDidLoad DetalleConstelacionesPage');
   }
 
+
   openPage(redSocial){
     console.log("Entré a la función");
     if(redSocial.nombre_red === "facebook"){
-      window.open(redSocial.url_red, '_blank', 'location=true');
+      window.open(redSocial.url_red, '_blank', 'location=yes');
       console.log("Mandé fb");
     }
     else if(redSocial.nombre_red === "twitter"){
@@ -53,7 +54,11 @@ export class DetalleConstelacionesPage {
   }
 
   openSite(){
-    window.open('http://desonrisas.org/', '_blank', 'location=true');
+    window.open('http://desonrisas.org/', '_blank', 'location=yes');
+  }
+
+  openYoutube(){
+    window.open('https://www.youtube.com/user/FDSGuatemala', '_blank', 'location=yes');
   }
 
 }

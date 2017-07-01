@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { DetalleConstelacionesPage } from '../detalle-constelaciones/detalle-constelaciones';
 
@@ -38,12 +38,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Dragón',
       'nombre_mascota': 'Drake',
@@ -76,12 +70,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Fénix',
       'nombre_mascota': 'Flamito',
@@ -114,12 +102,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Unicornio',
       'nombre_mascota': 'Chuby',
@@ -152,12 +134,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Camaleón',
       'nombre_mascota': 'Duf',
@@ -190,12 +166,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Mono',
       'nombre_mascota': 'Wirik',
@@ -228,12 +198,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Osa',
       'nombre_mascota': 'Nuru',
@@ -266,12 +230,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
       'url_red': 'https://www.instagram.com/fdsguate/'
-      },
-      {
-      'nombre_red': 'youtube',
-      'icon_red': 'logo-youtube',
-      'color_red': 'youtube',
-      'url_red': 'https://www.youtube.com/user/FDSGuatemala'
       }],
       'mascota': 'Culebra',
       'nombre_mascota': 'Cruxito',
@@ -287,6 +245,24 @@ export class ConstelacionesPage {
       'nacimiento': '2009',
       'fecha': new Date(2009, 0, 1),
       'sede': 'San Salvador, El Salvador',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Niño',
       'nombre_mascota': 'Regil',
       'img_mascota': 'assets/img/mascotas/regil.png',
@@ -301,6 +277,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2010',
       'fecha': new Date(2010, 5, 1),
       'sede': 'Jalapa, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Pegaso',
       'nombre_mascota': 'Ras',
       'img_mascota': 'assets/img/mascotas/ras.png',
@@ -315,6 +309,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Noviembre 2010',
       'fecha': new Date(2010, 10, 1),
       'sede': 'Quetzaltenango, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.xela/'
+      }],
       'mascota': 'Jaguar',
       'nombre_mascota': 'Kawi',
       'img_mascota': 'assets/img/mascotas/kawi.png',
@@ -329,6 +329,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Marzo 2011',
       'fecha': new Date(2011, 2, 1),
       'sede': 'Chiquimula, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.chiquimula/'
+      }],
       'mascota': 'León',
       'nombre_mascota': 'Leonardo',
       'img_mascota': 'assets/img/mascotas/leo.png',
@@ -343,6 +349,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Junio 2011',
       'fecha': new Date(2011, 5, 1),
       'sede': 'Cobán, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.coban/'
+      }],
       'mascota': 'Aguila',
       'nombre_mascota': 'Chahim',
       'img_mascota': 'assets/img/mascotas/chahim.png',
@@ -357,6 +369,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Marzo 2012',
       'fecha': new Date(2012, 2, 31),
       'sede': 'Zacapa, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.zacapa/'
+      }],
       'mascota': 'Delfines',
       'nombre_mascota': 'Sonri y Sueños',
       'img_mascota': 'assets/img/mascotas/sonri_sueños.png',
@@ -371,6 +389,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Mayo 2012',
       'fecha': new Date(2012, 4, 1),
       'sede': 'Retalhuleu, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.reu/'
+      }],
       'mascota': 'Toro',
       'nombre_mascota': 'Torivio',
       'img_mascota': 'assets/img/mascotas/torivio.png',
@@ -385,6 +409,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Febrero 2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Mazatenango, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Venado',
       'nombre_mascota': 'Venadin',
       'img_mascota': 'assets/img/mascotas/venadin.png',
@@ -399,6 +441,12 @@ export class ConstelacionesPage {
       'nacimiento': '2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Santa Ana, El Salvador',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.sta.ana.sv/'
+      }],
       'mascota': 'Cisne',
       'nombre_mascota': 'Whip',
       'img_mascota': 'assets/img/mascotas/whip.png',
@@ -413,6 +461,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Abril 2013',
       'fecha': new Date(2013, 0, 1),
       'sede': 'Antigua Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.antiguaguatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/FDS_AntiguaG'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fds_antigua'
+      }],
       'mascota': 'Guacamaya',
       'nombre_mascota': 'Qinich',
       'img_mascota': 'assets/img/mascotas/qinich.png',
@@ -427,6 +493,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Marzo 2014',
       'fecha': new Date(2014, 2, 1),
       'sede': 'San Marcos, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Quetzal',
       'nombre_mascota': 'Gugú',
       'img_mascota': 'assets/img/mascotas/gugu.png',
@@ -435,15 +519,21 @@ export class ConstelacionesPage {
     },
     {
       'nombre_const': 'Centaurus',
-      'img_const': 'assets/img/sedes/default.png',
+      'img_const': 'assets/img/sedes/centaurus.png',
       'color_const': 'Amarillo Mostaza',
       'cod_color': '#FFC300',
       'nacimiento': 'Junio 2014',
       'fecha': new Date(2014, 5, 1),
       'sede': 'Huehuetenango, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.huehuetenango/'
+      }],
       'mascota': 'Centauro',
       'nombre_mascota': 'Kentaury',
-      'img_mascota': 'assets/img/mascotas/fella.png',
+      'img_mascota': 'assets/img/mascotas/hoop-mascota.png',
       'lema': 'Como luz y alegría, nuestro amor dibuja una sonrisa día tras día',
       'historia': '<p>Centaurus nace en junio de 2014, se identifica con el color mostaza, su lema es “Con luz y alegría nuestro amor dibuja una sonrisa día con día”, hasta el momento cuenta con cincuenta doctores graduados.<br><br>Su mascota se llama Kentaury que es un ser único, noble y guerrero que vive en un mundo sumergido en las olas de sonrisas y amor que va transformándose cada día en un gran corazón.</p>'
     },
@@ -455,6 +545,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Noviembre 2014',
       'fecha': new Date(2014, 10, 1),
       'sede': 'Sololá, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Escorpión',
       'nombre_mascota': 'Baxter',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -469,6 +577,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Marzo 2015',
       'fecha': new Date(2015, 2, 1),
       'sede': 'Jutiapa, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.jutiapa/'
+      }],
       'mascota': 'Lobo',
       'nombre_mascota': 'Lupin',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -483,6 +597,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Mayo 2015',
       'fecha': new Date(2015, 4, 1),
       'sede': 'Chimaltenango, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.chimaltenango/'
+      }],
       'mascota': 'Tortuga',
       'nombre_mascota': 'Tugui',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -497,6 +617,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Julio 2015',
       'fecha': new Date(2015, 6, 1),
       'sede': 'San Salvador, El Salvador',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Lechuza',
       'nombre_mascota': 'Tlamati',
       'img_mascota': 'assets/img/mascotas/tlamati.png',
@@ -511,6 +649,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Marzo 2016',
       'fecha': new Date(2016, 2, 1),
       'sede': 'Malacatán, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.malacatan/'
+      }],
       'mascota': 'Tigrillo',
       'nombre_mascota': '-',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -525,6 +669,24 @@ export class ConstelacionesPage {
       'nacimiento': 'Agosto 2016',
       'fecha': new Date(2016, 7, 1),
       'sede': 'Salamá, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
       'mascota': 'Grulla',
       'nombre_mascota': 'Gros',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -539,6 +701,12 @@ export class ConstelacionesPage {
       'nacimiento': 'Abril 2017',
       'fecha': new Date(2017, 3, 1),
       'sede': 'Santa Crúz del Quiché, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Quiche/'
+      }],
       'mascota': 'Estrella',
       'nombre_mascota': 'Gros',
       'img_mascota': 'assets/img/mascotas/fella.png',
@@ -548,12 +716,20 @@ export class ConstelacionesPage {
   ];
   }
 
+  ionViewDidLoad(){
+        console.log('Funcion reinicio');
+        //this.navCtrl.setRoot(ConstelacionesPage);
+        //break;
+  };
+
   /*this.constelaciones = this.constelaciones.sort(function(a,b) {
     return new Date(a.fecha).getTime() - new Date(b.fecha).getTime()
 });*/
 
+
   //Mando el arreglo de las constelaciones a la vista del detalle de cada una
   detalle(item) {
+    //this.navCtrl.push(ConstelacionesPage);
     this.navCtrl.push(DetalleConstelacionesPage, {item:item});
   }
 }
