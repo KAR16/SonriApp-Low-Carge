@@ -27,23 +27,35 @@ page-detalle-constelaciones {
     background-color: #FFF;
   }
 
-  .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated{
-      border-color: red !important;
-      color: #000;
+  .segment-ios .segment-button.segment-activated, .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated{
+      border-color: #FF0007 !important;
+      color: #000 !important;
       font-family: 'SonriFont-Semibold' !important;
       text-transform: capitalize;
       font-size: 18px;
       opacity: 1 !important;
-
   }
 
-  .segment-button{
+  .segment-button, .segment-ios .segment-button{
     color: #000 !important;
     font-family: 'SonriFont-Semibold' !important;
     text-transform: capitalize !important;
     font-size: 18px !important;
     opacity: 0.3 !important;
+  }
 
+  .segment-ios .segment-button{
+    border-color: #FF0007 !important;
+  }
+
+  .segment-ios .segment-button.segment-activated{
+    background-color: #FF0007 !important;
+  }
+
+  //Botones de Redes
+  .fab-ios{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.14), 0 4px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   // Datos de la constelación

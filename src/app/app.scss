@@ -19,9 +19,16 @@ app{
 
 }
 
+// Padding de las Imagenes Android
 ion-app.md [padding], ion-app.md [padding] .scroll-content {
   padding: 5px !important;
 }
+
+// Padding de las Imagenes iOS
+ion-app.ios [padding], ion-app.ios [padding] .scroll-content{
+  padding: 5px !important;
+}
+
 
 ion-navbar.toolbar{
   height: 60px !important;
