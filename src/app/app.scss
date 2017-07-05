@@ -29,6 +29,15 @@ ion-app.ios [padding], ion-app.ios [padding] .scroll-content{
   padding: 5px !important;
 }
 
+// Bordes Superior e Inferior de los Items
+.list-ios > .item-block:first-child{
+  border-top: none !important;
+}
+
+.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+  border-bottom: none !important;
+}
+
 
 ion-navbar.toolbar{
   height: 60px !important;
