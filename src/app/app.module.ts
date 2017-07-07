@@ -12,6 +12,7 @@ import { DonativoPage } from '../pages/donativo/donativo';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';
+import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutoriales';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
     DonativoPage,
     TutorialesPage,
     ConstelacionesPage,
-    DetalleConstelacionesPage
+    DetalleConstelacionesPage,
+    DetalleTutorialesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -44,7 +46,8 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
     DonativoPage,
     TutorialesPage,
     ConstelacionesPage,
-    DetalleConstelacionesPage
+    DetalleConstelacionesPage,
+    DetalleTutorialesPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { ConstelacionesPage } from '../constelaciones/constelaciones';
 
 /*
   Generated class for the DetalleConstelaciones page.
@@ -59,6 +60,10 @@ export class DetalleConstelacionesPage {
 
   openYoutube(){
     window.open('https://www.youtube.com/user/FDSGuatemala', '_blank', 'location=yes');
+  }
+
+  backPage(){
+    this.navCtrl.push(ConstelacionesPage);
   }
 
 }

@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { DetalleTutorialesPage } from '../detalle-tutoriales/detalle-tutoriales';
+import {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
+
 
 
 /*
@@ -14,36 +17,86 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class TutorialesPage {
   herramientas=[];
+  //videoUrl: SafeResourceUrl;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private domSanitizer: DomSanitizer, public navCtrl: NavController, public navParams: NavParams) {
+  //this.videoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1');
   this.herramientas = [
     {
       'titulo': 'Globoflexia',
-      'subtitulo': 'Dont Know What To Do!',
       'icono': 'assets/img/herramientas/globoflexia.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...',
-      'color': '#FFF'
+      'tutorialesCont' : [{
+      'nombre_tutorial': 'perro',
+      'imagen_tutorial': 'assets/img/card-amsterdam.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'espada',
+      'imagen_tutorial': 'assets/img/card-madison.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/ZaGu7Wj41sQ?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'flor',
+      'imagen_tutorial': 'assets/img/card-sf.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
+      }]
     },
     {
       'titulo': 'Malabares',
-      'subtitulo': 'Dont Know What To Do!',
       'icono': 'assets/img/herramientas/malabares.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...',
-      'color': '#FAFAFA'
+      'tutorialesCont' : [{
+      'nombre_tutorial': 'perro',
+      'imagen_tutorial': 'assets/img/card-amsterdam.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'espada',
+      'imagen_tutorial': 'assets/img/card-madison.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/ZaGu7Wj41sQ?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'flor',
+      'imagen_tutorial': 'assets/img/card-sf.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
+      }]
     },
     {
       'titulo': 'Papiroflexia',
-      'subtitulo': 'Dont Know What To Do!',
       'icono': 'assets/img/herramientas/Papiroflexia.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...',
-      'color': '#FFF'
+      'tutorialesCont' : [{
+      'nombre_tutorial': 'perro',
+      'imagen_tutorial': 'assets/img/card-amsterdam.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'espada',
+      'imagen_tutorial': 'assets/img/card-madison.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/ZaGu7Wj41sQ?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'flor',
+      'imagen_tutorial': 'assets/img/card-sf.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
+      }]
     },
     {
       'titulo': 'Pintacaritas',
-      'subtitulo': 'Dont Know What To Do!',
       'icono': 'assets/img/herramientas/Pintacaritas.png',
-      'descripcion': 'Ive had a pretty messed up day. If we just...',
-      'color': '#FAFAFA'
+      'tutorialesCont' : [{
+      'nombre_tutorial': 'perro',
+      'imagen_tutorial': 'assets/img/card-amsterdam.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'espada',
+      'imagen_tutorial': 'assets/img/card-madison.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/ZaGu7Wj41sQ?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'flor',
+      'imagen_tutorial': 'assets/img/card-sf.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
+      }]
     }
   ];
 
@@ -53,6 +106,10 @@ export class TutorialesPage {
     console.log('ionViewDidLoad TutorialesPage');
   }
 
-
+  //Mando el arreglo de las constelaciones a la vista del detalle de cada una
+  detalleTutoriales(item) {
+    //this.navCtrl.push(ConstelacionesPage);
+    this.navCtrl.push(DetalleTutorialesPage, {item:item});
+  }
 
 }
