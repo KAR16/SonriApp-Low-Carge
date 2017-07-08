@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { DetalleTutorialesPage } from '../detalle-tutoriales/detalle-tutoriales';
-import {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
 
 
 
@@ -17,10 +16,8 @@ import {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
 })
 export class TutorialesPage {
   herramientas=[];
-  //videoUrl: SafeResourceUrl;
 
-  constructor(private domSanitizer: DomSanitizer, public navCtrl: NavController, public navParams: NavParams) {
-  //this.videoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/zDRMDrKpUIU?ecver=1');
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   this.herramientas = [
     {
       'titulo': 'Globoflexia',
