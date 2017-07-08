@@ -13,7 +13,14 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class DetalleGaleriaPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+//Arreglo general de Tutoriales
+item;
+
+  constructor(public navCtrl: NavController, public params: NavParams) {
+  //Acá recibo el array de Tutoriales para utilizarlo en la vista
+  this.item = params.data.item;
+
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DetalleGaleriaPage');

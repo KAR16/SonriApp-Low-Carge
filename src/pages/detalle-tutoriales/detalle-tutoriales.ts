@@ -2,35 +2,37 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
 
-/*
-  Generated class for the DetalleTutoriales page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-detalle-tutoriales',
   templateUrl: 'detalle-tutoriales.html'
 })
 export class DetalleTutorialesPage {
 
+  //Arreglo general de Tutoriales
   item;
+
+  //Arreglo del contenido especifico de los tutoriales
   tutoriales=[];
+
+
+  //Arreglo para los videos de cada herramienta
+  videos = [];
+
+  //Variable para generar la carga de los videos
   videoUrl: SafeResourceUrl;
 
 
   constructor(private domSanitizer: DomSanitizer, public navCtrl: NavController, public params: NavParams) {
+
+    //Acá recibo el array de Tutoriales para utilizarlo en la vista
     this.item = params.data.item;
     this.tutoriales = this.item.tutorialesCont;
-    console.log(this.item);
-    console.log(this.tutoriales);
 
+    //Aquí recorro el arreglo de tutoriales y añado en el de videos la cantidad de videos de cada herramienta
     for (var x=0; x<this.tutoriales.length; x++){
-        console.log(x);
-        //console.log(this.tutoriales[x].link_tutorial);
         this.videoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl(this.tutoriales[x].link_tutorial);
-        this.tutoriales[x].link_tutorial = this.videoUrl;
-        console.log(this.videoUrl);
+        this.videos.push(this.videoUrl);
     }
 
   }

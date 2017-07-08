@@ -13,6 +13,8 @@ import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';
 import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutoriales';
+import { GaleriaPage } from '../pages/galeria/galeria';
+import { DetalleGaleriaPage } from '../pages/detalle-galeria/detalle-galeria';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutor
     TutorialesPage,
     ConstelacionesPage,
     DetalleConstelacionesPage,
-    DetalleTutorialesPage
+    DetalleTutorialesPage,
+    GaleriaPage,
+    DetalleGaleriaPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -47,7 +51,9 @@ import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutor
     TutorialesPage,
     ConstelacionesPage,
     DetalleConstelacionesPage,
-    DetalleTutorialesPage
+    DetalleTutorialesPage,
+    GaleriaPage,
+    DetalleGaleriaPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -36,6 +36,11 @@ export class TutorialesPage {
       'nombre_tutorial': 'flor',
       'imagen_tutorial': 'assets/img/card-sf.png',
       'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
+      },
+      {
+      'nombre_tutorial': 'dragon',
+      'imagen_tutorial': 'assets/img/card-sf.png',
+      'link_tutorial' : 'https://www.youtube.com/embed/G1zQQa_eZ7E?ecver=1'
       }]
     },
     {

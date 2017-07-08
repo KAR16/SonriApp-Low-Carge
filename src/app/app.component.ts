@@ -4,7 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
-//import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
+import { GaleriaPage } from '../pages/galeria/galeria';
 //import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
 //import { NuestraHistoriaPage } from '../pages/nuestra-historia/nuestra-historia';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
@@ -31,7 +31,7 @@ export class MyApp {
       { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA' },
       { title: 'Lugares de Visita', component: Page2, color: '#FFF' },
       { title: 'Sonrisauros', component: Page2, color: '#FAFAFA' },
-      { title: 'Galería', component: Page2, color: '#FFF' },
+      { title: 'Galería', component: GaleriaPage, color: '#FFF' },
       { title: 'Contactanos', component: Page2, color: '#FAFAFA' },
       { title: 'Créditos', component: Page2, color: '#FFF' }
     ];
