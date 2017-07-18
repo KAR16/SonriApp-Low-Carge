@@ -8,6 +8,12 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <div class="imgContainer">
+      <img class="imgGalery" *ngFor="let imagen of imagenes; let i=index" src="{{imagen.link_img}}" alt="{{imagen.nombre_img}}" (click)="openImage(imagen)">
+      <!-- <img class="imgGalery" src="assets/img/inicio/004.jpg" alt="image 01">
+      <img class="imgGalery" src="assets/img/inicio/004.jpg" alt="image 02">
+      <img class="imgGalery" src="assets/img/inicio/004.jpg" alt="image 02"> -->
+  </div>
 
 </ion-content>

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController, ModalController } from 'ionic-angular';
-import { InicioPage } from '..//inicio/inicio';
 
 /*
   Generated class for the NuestraHistoria page.
@@ -14,14 +13,10 @@ import { InicioPage } from '..//inicio/inicio';
 })
 export class NuestraHistoriaPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NuestraHistoriaPage');
-  }
-
-  dismiss(){
-    this.viewCtrl.dismiss();
   }
 
 

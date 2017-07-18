@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+//import { PhotoViewer } from '@ionic-native/photo-viewer';
 import { DetalleGaleriaPage } from '../detalle-galeria/detalle-galeria';
 
 /*
@@ -10,7 +11,8 @@ import { DetalleGaleriaPage } from '../detalle-galeria/detalle-galeria';
 */
 @Component({
   selector: 'page-galeria',
-  templateUrl: 'galeria.html'
+  templateUrl: 'galeria.html',
+
 })
 export class GaleriaPage {
   imagenes=[];
@@ -36,7 +38,55 @@ export class GaleriaPage {
     },
     {
       'titulo': 'Visitas Especiales',
-      'icono': 'assets/img/herramientas/Pintacaritas.png'
+      'icono': 'assets/img/herramientas/Pintacaritas.png',
+      'imagenCont' : [{
+      'nombre_img': 'VE - 01',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE01.jpg'
+      },
+      {
+      'nombre_img': 'VE - 02',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE02.jpg'
+      },
+      {
+      'nombre_img': 'VE - 03',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE05.jpg'
+      },
+      {
+      'nombre_img': 'VE - 04',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE04.jpg'
+      },
+      {
+      'nombre_img': 'VE - 05',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE03.jpg'
+      },
+      {
+      'nombre_img': 'VE - 06',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE06.jpg'
+      },
+      {
+      'nombre_img': 'VE - 07',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE07.jpg'
+      },
+      {
+      'nombre_img': 'VE - 08',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE08.jpg'
+      },
+      {
+      'nombre_img': 'VE - 09',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE09.jpg'
+      },
+      {
+      'nombre_img': 'VE - 10',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE10.jpg'
+      },
+      {
+      'nombre_img': 'VE - 11',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE11.jpg'
+      },
+      {
+      'nombre_img': 'VE - 12',
+      'link_img' : 'assets/img/galería/visitas_especiales/VE12.jpg'
+      }]
     }
   ];
 

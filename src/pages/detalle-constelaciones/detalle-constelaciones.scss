@@ -98,4 +98,14 @@ page-detalle-constelaciones {
     color: #FF0007 !important;
   }
 
+
+  @media (min-width: 768px) {
+
+    .container-mascota{
+      height: 350px;
+      background-color: #FFF;
+      padding-top: 15px;
+    }
+  }
+
 }

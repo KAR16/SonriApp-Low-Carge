@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ModalController, Platform, NavParams, ViewController } from 'ionic-angular';
+import { Platform, NavParams, ViewController } from 'ionic-angular';
 
 import { NavController } from 'ionic-angular';
 import { QuienesSomosPage } from '../quienes-somos/quienes-somos';

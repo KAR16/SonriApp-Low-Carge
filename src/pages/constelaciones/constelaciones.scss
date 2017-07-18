@@ -20,4 +20,10 @@ page-constelaciones {
     padding-top: 2% !important;
   }
 
+  ion-content [scroll="false"] {
+    .scroll-content {
+      overflow-y: hidden !important;
+    }
+  }
+
 }

@@ -1,5 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+//import { IonicImageViewerModule } from 'ionic-img-viewer';
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
@@ -15,6 +16,7 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
 import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutoriales';
 import { GaleriaPage } from '../pages/galeria/galeria';
 import { DetalleGaleriaPage } from '../pages/detalle-galeria/detalle-galeria';
+import { ImageModalPage } from '../pages/image-modal/image-modal';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { DetalleGaleriaPage } from '../pages/detalle-galeria/detalle-galeria';
     DetalleConstelacionesPage,
     DetalleTutorialesPage,
     GaleriaPage,
-    DetalleGaleriaPage
+    DetalleGaleriaPage,
+    ImageModalPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -53,8 +56,11 @@ import { DetalleGaleriaPage } from '../pages/detalle-galeria/detalle-galeria';
     DetalleConstelacionesPage,
     DetalleTutorialesPage,
     GaleriaPage,
-    DetalleGaleriaPage
+    DetalleGaleriaPage,
+    ImageModalPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [
+  {provide: ErrorHandler, useClass: IonicErrorHandler}
+  ]
 })
 export class AppModule {}

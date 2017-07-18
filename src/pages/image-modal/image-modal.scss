@@ -1,0 +1,30 @@
+page-image-modal {
+
+  .closeIcon{
+    color: #FFF;
+    width: 25px;
+    margin-left: 3%;
+    margin-top: 3%;
+    // opacity: 0.5;
+    font-size: 2em;
+  }
+
+  .modalImage{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .scroll-content{
+    background-color: #000 !important;
+  }
+
+  .imageCont{
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+}

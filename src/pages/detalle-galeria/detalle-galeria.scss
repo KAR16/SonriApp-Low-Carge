@@ -1,3 +1,34 @@
 page-detalle-galeria {
 
+  // Div Contenedor de Galería
+  .imgContainer{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 12px;
+    padding-bottom: 15px;
+  }
+
+  .imgGalery{
+    width: 49%;
+    height: 300px;
+    padding-left: 2px;
+    padding-right: 3px;
+    display: inline-block;
+  }
+
+
+  @media (max-width: 767px) {
+
+    .imgGalery{
+      height: 150px;
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    .imgGalery{
+      height: 125px !important;
+    }
+}
+
 }
