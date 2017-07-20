@@ -19,4 +19,8 @@ export class SolicitaVisitaPage {
     console.log('ionViewDidLoad SolicitaVisitaPage');
   }
 
+  openForm(){
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvZ77mKDTigKdGCcxXbTz7kPsbzhx69wkyEMxrXUFN5OKpew/viewform', '_blank', 'location=yes');
+  }
+
 }

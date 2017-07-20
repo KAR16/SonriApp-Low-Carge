@@ -8,6 +8,7 @@ page-detalle-galeria {
     padding-bottom: 15px;
   }
 
+  // Imagen de la galería
   .imgGalery{
     width: 49%;
     height: 300px;
@@ -17,6 +18,7 @@ page-detalle-galeria {
   }
 
 
+  // Medias de las imagenes en diferentes dispositivos
   @media (max-width: 767px) {
 
     .imgGalery{

@@ -20,10 +20,18 @@ page-constelaciones {
     padding-top: 2% !important;
   }
 
-  ion-content [scroll="false"] {
-    .scroll-content {
-      overflow-y: hidden !important;
-    }
-  }
+  .chat-item.ng-enter {
+    -webkit-animation: fadeInLeft 1.5s;
+    animation: fadeInLeft 1.5s;
+}
+
+.chat-item.ng-enter-stagger {
+  -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+
+  /* override to make sure it's not inherited from other styles */
+  -webkit-animation-duration:0;
+  animation-duration:0;
+}
 
 }

@@ -1,21 +1,31 @@
 page-detalle-tutoriales {
 
-  // Imagenes
-  ion-card {
-    position: relative;
-    text-align: center;
-    border-radius: 0px !important;
+  // Imagen de Detalle Tutoriales
+  ion-card, .card-md {
+    display: inline !important;
+    margin: 0px !important;
   }
 
-  // Titulo de Imagen
-  .card-title {
-    position: absolute;
-    top: 36%;
-    font-size: 26px;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-    font-family: 'SonriFont-Semibold' !important;
-  }
+  ion-app.md [padding], ion-app.md [padding] .scroll-content {
+    padding: 0px !important;
+}
+
+// Titulo de Detalle Tutoriales
+.titulo{
+  padding-top: 5%;
+  padding-left: 10%;
+  text-align: justify;
+  font-size: 26px;
+  font-family: 'SonriFont-Semibold' !important;
+}
+
+// Texto de Detalle Tutoriales
+.contHerramienta p{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'SonriFont-Semilight' !important;
+}
 
 }

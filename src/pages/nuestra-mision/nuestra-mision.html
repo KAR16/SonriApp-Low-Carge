@@ -8,29 +8,16 @@
 </ion-header>
 
 
-<ion-content class="tutorial-page">
-  <ion-slides pager>
-    <ion-slide *ngFor="let slide of slides">
-      <ion-toolbar>
-        <ion-buttons end>
-          <button ion-button color="primary">Skip</button>
-        </ion-buttons>
-      </ion-toolbar>
-      <img [src]="slide.image" class="slide-image"/>
-      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
-      <p [innerHTML]="slide.description"></p>
-    </ion-slide>
-    <ion-slide>
-      <br><br>
-      <!-- <ion-toolbar>
-      </ion-toolbar> -->
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-      <h2 class="slide-title">Ready to Play?</h2>
-      <button ion-button large clear icon-right back-button disable-hover color="primary" (click)="dismiss()">
-        Continue
-        <!-- <ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back"></ion-icon> -->
-        <ion-icon name="arrow-forward"></ion-icon>
-      </button>
-    </ion-slide>
-  </ion-slides>
+<ion-content>
+  <ion-card>
+    <img class="imageCard" src="assets/img/inicio-detalle/inicio02.png"/>
+  </ion-card>
+
+  <h1 class="titulo">Visión:</h1>
+  <p class="texto">Ser un proyecto que mejora la calidad de vida de adolescentes, niños y adultos, a nivel psicoemocional.</p>
+
+  <h1 class="titulo">Misión:</h1>
+  <p class="texto">“Ser felices y demostrarlo, contagiar la alegría y las ganas de vivir y lo más importante: ¡REGALAR UNA SONRISA A TODOS! “.</p>
+  <br><br>
+
 </ion-content>

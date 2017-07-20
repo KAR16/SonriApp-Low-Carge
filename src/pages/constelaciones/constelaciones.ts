@@ -43,6 +43,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Drake',
       'img_mascota': 'assets/img/mascotas/drake.png',
       'lema': 'Vibra positiva',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Estando reunidos en la primera sede de Fábrica de Sonrisas, por el crecimiento que estaba teniendo el grupo de voluntarios deciden crear “Constelaciones”. Los voluntarios de ese momento fueron separados en grupos y quedaron juntos la Dra. Colores, el Dr. Nano y la Dra. Mica, cuando les dijeron que pensaran en un nombre para su grupo, los tres coincidieron en el dragón, porque sería una buena forma de representar la fuerza del espíritu, convirtiéndose así en la “Constelación Draco”, la que se distinguía por su alegría y buena onda entre ellos. Surgiendo por eso su lema “Vibra Positiva”. Tres días después de nacer la constelación, nació también la mascota: Drake.<br><br>En principio las playeras de la constelación representaban la cola de Drake, pero posteriormente, cuando la payaescuela empezó a realizarse en el parque la Democracia, la constelación se albergó cerca de uno de los árboles, al que nosotros le llamamos árbol de la sabiduría, volviéndose parte importante de la historia de la constelación a tal punto que este aparece en los diseños de las playeras que la representaban. Su primer director fue el Dr. Fantasía.</p>'
     },
     {
@@ -75,6 +76,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Flamito',
       'img_mascota': 'assets/img/mascotas/flamito.png',
       'lema': 'Tengo el corazón de fuego y creo en los sueños',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>La constelación de Fénix nace en la 4ta generación junto a Draco y Unicornio, cada una de ellas es representada por una linda y mágica mascota. Fénix se rige con el lema “Tengo el corazón de fuego y creo en los sueños”, su mascota es un ave fénix llamada Flamito.<br><br>Flamito nace en lo más profundo de la selva amazónica, donde hay diversidad de criaturas místicas, donde ningún ser humano ha podido llegar, se dice que en el árbol del bien y del mal, floreció un arbusto de rosas, junto a la primera Rosa nació un pájaro de un bello plumaje y un canto incomparable. Un día cayó una lluvia de meteoritos, cayendo uno sobre aquel nido y mágicamente aquel pájaro ardió en llamas y resurgió de las cenizas para convertirse en una nueva criatura llamada Flamito.</p>'
     },
     {
@@ -696,8 +698,8 @@ export class ConstelacionesPage {
     {
       'nombre_const': 'Merak',
       'img_const': 'assets/img/sedes/grulla.png',
-      'color_const': 'Blanco',
-      'cod_color': '#FFF ',
+      'color_const': '-',
+      'cod_color': '-',
       'nacimiento': 'Abril 2017',
       'fecha': new Date(2017, 3, 1),
       'sede': 'Santa Crúz del Quiché, Guatemala',
@@ -707,8 +709,8 @@ export class ConstelacionesPage {
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/FDS.Quiche/'
       }],
-      'mascota': 'Estrella',
-      'nombre_mascota': 'Gros',
+      'mascota': '-',
+      'nombre_mascota': '-',
       'img_mascota': 'assets/img/mascotas/hoop.png',
       'lema': '-',
       'historia': '<p>Merak es una estrella familiar para los observadores del hemisferio norte como estrella apuntadora, llamada así porque al extender la línea que la une con la cercana Dubhe (α Ursae Majoris), se llega a Polaris, la Estrella Polar.<br><br>Merak nace el 22 de abril de 2017 en Santa Cruz del Quiché con 15 estrellas que se unieron para formar esta constelación que se caracteriza por su calidez y servicio. Los voluntarios de esta constelación creen en la unidad, que las acciones placenteras y cosas materiales que nos traen felicidad, nunca se compararan con la sonrisa, un abrazo o ver que lograste hacer reír a quien amas.</p>'

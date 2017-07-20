@@ -12,11 +12,11 @@
   <!-- Cards de Inicio -->
   <ion-card *ngFor="let item of items" (click)="open(item)">
     <!-- Imagen -->
-    <img src="{{item.imagen}}"/>
+    <img src="{{item.imagen}}" class="animated fadeInDown"/>
     <!-- Titulo -->
     <div class="box"><p class="card-title">{{item.titulo}}</p></div>
     <!-- SubTitulo -->
     <div class="box1"><p class="card-subtitle">{{item.subtitulo}}</p></div>
   </ion-card>
-  
+
 </ion-content>

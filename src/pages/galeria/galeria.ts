@@ -22,26 +22,26 @@ export class GaleriaPage {
   this.imagenes = [
     {
       'titulo': 'Actividades',
-      'icono': 'assets/img/herramientas/globoflexia.png'
+      'icono': 'assets/img/galeria/icon01.png'
     },
     {
       'titulo': 'Apoyos Especiales',
-      'icono': 'assets/img/herramientas/malabares.png'
+      'icono': 'assets/img/galeria/icon02.png'
     },
     {
       'titulo': 'Convocatorias',
-      'icono': 'assets/img/herramientas/Papiroflexia.png'
+      'icono': 'assets/img/galeria/icon03.png'
     },
     {
       'titulo': 'Festivales',
-      'icono': 'assets/img/herramientas/Pintacaritas.png'
+      'icono': 'assets/img/galeria/icon04.png'
     },
     {
       'titulo': 'Visitas Especiales',
-      'icono': 'assets/img/herramientas/Pintacaritas.png',
+      'icono': 'assets/img/galeria/icon05.png',
       'imagenCont' : [{
       'nombre_img': 'VE - 01',
-      'link_img' : 'assets/img/galería/visitas_especiales/VE01.jpg'
+      'link_img' : 'http://desonrisas.org/images/sonriapp/galeria/visitas-especiales/VE01.jpg'
       },
       {
       'nombre_img': 'VE - 02',

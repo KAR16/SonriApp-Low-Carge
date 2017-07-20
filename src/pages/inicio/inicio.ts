@@ -22,37 +22,37 @@ export class InicioPage {
     {
       'titulo': '¿Quiénes',
       'subtitulo': 'Somos?',
-      'imagen': 'assets/img/inicio/004.jpg',
+      'imagen': 'assets/img/inicio/inicio01.png',
       'vista': 'QuienesSomosPage'
     },
     {
       'titulo': 'Nuestra',
       'subtitulo': 'Misión',
-      'imagen': 'assets/img/card-amsterdam.png',
+      'imagen': 'assets/img/inicio/inicio02.png',
       'vista': 'NuestraMisionPage'
     },
     {
       'titulo': 'Nuestra',
       'subtitulo': 'Historia',
-      'imagen': 'assets/img/card-sf.png',
+      'imagen': 'assets/img/inicio/inicio03.png',
       'vista': 'NuestraHistoriaPage'
     },
     {
       'titulo': 'Sé Un',
       'subtitulo': 'Voluntario',
-      'imagen': 'assets/img/card-amsterdam.png',
+      'imagen': 'assets/img/inicio/inicio04.png',
       'vista': 'SeUnVoluntarioPage'
     },
     {
       'titulo': 'Solicita',
       'subtitulo': 'Una Visita',
-      'imagen': 'assets/img/card-madison.png',
+      'imagen': 'assets/img/inicio/inicio05.png',
       'vista': 'SolicitaVisitaPage'
     },
     {
       'titulo': 'Haz',
       'subtitulo': 'Un Donativo',
-      'imagen': 'assets/img/card-sf.png',
+      'imagen': 'assets/img/inicio/inicio06.png',
       'vista': 'DonativoPage'
     },
   ];

@@ -27,7 +27,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Inicio', component: InicioPage, color: '#FAFAFA'  },
-      { title: 'Tutoriales', component: TutorialesPage, color: '#FFF' },
+      { title: 'Herramientas', component: TutorialesPage, color: '#FFF' },
       { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA' },
       { title: 'Lugares de Visita', component: Page2, color: '#FFF' },
       { title: 'Sonrisauros', component: Page2, color: '#FAFAFA' },
