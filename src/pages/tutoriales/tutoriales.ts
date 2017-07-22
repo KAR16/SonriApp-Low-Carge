@@ -64,7 +64,6 @@ export class TutorialesPage {
 
   //Mando el arreglo de las constelaciones a la vista del detalle de cada una
   detalleTutoriales(item) {
-    //this.navCtrl.push(ConstelacionesPage);
     this.navCtrl.push(DetalleTutorialesPage, {item:item});
   }
 

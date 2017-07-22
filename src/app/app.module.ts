@@ -1,6 +1,5 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-//import { IonicImageViewerModule } from 'ionic-img-viewer';
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
 import { Page2 } from '../pages/page2/page2';
@@ -16,7 +15,10 @@ import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detal
 import { DetalleTutorialesPage } from '../pages/detalle-tutoriales/detalle-tutoriales';
 import { GaleriaPage } from '../pages/galeria/galeria';
 import { DetalleGaleriaPage } from '../pages/detalle-galeria/detalle-galeria';
+import { ContactoPage } from '../pages/contacto/contacto';
 import { ImageModalPage } from '../pages/image-modal/image-modal';
+import { SonrisaurosPage } from '../pages/sonrisauros/sonrisauros';
+import { DetalleSonrisaurosPage } from '../pages/detalle-sonrisauros/detalle-sonrisauros';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,10 @@ import { ImageModalPage } from '../pages/image-modal/image-modal';
     DetalleTutorialesPage,
     GaleriaPage,
     DetalleGaleriaPage,
-    ImageModalPage
+    ImageModalPage,
+    ContactoPage,
+    SonrisaurosPage,
+    DetalleSonrisaurosPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -57,7 +62,10 @@ import { ImageModalPage } from '../pages/image-modal/image-modal';
     DetalleTutorialesPage,
     GaleriaPage,
     DetalleGaleriaPage,
-    ImageModalPage
+    ImageModalPage,
+    ContactoPage,
+    SonrisaurosPage,
+    DetalleSonrisaurosPage
   ],
   providers: [
   {provide: ErrorHandler, useClass: IonicErrorHandler}

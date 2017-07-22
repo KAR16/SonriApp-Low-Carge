@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="back-button-icon icon icon-md back-button-icon-md ion-md-arrow-back"></ion-icon>
+    </button>
+    <ion-title>Sonrisauros</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="container-mascota">
+    <img class="imgMascota animated zoomIn" src="{{item.icono}}"/>
+    <p class="card-title">{{ item.nombre_doctor }}</p>
+  </div>
+  <ion-segment [(ngModel)]="info">
+    <ion-segment-button class="segment-button segment-activated" value="datos">
+      Datos
+    </ion-segment-button>
+    <ion-segment-button value="biografia">
+      Biografía
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="segment-biografia" [ngSwitch]="info">
+    <ion-list *ngSwitchCase="'datos'">
+      <div class="container-bio">
+        <h5 class="infoDoctor"><span>Nombre de Cívil: </span>{{ item.nombre_civil_completo }}</h5>
+        <h5 class="infoDoctor"><span>Nacimiento: </span>{{ item.nacimiento }}</h5>
+        <h5 class="infoDoctor"><span>Profesión / Oficio: </span>{{ item.profesion }}</h5>
+        <h5 class="infoDoctor"><span>Roll: </span>{{ item.rango }}</h5>
+        <h5 class="infoDoctor"><span>Status: </span>{{ item.status }}</h5>
+      </div>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'biografia'">
+      <div class="biografia" [innerHTML]="item.biografia"></div>
+    </ion-list>
+  </div>
+</ion-content>

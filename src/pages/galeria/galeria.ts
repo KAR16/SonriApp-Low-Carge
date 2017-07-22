@@ -22,23 +22,23 @@ export class GaleriaPage {
   this.imagenes = [
     {
       'titulo': 'Actividades',
-      'icono': 'assets/img/galeria/icon01.png'
+      'icono': 'assets/img/galeria-iconos/icon01.png'
     },
     {
       'titulo': 'Apoyos Especiales',
-      'icono': 'assets/img/galeria/icon02.png'
+      'icono': 'assets/img/galeria-iconos/icon02.png'
     },
     {
       'titulo': 'Convocatorias',
-      'icono': 'assets/img/galeria/icon03.png'
+      'icono': 'assets/img/galeria-iconos/icon03.png'
     },
     {
       'titulo': 'Festivales',
-      'icono': 'assets/img/galeria/icon04.png'
+      'icono': 'assets/img/galeria-iconos/icon04.png'
     },
     {
       'titulo': 'Visitas Especiales',
-      'icono': 'assets/img/galeria/icon05.png',
+      'icono': 'assets/img/galeria-iconos/icon05.png',
       'imagenCont' : [{
       'nombre_img': 'VE - 01',
       'link_img' : 'http://desonrisas.org/images/sonriapp/galeria/visitas-especiales/VE01.jpg'

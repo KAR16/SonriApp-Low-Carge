@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { ConstelacionesPage } from '../constelaciones/constelaciones';
 
 /*
   Generated class for the DetalleConstelaciones page.
@@ -15,12 +14,21 @@ import { ConstelacionesPage } from '../constelaciones/constelaciones';
 export class DetalleConstelacionesPage {
   /*Inicializamos el segment de biografía en la vista detalle-constelaciones*/
   info: string = "biografia";
+
+  //Creamos un array en el que guardaremos los datos que vienen como parametro de la vista Sonrisauros
   item;
+
+  //Creamos otro array en el que guardaremos el array de redes sociales
   redesSociales=[];
 
   constructor(public navCtrl: NavController, public params: NavParams) {
+
+    //Guardamos todo el array de la vista Constelaciones en 'item'
     this.item = params.data.item;
+
+    //Guardamos las redes sociales en el array 'redesSociales'
     this.redesSociales = this.item.redes;
+
     console.log(this.item);
     console.log(this.redesSociales);
   }
@@ -30,27 +38,17 @@ export class DetalleConstelacionesPage {
   }
 
 
+  //Esta función es para redirigir a las distintas redes sociales
   openPage(redSocial){
-    console.log("Entré a la función");
+
     if(redSocial.nombre_red === "facebook"){
       window.open(redSocial.url_red, '_blank', 'location=yes');
-      console.log("Mandé fb");
     }
     else if(redSocial.nombre_red === "twitter"){
       window.open(redSocial.url_red, '_blank', 'location=yes');
-      console.log("Mandé tw");
     }
     else if(redSocial.nombre_red === "instagram"){
       window.open(redSocial.url_red, '_blank', 'location=yes');
-      console.log("Mandé inst");
-    }
-    else if(redSocial.nombre_red === "youtube"){
-      window.open(redSocial.url_red, '_blank', 'location=yes');
-      console.log("Mandé yb");
-    }
-    else if(redSocial.nombre_red === "sitio"){
-      window.open(redSocial.url_red, '_blank', 'location=yes');
-      console.log("Mandé yb");
     }
   }
 
@@ -60,10 +58,6 @@ export class DetalleConstelacionesPage {
 
   openYoutube(){
     window.open('https://www.youtube.com/user/FDSGuatemala', '_blank', 'location=yes');
-  }
-
-  backPage(){
-    this.navCtrl.push(ConstelacionesPage);
   }
 
 }
