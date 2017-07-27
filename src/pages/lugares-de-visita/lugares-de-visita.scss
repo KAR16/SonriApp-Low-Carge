@@ -1,0 +1,25 @@
+page-lugares-de-visita {
+    
+    .label-md{
+        margin: 13px 0;
+    }
+    
+    .item-md{
+        padding: 0 5%;
+    }
+    
+    ion-card{
+        box-shadow: none !important;
+        background: none !important;
+    }
+    
+    img{
+        padding: 0 10% !important;
+//        max-height: 20px;
+    }
+  
+    ion-item, .item-ios{
+      padding-right: 16px;
+    }
+
+}

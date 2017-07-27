@@ -9,7 +9,7 @@ import { ContactoPage } from '../pages/contacto/contacto';
 import { SonrisaurosPage } from '../pages/sonrisauros/sonrisauros';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
-//import { DetalleConstelacionesPage } from '../pages/detalle-constelaciones/detalle-constelaciones';
+import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
 
 @Component({
   templateUrl: 'app.html'
@@ -29,7 +29,7 @@ export class MyApp {
       { title: 'Inicio', component: InicioPage, color: '#FAFAFA'  },
       { title: 'Herramientas', component: TutorialesPage, color: '#FFF' },
       { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA' },
-      { title: 'Lugares de Visita', component: Page2, color: '#FFF' },
+      { title: 'Lugares de Visita', component: LugaresDeVisitaPage, color: '#FFF' },
       { title: 'Sonrisauros', component: SonrisaurosPage, color: '#FAFAFA' },
       { title: 'Galería', component: GaleriaPage, color: '#FFF' },
       { title: 'Contáctanos', component: ContactoPage, color: '#FAFAFA' },

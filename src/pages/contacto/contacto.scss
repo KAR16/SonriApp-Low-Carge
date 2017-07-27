@@ -18,6 +18,38 @@ page-contacto {
   font-size: 26px;
   font-family: 'SonriFont-Semibold' !important;
 }
+  
+//Alineamos cualquier texto a la izquierda
+.op-izquierda{
+  text-align: left !important;
+
+}
+  
+//Contenido de Información
+.contInfo{
+  font-size: 20px !important;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+//Titulo Dato de Contacto
+.datoTitulo{
+  font-family: 'SonriFont-Semibold' !important;
+  
+}
+  
+//Texto Dato de Contacto
+.datoTexto{
+  font-family: 'SonriFont-Semilight' !important;
+  padding-left: 15%;
+  font-size: 18px !important;
+}
+    
+//.subtitulo{
+//
+//
+//}
 
 // Texto de Quienes Somos
 .texto{

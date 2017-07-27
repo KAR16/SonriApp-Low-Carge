@@ -58,9 +58,13 @@
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="16" />
+    <preference name="FadeSplashScreenDuration" value="300"/>
+    <preference name="SplashScreenDelay" value="3000"/>
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashScreen" value="screen" />
     <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
@@ -71,7 +75,7 @@
     <plugin name="cordova-plugin-device" spec="1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
     <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
-    <engine name="android" spec="~6.1.2" />
     <plugin name="cordova-plugin-appavailability" spec="~0.4.2" />
     <plugin name="com-sarriaroman-photoviewer" spec="~1.1.10" />
+    <engine name="android" spec="~6.1.2" />
 </widget>

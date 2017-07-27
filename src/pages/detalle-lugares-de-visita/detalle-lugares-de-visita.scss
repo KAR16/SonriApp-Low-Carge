@@ -1,0 +1,26 @@
+page-detalle-lugares-de-visita {
+  
+//  Titulo del Departamento
+  .titulo{
+    font-family: 'SonriFont-Semibold' !important;
+    font-size: 26px;
+  }
+  
+//  Opciones de los lugares por departamento
+  .opcion{
+    font-family: 'SonriFont-Semilight' !important;
+    font-size: 20px;
+    color: #717D7E;
+    padding-left: 0px;
+  }
+  
+  .lugar{
+    padding-left: 16px;
+  }
+  
+  ion-label, .label-ios{
+    padding-left: 16px;
+  }
+  
+
+}

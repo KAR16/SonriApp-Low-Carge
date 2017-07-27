@@ -10,13 +10,27 @@ page-detalle-tutoriales {
     padding: 0px !important;
 }
 
-// Titulo de Detalle Tutoriales
-.titulo{
+// Contenedor Titulo
+.contTitulo{
   padding-top: 5%;
   padding-left: 10%;
+}
+
+// Icono de la Herramienta
+.icono{
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Titulo de Detalle Tutoriales
+.titulo{
+  // padding-top: 5%;
+  padding-left: 5%;
   text-align: justify;
   font-size: 26px;
   font-family: 'SonriFont-Semibold' !important;
+  display: inline-block;
 }
 
 // Texto de Detalle Tutoriales

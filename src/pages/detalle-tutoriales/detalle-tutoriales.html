@@ -13,8 +13,11 @@
   <ion-card>
     <img class="imageCard" src="{{item.banner}}"/>
   </ion-card>
+  <div class="contTitulo">
+    <img  class="icono" src="{{item.icono}}" alt="Imagen Herramienta">
+    <h1 class="titulo"><span>{{item.titulo}}</span></h1>
+  </div>
 
-  <h1 class="titulo">{{item.titulo}}</h1>
   <div class="contHerramienta" [innerHTML]="item.info"></div>
   <br><br>
 
