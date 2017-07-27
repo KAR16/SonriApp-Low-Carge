@@ -12,6 +12,7 @@ page-detalle-lugares-de-visita {
     font-size: 20px;
     color: #717D7E;
     padding-left: 0px;
+//    text-align: center;
   }
   
   .lugar{
@@ -20,6 +21,9 @@ page-detalle-lugares-de-visita {
   
   ion-label, .label-ios{
     padding-left: 16px;
+    white-space: pre-line;
+    word-wrap: break-word;
+	overflow-wrap: break-word;
   }
   
 
