@@ -218,12 +218,12 @@ export class ConstelacionesPage {
       'cod_color': '#008804',
       'nacimiento': 'Marzo 2009',
       'fecha': new Date(2009, 2, 1),
-      'sede': 'Coatepeque, Guatemala',
+      'sede': 'Coatepeque, Quetzaltenango, Guatemala',
       'redes' : [{
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/fds.coatepeque/'
       },
       {
       'nombre_red': 'twitter',
@@ -256,7 +256,7 @@ export class ConstelacionesPage {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/fds.elsalvador/'
       },
       {
       'nombre_red': 'twitter',
@@ -289,7 +289,7 @@ export class ConstelacionesPage {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/FDS.Jalapa/'
       },
       {
       'nombre_red': 'twitter',
@@ -422,12 +422,12 @@ export class ConstelacionesPage {
       'cod_color': '#E3A745',
       'nacimiento': 'Febrero 2013',
       'fecha': new Date(2013, 0, 1),
-      'sede': 'Mazatenango, Guatemala',
+      'sede': 'Mazatenango, Suchitepéquez, Guatemala',
       'redes' : [{
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/fds.mazate/'
       },
       {
       'nombre_red': 'twitter',
@@ -514,7 +514,7 @@ export class ConstelacionesPage {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/fds.sanmarcos/'
       },
       {
       'nombre_red': 'twitter',
@@ -568,7 +568,7 @@ export class ConstelacionesPage {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/desonrisas.solola/'
       },
       {
       'nombre_red': 'twitter',
@@ -671,7 +671,7 @@ export class ConstelacionesPage {
       'cod_color': '#0170C1',
       'nacimiento': 'Marzo 2016',
       'fecha': new Date(2016, 2, 1),
-      'sede': 'Malacatán, Guatemala',
+      'sede': 'Malacatán, San Marcos, Guatemala',
       'redes' : [{
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
@@ -697,7 +697,7 @@ export class ConstelacionesPage {
       'nombre_red': 'facebook',
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      'url_red': 'https://www.facebook.com/fds.salama/'
       },
       {
       'nombre_red': 'twitter',
