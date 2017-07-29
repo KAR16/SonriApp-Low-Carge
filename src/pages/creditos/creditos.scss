@@ -21,6 +21,11 @@ page-creditos {
     padding-top: 0% !important;
   }
   
+  .contTitulo{
+    text-align: center;
+  }
+  
+//  Contenido Miembros
   .nombreDoctor{
     font-family: 'SonriFont-Semibold';
     font-size: 26px;
@@ -34,6 +39,11 @@ page-creditos {
   .cargo{
       font-family: 'SonriFont-Light';
       font-size: 18px;
+  }
+  
+  .textoFooter{
+    font-family: 'SonriFont-Light';
+    font-size: 1.1em;
   }
   
 //  Linea divisora de items

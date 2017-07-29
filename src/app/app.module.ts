@@ -2,7 +2,6 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
-import { Page2 } from '../pages/page2/page2';
 import { SeUnVoluntarioPage } from '../pages/se-un-voluntario/se-un-voluntario';
 import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
 import { NuestraMisionPage } from '../pages/nuestra-mision/nuestra-mision';
@@ -27,7 +26,6 @@ import { CreditosPage } from '../pages/creditos/creditos';
   declarations: [
     MyApp,
     InicioPage,
-    Page2,
     SeUnVoluntarioPage,
     QuienesSomosPage,
     NuestraMisionPage,
@@ -55,7 +53,6 @@ import { CreditosPage } from '../pages/creditos/creditos';
   entryComponents: [
     MyApp,
     InicioPage,
-    Page2,
     SeUnVoluntarioPage,
     QuienesSomosPage,
     NuestraMisionPage,

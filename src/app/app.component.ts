@@ -3,7 +3,6 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { InicioPage } from '../pages/inicio/inicio';
-import { Page2 } from '../pages/page2/page2';
 import { GaleriaPage } from '../pages/galeria/galeria';
 import { ContactoPage } from '../pages/contacto/contacto';
 import { SonrisaurosPage } from '../pages/sonrisauros/sonrisauros';
@@ -20,21 +19,21 @@ export class MyApp {
 
   rootPage: any = InicioPage;
 
-  pages: Array<{title: string, component: any, color: string}>;
+  pages: Array<{title: string, component: any, color: string, general: string}>;
 
   constructor(public platform: Platform) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Inicio', component: InicioPage, color: '#FAFAFA'  },
-      { title: 'Herramientas', component: TutorialesPage, color: '#FFF' },
-      { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA' },
-      { title: 'Lugares de Visita', component: LugaresDeVisitaPage, color: '#FFF' },
-      { title: 'Sonrisauros', component: SonrisaurosPage, color: '#FAFAFA' },
-      { title: 'Galería', component: GaleriaPage, color: '#FFF' },
-      { title: 'Contáctanos', component: ContactoPage, color: '#FAFAFA' },
-      { title: 'Créditos', component: CreditosPage, color: '#FFF' }
+      { title: 'Inicio', component: InicioPage, color: '#FAFAFA', general: 'md-home' },
+      { title: 'Herramientas', component: TutorialesPage, color: '#FFF', general: 'ios-construct' },
+      { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA', general: 'planet' },
+      { title: 'Lugares de Visita', component: LugaresDeVisitaPage, color: '#FFF', general: 'pin' },
+      { title: 'Sonrisauros', component: SonrisaurosPage, color: '#FAFAFA', general: 'ios-people' },
+      { title: 'Galería', component: GaleriaPage, color: '#FFF', general: 'images' },
+      { title: 'Contáctanos', component: ContactoPage, color: '#FAFAFA', general: 'ionitron' },
+      { title: 'Créditos', component: CreditosPage, color: '#FFF', general: 'ios-information-circle' }
     ];
 
   }
