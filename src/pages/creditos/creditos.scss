@@ -21,6 +21,20 @@ page-creditos {
     padding-top: 0% !important;
   }
   
+  .nombreDoctor{
+    font-family: 'SonriFont-Semibold';
+    font-size: 26px;
+  }
+  
+  .nombreCivil{
+    font-family: 'SonriFont-Semilight';
+    font-size: 22px;
+  }
+  
+  .cargo{
+      font-family: 'SonriFont-Light';
+      font-size: 18px;
+  }
   
 //  Linea divisora de items
   .label-md{
@@ -49,6 +63,7 @@ page-creditos {
   }
   
 //  Contenido del Footer
+  
 //  Logo Sonriapp
   .logoSonriapp{
     display: block;
@@ -59,6 +74,10 @@ page-creditos {
 //  Centrado de Texto
   .contFooter{
     text-align: center;
+  }
+  
+  .contFooter p{
+    padding: 5% 0;
   }
 
 }

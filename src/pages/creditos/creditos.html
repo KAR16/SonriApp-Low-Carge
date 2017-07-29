@@ -23,9 +23,9 @@
             <img class="imagenMiembro" src="{{miembro.foto}}" alt="Miembro"/>
           </ion-card>
           <div class="infoMiembro">
-            <h1 [innerHTML]="miembro.nombre_doctor"></h1>
-            <h2 [innerHTML]="miembro.nombre_civil"></h2>
-            <h3 [innerHTML]="miembro.roll"></h3>
+            <h1 class="nombreDoctor" [innerHTML]="miembro.nombre_doctor"></h1>
+            <h2 class="nombreCivil" [innerHTML]="miembro.nombre_civil"></h2>
+            <h3 class="cargo" [innerHTML]="miembro.roll"></h3>
           </div>
         </ion-item>
       </ion-list>
@@ -35,7 +35,7 @@
       <div class="contLogo">
         <img class="logoSonriapp" src="assets/img/general/logo-sonriapp.png" alt="Logo Sonriapp">
       </div>
-      <p>SonriApp V1.0 creada por Sunit.<br>Copyright © Todos los Derechos Reservados - 2017.</p>
+      <p>SonriApp V1.0 creada por Sunit ®.<br>Copyright © Todos los Derechos Reservados - 2017.</p>
     </div>
   
   
