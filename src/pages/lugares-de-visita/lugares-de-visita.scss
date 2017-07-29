@@ -21,5 +21,16 @@ page-lugares-de-visita {
     ion-item, .item-ios{
       padding-right: 16px;
     }
+  
+    //  Color de la linea divisora
+    .list-ios .item-block .item-inner{
+      border-bottom: 1px solid #dedede !important;
+    }
+  
+    //  Linea divisora del ultimo item
+    .list-md > .item-block:last-child .item-inner, .list-ios > .item-block:last-child .item-inner{
+      border-bottom: 0px !important;
+    }
 
 }
+ 

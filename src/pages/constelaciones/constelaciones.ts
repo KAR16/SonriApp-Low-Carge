@@ -551,7 +551,7 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Centauro',
       'nombre_mascota': 'Kentaury',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': 'Como luz y alegría, nuestro amor dibuja una sonrisa día tras día',
       'animacion': 'animated bounceInLeft',
       'historia': '<p>Centaurus nace en junio de 2014, se identifica con el color mostaza, su lema es “Con luz y alegría nuestro amor dibuja una sonrisa día con día”, hasta el momento cuenta con cincuenta doctores graduados.<br><br>Su mascota se llama Kentaury que es un ser único, noble y guerrero que vive en un mundo sumergido en las olas de sonrisas y amor que va transformándose cada día en un gran corazón.</p>'
@@ -584,7 +584,7 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Escorpión',
       'nombre_mascota': 'Baxter',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': 'Inyectando gotas de amor',
       'animacion': 'animated bounceInRight',
       'historia': '<p>Fábrica de Sonrisas Sololá nace en noviembre del año 2014, la formación fue impartida por voluntarios de diferentes departamentos de Guatemala.<br><br>En un galaxia que está a dos mil ciento cuarenta años luz, pasando por 10 soles y 27 planetas, habían 16 cuerpos deambulando por el universo, cada uno con un don, y muy cerca entre ellos, sabían que tenían un propósito, pero nadie se atrevía a salir del molde, hasta que un día llego un escuadrón de guerreros, venidos de planetas de dragones, camaleones, unicornios, jaguares, serpientes, quetzales, venados, que decidieron sacar los mejores dotes de cada uno y así formar una pequeña constelación, que quería contagiar de luz a las demás estrellas que estaban a su alrededor, pasaron 282 cometas para que 15 estrellas más pudieran unirse y alumbrar con esfuerzo ese pequeño espacio que poco a poco se llenó de luz, entonces esas 31 estrellas escorpianas y uno cuantos guerreros más tuvieron que esperar 398 mil estrellas fugaces para que 12 de ellas que deambulaban por el espacio se pudieran unir y así pudieran hacer de Scorpius un pequeño lugar lleno de luz, llenando cada vez más de narices rojas que llegan a los lugares que más necesitan alegría.<br><br>El lema con el que se identifican los voluntarios de Sololá es “Inyectando gotitas de amor”, tiene una mascota que lleva por nombre Baxter, es un escorpión que unge gente para amar, su color favorito es el verde limón.</p>'
@@ -605,7 +605,7 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Lobo',
       'nombre_mascota': 'Lupin',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': 'Una manada que ama con locura',
       'animacion': 'animated bounceInLeft',
       'historia': '<p>Nace el 15 de marzo en el departamento de Jutiapa, región Oriente de Guatemala. Su nombre proviene del latín Lupus que significa Lobo, este nombre fue elegido debido a que representa la unidad, la familia, ser parte de una manada. El lema de esta constelación es “Una manada que ama con locura”.<br><br>Su mascota tiene por nombre Lupin y es un lobo gris con el pecho blanco. Lupin es lobo en francés y hace referencia a Lupi la estrella más brillante de la constelación lobo.</p>'
@@ -626,7 +626,7 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Tortuga',
       'nombre_mascota': 'Tugui',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': 'Sabiduría de caparazón para alegrar el corazón',
       'animacion': 'animated bounceInRight',
       'historia': '<p>Fábrica de sonrisas en el departamento de Chimaltenango nace en el mes de mayo del año 2015, cuenta la historia que había una persona que quería ver a su pueblo feliz, cambiar su forma de pensar, de vivir, que ayudará más a sus habitantes que tanto lo necesitaban, entonces pensó ¿Qué puedo hacer para que mi pueblo cambie y ayude?<br><br>Entonces miro al cielo, y vio unas constelaciones, que ayudaban y daban amor, también quería el mismo cambio para todos los habitantes de su pueblo, esta persona emocionada se unió a ellas, y desde ese momento nació Tugui, que es un ser hogareño, con pasos firmes, noble por naturaleza y en su caparazón lleva sabiduría para alegrar el corazón del que más lo necesita, por donde quiera que vaya. Su lema es  “Sabiduría del caparazón para alegrar el corazón”.<br><br></p>'
@@ -680,7 +680,7 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Tigrillo',
       'nombre_mascota': '-',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': 'Todo lo que somos y sabemos es para servir',
       'animacion': 'animated bounceInRight',
       'historia': '<p>Fábrica de Sonrisas en Malacatán, nace el 31 de enero de 2016, constelación cuyas tres estrellas más brillantes forman un triángulo.<br><br>Su mascota es un tigrillo llamado Simba, con corazón valiente y fuerte como ningún otro, transmite alegría y fuerza para enfrentar cualquier lucha. El color con el que se identifica es el azul pavo real y el lema es “Todo lo que somos y tenemos es para servir”.</p>'
@@ -713,14 +713,14 @@ export class ConstelacionesPage {
       }],
       'mascota': 'Grulla',
       'nombre_mascota': 'Gros',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': '-',
       'animacion': 'animated bounceInRight',
       'historia': '<p>Esta constelación no posee Historia.</p>'
     },
     {
       'nombre_const': 'Merak',
-      'img_const': 'assets/img/sedes/grulla.png',
+      'img_const': 'assets/img/general/default.png',
       'color_const': '-',
       'cod_color': '-',
       'nacimiento': 'Abril 2017',
@@ -734,7 +734,7 @@ export class ConstelacionesPage {
       }],
       'mascota': '-',
       'nombre_mascota': '-',
-      'img_mascota': 'assets/img/mascotas/hoop.png',
+      'img_mascota': 'assets/img/general/hoop.png',
       'lema': '-',
       'animacion': 'animated bounceInLeft',
       'historia': '<p>Merak es una estrella familiar para los observadores del hemisferio norte como estrella apuntadora, llamada así porque al extender la línea que la une con la cercana Dubhe (α Ursae Majoris), se llega a Polaris, la Estrella Polar.<br><br>Merak nace el 22 de abril de 2017 en Santa Cruz del Quiché con 15 estrellas que se unieron para formar esta constelación que se caracteriza por su calidez y servicio. Los voluntarios de esta constelación creen en la unidad, que las acciones placenteras y cosas materiales que nos traen felicidad, nunca se compararan con la sonrisa, un abrazo o ver que lograste hacer reír a quien amas.</p>'

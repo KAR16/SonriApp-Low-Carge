@@ -21,6 +21,7 @@ import { SonrisaurosPage } from '../pages/sonrisauros/sonrisauros';
 import { DetalleSonrisaurosPage } from '../pages/detalle-sonrisauros/detalle-sonrisauros';
 import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
 import { DetalleLugaresDeVisitaPage } from '../pages/detalle-lugares-de-visita/detalle-lugares-de-visita';
+import { CreditosPage } from '../pages/creditos/creditos';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { DetalleLugaresDeVisitaPage } from '../pages/detalle-lugares-de-visita/d
     SonrisaurosPage,
     DetalleSonrisaurosPage,
     LugaresDeVisitaPage,
-    DetalleLugaresDeVisitaPage
+    DetalleLugaresDeVisitaPage,
+    CreditosPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -71,7 +73,8 @@ import { DetalleLugaresDeVisitaPage } from '../pages/detalle-lugares-de-visita/d
     SonrisaurosPage,
     DetalleSonrisaurosPage,
     LugaresDeVisitaPage,
-    DetalleLugaresDeVisitaPage
+    DetalleLugaresDeVisitaPage,
+    CreditosPage
   ],
   providers: [
   {provide: ErrorHandler, useClass: IonicErrorHandler}

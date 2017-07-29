@@ -1,0 +1,64 @@
+page-creditos {
+  
+//  Imagen del Miembro
+  .imagenMiembro{
+    width: 200px !important;
+    height: 200px !important;
+  }
+  
+//  contenedor de la imagen
+  .card, .card-ios{
+    border-radius: 50%;
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 25%;
+    margin: auto;
+    display: block;
+  }
+  
+//  Espacio entre las imagenes
+  ion-item, .item-ios{
+    padding-top: 0% !important;
+  }
+  
+  
+//  Linea divisora de items
+  .label-md{
+        margin: 13px 0;
+    }
+    
+    ion-item, .item-md, .item-ios{
+        padding: 5%;
+    }
+  
+//  Color de la linea divisora
+  .list-ios .item-block .item-inner{
+    border-bottom: 1px solid #dedede !important;
+  }
+  
+//  Linea divisora del ultimo item
+  .list-md > .item-block:last-child .item-inner, .list-ios > .item-block:last-child .item-inner{
+    border-bottom: 1px solid #dedede;
+  }
+  
+//    Información de los miembros
+  .infoMiembro{
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  
+//  Contenido del Footer
+//  Logo Sonriapp
+  .logoSonriapp{
+    display: block;
+    margin: auto;
+    max-height: 100px;
+  }
+  
+//  Centrado de Texto
+  .contFooter{
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Créditos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  
+  <div class="contCreditos">
+    <div class="contLogo">
+      <img src="assets/img/general/sunit-logo.png" alt="Logo Sunit">
+    </div>
+    
+    <div class="contMiembros">
+      <ion-list>
+        <ion-item *ngFor="let miembro of miembros">
+          
+          <ion-card>
+            <img class="imagenMiembro" src="{{miembro.foto}}" alt="Miembro"/>
+          </ion-card>
+          <div class="infoMiembro">
+            <h1 [innerHTML]="miembro.nombre_doctor"></h1>
+            <h2 [innerHTML]="miembro.nombre_civil"></h2>
+            <h3 [innerHTML]="miembro.roll"></h3>
+          </div>
+        </ion-item>
+      </ion-list>
+    </div>
+    
+    <div class="contFooter">
+      <div class="contLogo">
+        <img class="logoSonriapp" src="assets/img/general/logo-sonriapp.png" alt="Logo Sonriapp">
+      </div>
+      <p>SonriApp V1.0 creada por Sunit.<br>Copyright © Todos los Derechos Reservados - 2017.</p>
+    </div>
+  
+  
+  
+  </div>
+
+</ion-content>

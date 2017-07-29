@@ -10,6 +10,7 @@ import { SonrisaurosPage } from '../pages/sonrisauros/sonrisauros';
 import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
+import { CreditosPage } from '../pages/creditos/creditos';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,7 +34,7 @@ export class MyApp {
       { title: 'Sonrisauros', component: SonrisaurosPage, color: '#FAFAFA' },
       { title: 'Galería', component: GaleriaPage, color: '#FFF' },
       { title: 'Contáctanos', component: ContactoPage, color: '#FAFAFA' },
-      { title: 'Créditos', component: Page2, color: '#FFF' }
+      { title: 'Créditos', component: CreditosPage, color: '#FFF' }
     ];
 
   }
