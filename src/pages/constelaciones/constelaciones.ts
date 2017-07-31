@@ -743,14 +743,8 @@ export class ConstelacionesPage {
   }
 
   ionViewDidLoad(){
-        console.log('Funcion reinicio');
-        //this.navCtrl.setRoot(ConstelacionesPage);
-        //break;
-  };
 
-  /*this.constelaciones = this.constelaciones.sort(function(a,b) {
-    return new Date(a.fecha).getTime() - new Date(b.fecha).getTime()
-});*/
+  };
 
 
   //Mando el arreglo de las constelaciones a la vista del detalle de cada una
