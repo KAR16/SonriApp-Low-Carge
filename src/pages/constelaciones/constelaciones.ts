@@ -226,16 +226,10 @@ export class ConstelacionesPage {
       'url_red': 'https://www.facebook.com/fds.coatepeque/'
       },
       {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
       'nombre_red': 'instagram',
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
+      'url_red': 'https://www.instagram.com/fdscoatepeque/'
       }],
       'mascota': 'Culebra',
       'nombre_mascota': 'Cruxito',
@@ -262,13 +256,13 @@ export class ConstelacionesPage {
       'nombre_red': 'twitter',
       'icon_red': 'logo-twitter',
       'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
+      'url_red': 'https://twitter.com/FDS_ElSalvador?s=08'
       },
       {
       'nombre_red': 'instagram',
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
+      'url_red': 'https://www.instagram.com/fds_elsalvador/'
       }],
       'mascota': 'Niño',
       'nombre_mascota': 'Regil',
@@ -290,18 +284,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/FDS.Jalapa/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
       }],
       'mascota': 'Pegaso',
       'nombre_mascota': 'Ras',
@@ -323,6 +305,18 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.xela/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/FDSXela?s=08'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsxela/'
       }],
       'mascota': 'Jaguar',
       'nombre_mascota': 'Kawi',
@@ -365,6 +359,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/FDS.coban/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdscoban/'
       }],
       'mascota': 'Aguila',
       'nombre_mascota': 'Chahim',
@@ -386,6 +386,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.zacapa/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdszacapa/'
       }],
       'mascota': 'Delfines',
       'nombre_mascota': 'Sonri y Sueños',
@@ -407,6 +413,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.reu/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsreu/'
       }],
       'mascota': 'Toro',
       'nombre_mascota': 'Torivio',
@@ -433,13 +445,13 @@ export class ConstelacionesPage {
       'nombre_red': 'twitter',
       'icon_red': 'logo-twitter',
       'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
+      'url_red': 'https://twitter.com/FDS_Mazate?s=08'
       },
       {
       'nombre_red': 'instagram',
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
+      'url_red': 'https://www.instagram.com/fds_mazatenango/'
       }],
       'mascota': 'Venado',
       'nombre_mascota': 'Venadin',
@@ -461,6 +473,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.sta.ana.sv/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fds_cisne/'
       }],
       'mascota': 'Cisne',
       'nombre_mascota': 'Whip',
@@ -517,16 +535,10 @@ export class ConstelacionesPage {
       'url_red': 'https://www.facebook.com/fds.sanmarcos/'
       },
       {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
       'nombre_red': 'instagram',
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
+      'url_red': 'https://www.instagram.com/fdsandromeda/'
       }],
       'mascota': 'Quetzal',
       'nombre_mascota': 'Gugú',
@@ -548,6 +560,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.huehuetenango/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdshuehue/'
       }],
       'mascota': 'Centauro',
       'nombre_mascota': 'Kentaury',
@@ -569,18 +587,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/desonrisas.solola/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
       }],
       'mascota': 'Escorpión',
       'nombre_mascota': 'Baxter',
@@ -623,6 +629,12 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.chimaltenango/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fds_chimaltenango/'
       }],
       'mascota': 'Tortuga',
       'nombre_mascota': 'Tugui',
@@ -649,13 +661,13 @@ export class ConstelacionesPage {
       'nombre_red': 'twitter',
       'icon_red': 'logo-twitter',
       'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
+      'url_red': 'https://twitter.com/FDS_ElSalvador?s=08'
       },
       {
       'nombre_red': 'instagram',
       'icon_red': 'logo-instagram',
       'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
+      'url_red': 'https://www.instagram.com/fds_elsalvador/'
       }],
       'mascota': 'Lechuza',
       'nombre_mascota': 'Tlamati',
@@ -698,18 +710,6 @@ export class ConstelacionesPage {
       'icon_red': 'logo-facebook',
       'color_red': 'facebook',
       'url_red': 'https://www.facebook.com/fds.salama/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
       }],
       'mascota': 'Grulla',
       'nombre_mascota': 'Gros',

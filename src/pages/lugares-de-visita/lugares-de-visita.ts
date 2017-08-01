@@ -77,7 +77,7 @@ export class LugaresDeVisitaPage {
         },
         {
         'titulo': 'Capacidades Diferentes',
-        'imagen': 'assets/img/general/hoop.png',
+        'imagen': 'assets/img/lugares-de-visita/capacidades-diferentes.png',
         'listado':[
         {
         'departamento':'Guatemala',

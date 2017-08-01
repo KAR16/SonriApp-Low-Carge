@@ -9,6 +9,8 @@
 
 
 <ion-content padding>
+  <h1>Hola</h1>
+  <h1 color="primary">{{Status}}</h1>
   <ion-list>
     <ion-item *ngFor="let imagen of imagenes" (click)="detalleGaleria(imagen)">
       <ion-avatar item-left>
@@ -17,5 +19,7 @@
       <h2>{{imagen.titulo}}</h2>
     </ion-item>
   </ion-list>
+  
+  <h1>{{Status}}</h1>
 
 </ion-content>

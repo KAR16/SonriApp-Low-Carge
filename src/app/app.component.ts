@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
+import { SplashScreen } from '@ionic-native/splash-screen';
 import { InicioPage } from '../pages/inicio/inicio';
 import { GaleriaPage } from '../pages/galeria/galeria';
 import { ContactoPage } from '../pages/contacto/contacto';
@@ -10,6 +11,7 @@ import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
 import { CreditosPage } from '../pages/creditos/creditos';
+import { ErrorConexionPage } from '../pages/error-conexion/error-conexion';
 
 @Component({
   templateUrl: 'app.html'
@@ -21,7 +23,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any, color: string, general: string}>;
 
-  constructor(public platform: Platform) {
+  constructor(private splashScreen: SplashScreen, public platform: Platform) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
