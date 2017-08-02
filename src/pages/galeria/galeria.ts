@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, Platform, AlertController, ToastController } from 'ionic-angular';
+import { NavController, NavParams, Platform, AlertController } from 'ionic-angular';
 import { ErrorConexionPage } from '../error-conexion/error-conexion';
 import { Network } from '@ionic-native/network';
 import { DetalleGaleriaPage } from '../detalle-galeria/detalle-galeria';
-//import { Network } from 'ionic-native';
 
 declare var navigator: any;
 declare var Connection: any;
@@ -16,28 +15,9 @@ declare var Connection: any;
 })
 export class GaleriaPage {
   imagenes=[];
-  conexion = " ";
   Status: any = '';
 
-  constructor(private toast: ToastController, private network: Network, private platform: Platform, public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {
-  
-  this.network.onConnect().subscribe(() => {
-  console.log('network connected!');
-  this.Status = 'Connected';
-  // We just got a connection but we need to wait briefly
-   // before we determine the connection type. Might need to wait.
-  // prior to doing any api requests as well.
-  setTimeout(() => {
-    if (this.network.type === 'wifi') {
-      console.log('we got a wifi connection, woohoo!');
-    }
-  }, 3000);
-});
-  
-  this.network.onDisconnect().subscribe(() => {
-    console.log('network was disconnected :-(');
-    this.Status = 'Disconnected';
-  });
+  constructor(private network: Network, private platform: Platform, public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {
   
 
   this.imagenes = [
@@ -314,38 +294,12 @@ export class GaleriaPage {
       }]
     }
   ];
-  
-    this.platform.ready().then(() => {
-          // Now all cordova plugins are ready!
-          //alert(network.type);
-    });
-
-  }
+}
 
   ionViewDidLoad() {
-    
-    this.network.onConnect().subscribe(() => {
-      console.log('network connected!');
-      this.Status = 'Connected';
-      // We just got a connection but we need to wait briefly
-       // before we determine the connection type. Might need to wait.
-      // prior to doing any api requests as well.
-      setTimeout(() => {
-        if (this.network.type === 'wifi') {
-          console.log('we got a wifi connection, woohoo!');
-        }
-      }, 3000);
-    });
-    
     console.log('ionViewDidLoad GaleriaPage');
-    this.network.onDisconnect().subscribe(() => {
-      console.log('network was disconnected :-(');
-      this.Status = 'Disconnected';
-    });
+  }
   
-    
-    }
-    
 
   //Mando el arreglo de las constelaciones a la vista del detalle de cada una
   detalleGaleria(item) {
@@ -355,63 +309,23 @@ export class GaleriaPage {
   
   
   checkConnection(item){
-    /*console.log('Entre a la funcion');
-    this.platform.ready().then(() => {
-      var networkState = navigator.connection.type;
-      var states = {};
-            states[Connection.UNKNOWN]  = 'Unknown connection';
-            states[Connection.ETHERNET] = 'Ethernet connection';
-            states[Connection.WIFI]     = 'WiFi connection';
-            states[Connection.CELL_2G]  = 'Cell 2G connection';
-            states[Connection.CELL_3G]  = 'Cell 3G connection';
-            states[Connection.CELL_4G]  = 'Cell 4G connection';
-            states[Connection.CELL]     = 'Cell generic connection';
-            states[Connection.NONE]     = 'No network connection';
-            let alert = this.alertCtrl.create({
-                title: "Connection Status",
-                subTitle: states[networkState],
-                buttons: ["OK"]
-            });
-            alert.present();;
-            
-            // Now all cordova plugins are ready!
-            console.log(this.network.type);
-            console.log(networkState);
-            this.conexion = this.network.type;
-
-            if (this.conexion === 'none' )
-            {
-              this.navCtrl.push(ErrorConexionPage);
-            }
-            else{
-              this.navCtrl.push(DetalleGaleriaPage, {item:item});
-            }
-      });*/
+    console.log('Entre a la funcion');
       
-      this.network.onDisconnect().subscribe(() => {
-        console.log('network was disconnected :-(');
-        this.Status = 'Disconnected';
-      });
-  
-      this.network.onConnect().subscribe(() => {
-        console.log('network connected!');
-        this.Status = 'Connected';
-        // We just got a connection but we need to wait briefly
-         // before we determine the connection type. Might need to wait.
-        // prior to doing any api requests as well.
-        setTimeout(() => {
-          if (this.network.type === 'wifi') {
-            console.log('we got a wifi connection, woohoo!');
-          }
-        }, 3000);
-      });
+      var networkState = this.network.type;
       
-      if(this.Status == 'Disconnected'){
+      /*let alert = this.alertCtrl.create({
+          title: "Connection Status",
+          subTitle: networkState,
+          buttons: ["OK"]
+      });
+      alert.present();*/
+      
+      if (networkState !== "none"){
+        this.navCtrl.push(DetalleGaleriaPage, {item:item});
+      }else{
         this.navCtrl.push(ErrorConexionPage);
       }
-      else if (this.Status == 'Connected'){
-        this.navCtrl.push(DetalleGaleriaPage, {item:item});
-      }
+
   }
 
 }

@@ -17,7 +17,7 @@
 
   <ion-content>
     <ion-list class="pages">
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" [ngStyle]="{'background-color': p.color}"><ion-icon [name]="p.general" color="primary"></ion-icon>&nbsp;
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" [ngStyle]="{'background-color': p.color}"><ion-icon [name]="p.general" [color]="p.icon_color"></ion-icon>&nbsp;
         {{p.title}}
       </button>
     </ion-list>

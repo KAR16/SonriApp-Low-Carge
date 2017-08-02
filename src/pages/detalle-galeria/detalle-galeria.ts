@@ -1,13 +1,9 @@
 import { Component } from '@angular/core';
 import { ModalController, NavController, NavParams } from 'ionic-angular';
 import { ImageModalPage } from '../image-modal/image-modal';
+import { ErrorConexionPage } from '../error-conexion/error-conexion';
+import { Network } from '@ionic-native/network';
 
-/*
-  Generated class for the DetalleGaleria page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-detalle-galeria',
   templateUrl: 'detalle-galeria.html'
@@ -18,7 +14,7 @@ export class DetalleGaleriaPage {
 item;
 imagenes=[];
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, public params: NavParams) {
+  constructor(private network: Network, public modalCtrl: ModalController, public navCtrl: NavController, public params: NavParams) {
   //Acá recibo el array de Tutoriales para utilizarlo en la vista
   this.item = params.data.item;
   this.imagenes = this.item.imagenCont;
@@ -30,10 +26,15 @@ imagenes=[];
   }
 
   openImage(item) {
-      console.log(item);
-      let modal = this.modalCtrl.create(ImageModalPage, {item:item});
-      modal.present();
-      //this.photoViewer.show('assets/img/galería/visitas_especiales/VE03.jpg');
+      var networkState = this.network.type;
+      
+      if (networkState !== "none"){
+        console.log(item);
+        let modal = this.modalCtrl.create(ImageModalPage, {item:item});
+        modal.present();
+      }else{
+        this.navCtrl.push(ErrorConexionPage);
+      }
   }
 
 }

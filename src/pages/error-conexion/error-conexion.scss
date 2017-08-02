@@ -5,8 +5,10 @@ page-error-conexion {
     .contInformacion{
         padding: 10%;
         width: 100%;
+        margin: auto !important;
+        padding-top: 20%;
 //        left: 50%;
-//        top: 50%;
+//        
 //        transform: translate(-50%, -50%);
 //        -webkit-transform: translate(-50%, -50%);
         position: absolute;
@@ -46,5 +48,16 @@ page-error-conexion {
         text-align: center;
         font-size: 26px !important;
     }
+    
+//    Media de Centrado
+    @media (min-width: 767px) {
+
+        .contInformacion{
+    //        padding-right: 0% !important;
+            top: 15% !important;
+
+        }
+    }
+    
 
 }

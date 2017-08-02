@@ -1,3 +1,4 @@
+<!--
 <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
@@ -6,6 +7,7 @@
     <ion-title>Galería</ion-title>
   </ion-navbar>
 </ion-header>
+-->
 
 <ion-content padding>
   
@@ -18,7 +20,7 @@
     <h1 class="titulo">Sin conexión a internet</h1>
     <p class="texto">Lo sentimos, pero la información que tratas de visualizar no se puede mostrar, revisa tu conexión a internet.</p>
   
-    <p class="deNuevo"><ion-icon name="md-refresh"></ion-icon>&nbsp; Intenta de nuevo</p>
+    <p class="deNuevo" (click)="dismiss()"><ion-icon name="md-refresh"></ion-icon>&nbsp; Intenta de nuevo</p>
   </div>
   
   
