@@ -1,6 +1,8 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { Network } from '@ionic-native/network';
 import { MyApp } from './app.component';
+import { SplashScreen } from '@ionic-native/splash-screen';
 import { InicioPage } from '../pages/inicio/inicio';
 import { SeUnVoluntarioPage } from '../pages/se-un-voluntario/se-un-voluntario';
 import { QuienesSomosPage } from '../pages/quienes-somos/quienes-somos';
@@ -21,6 +23,7 @@ import { DetalleSonrisaurosPage } from '../pages/detalle-sonrisauros/detalle-son
 import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
 import { DetalleLugaresDeVisitaPage } from '../pages/detalle-lugares-de-visita/detalle-lugares-de-visita';
 import { CreditosPage } from '../pages/creditos/creditos';
+import { ErrorConexionPage } from '../pages/error-conexion/error-conexion';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,8 @@ import { CreditosPage } from '../pages/creditos/creditos';
     DetalleSonrisaurosPage,
     LugaresDeVisitaPage,
     DetalleLugaresDeVisitaPage,
-    CreditosPage
+    CreditosPage,
+    ErrorConexionPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -71,10 +75,13 @@ import { CreditosPage } from '../pages/creditos/creditos';
     DetalleSonrisaurosPage,
     LugaresDeVisitaPage,
     DetalleLugaresDeVisitaPage,
-    CreditosPage
+    CreditosPage,
+    ErrorConexionPage
   ],
   providers: [
-  {provide: ErrorHandler, useClass: IonicErrorHandler}
+  SplashScreen,
+  {provide: ErrorHandler, useClass: IonicErrorHandler},
+  Network
   ]
 })
 export class AppModule {}

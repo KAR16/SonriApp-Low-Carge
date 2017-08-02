@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { Platform, NavParams, ViewController } from 'ionic-angular';
-
-import { NavController } from 'ionic-angular';
+import { Platform, NavParams, ViewController, NavController } from 'ionic-angular';
 import { QuienesSomosPage } from '../quienes-somos/quienes-somos';
 import { NuestraMisionPage } from '../nuestra-mision/nuestra-mision';
 import { NuestraHistoriaPage } from '../nuestra-historia/nuestra-historia';
