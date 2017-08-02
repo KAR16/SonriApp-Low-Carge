@@ -1,0 +1,63 @@
+page-error-conexion {
+    
+//    Contenedor de la Informacion
+    
+    .contInformacion{
+        padding: 10%;
+        width: 100%;
+        margin: auto !important;
+        padding-top: 20%;
+//        left: 50%;
+//        
+//        transform: translate(-50%, -50%);
+//        -webkit-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    
+    .contImagen{
+    }
+    
+//    Imagen Hoop
+    .contImagen img{
+        margin: auto;
+        display: block;
+        max-height: 225px;
+    }
+    
+//    Titulo del Texto
+    .titulo{
+        font-family: 'SonriFont-Semibold';
+        text-align: center;
+        font-size: 26px;
+    }
+    
+//    Texto del contenido
+    p {
+        font-family: 'SonriFont-Semilight';
+        font-size: 20px;
+        color: #A4A4A4;
+    }
+    
+    .texto{
+        text-align: justify;
+        padding: 5%;
+    }
+    
+//    De nuevo
+    .deNuevo{
+        text-align: center;
+        font-size: 26px !important;
+    }
+    
+//    Media de Centrado
+    @media (min-width: 767px) {
+
+        .contInformacion{
+    //        padding-right: 0% !important;
+            top: 15% !important;
+
+        }
+    }
+    
+
+}
