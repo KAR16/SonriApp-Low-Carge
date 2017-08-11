@@ -11,7 +11,6 @@ import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 import { ConstelacionesPage } from '../pages/constelaciones/constelaciones';
 import { LugaresDeVisitaPage } from '../pages/lugares-de-visita/lugares-de-visita';
 import { CreditosPage } from '../pages/creditos/creditos';
-import { ErrorConexionPage } from '../pages/error-conexion/error-conexion';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +31,7 @@ export class MyApp {
       { title: 'Herramientas', component: TutorialesPage, color: '#FFF', general: 'ios-construct', icon_color: 'herramienta' },
       { title: 'Constelaciones', component: ConstelacionesPage, color: '#FAFAFA', general: 'planet', icon_color: 'constelaciones' },
       { title: 'Lugares de Visita', component: LugaresDeVisitaPage, color: '#FFF', general: 'pin', icon_color: 'lugar' },
-      { title: 'Sonrisauros', component: SonrisaurosPage, color: '#FAFAFA', general: 'ios-people', icon_color: 'sonrisauros' },
+      { title: 'Sonrisaurios', component: SonrisaurosPage, color: '#FAFAFA', general: 'ios-people', icon_color: 'sonrisauros' },
       { title: 'Galería', component: GaleriaPage, color: '#FFF', general: 'images', icon_color: 'galeria' },
       { title: 'Contáctanos', component: ContactoPage, color: '#FAFAFA', general: 'ionitron', icon_color: 'primary' },
       { title: 'Créditos', component: CreditosPage, color: '#FFF', general: 'ios-information-circle', icon_color: 'creditos' }

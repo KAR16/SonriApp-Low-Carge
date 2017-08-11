@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import {SafeResourceUrl, DomSanitizer} from '@angular/platform-browser';
 
 
 @Component({
@@ -13,7 +12,7 @@ export class DetalleTutorialesPage {
   item;
 
 
-  constructor(private domSanitizer: DomSanitizer, public navCtrl: NavController, public params: NavParams) {
+  constructor(public navCtrl: NavController, public params: NavParams) {
 
     //Acá recibo el array de Tutoriales para utilizarlo en la vista
     this.item = params.data.item;

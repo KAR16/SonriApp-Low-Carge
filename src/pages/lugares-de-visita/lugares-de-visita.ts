@@ -195,7 +195,7 @@ export class LugaresDeVisitaPage {
         },
         {
         'departamento':'San Marcos',
-        'nombres': ['Hospital Nacional de San Marcos', 'Hospital Comuunitario ROPE Tejutía']
+        'nombres': ['Hospital Nacional de San Marcos', 'Hospital Comunitario ROPE Tejutía']
         },
         {
         'departamento':'San Salvador, El Salvador',

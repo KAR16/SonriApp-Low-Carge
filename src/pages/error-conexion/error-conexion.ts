@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController } from 'ionic-angular';
-import { GaleriaPage } from '../galeria/galeria';
 
 /*
   Generated class for the ErrorConexion page.

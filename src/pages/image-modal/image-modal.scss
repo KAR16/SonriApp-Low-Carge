@@ -35,5 +35,8 @@ page-image-modal {
     margin-top: 3%;
     margin-left: 3%;
   }
-
+  
+  ion-content, .content-md{
+    background-color: #000 !important;
+  }
 }
