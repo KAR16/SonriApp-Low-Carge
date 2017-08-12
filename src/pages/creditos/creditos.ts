@@ -7,9 +7,12 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 
 export class CreditosPage {
+  // Array de los miembros
   miembros=[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  
+    // Llenamos el array con los datos
     this.miembros = [
     {
       'nombre_doctor': 'Dr. Chow Chow',

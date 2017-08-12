@@ -12,16 +12,18 @@ page-contacto {
 
 // Titulo de Quienes Somos
 .titulo{
-  padding-top: 5%;
   padding-left: 10%;
   text-align: justify;
-  font-size: 26px;
-  font-family: 'SonriFont-Semibold' !important;
+  font-size: 22px;
+  font-family: 'SonriFont-Semilight';
 }
   
 //Alineamos cualquier texto a la izquierda
-.op-izquierda{
+.principal{
+  padding-top: 5%;
   text-align: left !important;
+  font-size: 26px !important;
+  font-family: 'SonriFont-Semibold' !important;
 
 }
   

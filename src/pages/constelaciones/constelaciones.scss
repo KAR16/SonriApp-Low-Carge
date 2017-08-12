@@ -1,37 +1,28 @@
 page-constelaciones {
-
+  
+  //  Icono de Constelación
   ion-avatar img{
     width: 80px !important;
     height: 80px !important;
   }
-
+  
+  //  Nombre de Constelación
   h2{
     font-family: 'SonriFont-Semibold';
     font-size: 20px !important;
   }
-
+  
+  //  Departamento Sede
   h3, p{
     font-family: 'SonriFont-Semilight';
     font-size: 18px !important;
   }
-
+  
+  //  Propiedad de Label en Page Constelaciones
   .label, .label-md{
     padding-bottom: 2% !important;
     padding-top: 2% !important;
+    white-space: normal !important;
   }
-
-  .chat-item.ng-enter {
-    -webkit-animation: fadeInLeft 1.5s;
-    animation: fadeInLeft 1.5s;
-}
-
-.chat-item.ng-enter-stagger {
-  -webkit-animation-delay:200ms;
-  animation-delay:200ms;
-
-  /* override to make sure it's not inherited from other styles */
-  -webkit-animation-duration:0;
-  animation-duration:0;
-}
 
 }

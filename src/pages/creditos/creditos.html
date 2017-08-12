@@ -10,14 +10,18 @@
 
 <ion-content padding>
   
+  <!--  Logo Sunit-->
   <div class="contCreditos">
     <div class="contLogo">
       <img src="assets/img/general/sunit-logo.png" alt="Logo Sunit">
     </div>
     
+    <!--    Equipo  -->
     <div class="contMiembros">
+      <!--      Texto Equipo-->
       <h1 class="nombreDoctor contTitulo">Equipo</h1><hr style="width: 50%"><br><br>
       <ion-list>
+        <!--        Item por Miembro-->
         <ion-item *ngFor="let miembro of miembros" class="animated rubberBand">
           <ion-card>
             <img class="imagenMiembro" src="{{miembro.foto}}" alt="Miembro"/>
@@ -32,14 +36,14 @@
     </div>
     
     <div class="contFooter">
+      <!--      Logo SonriApp-->
       <div class="contLogo">
         <img class="logoSonriapp" src="assets/img/general/logo-sonriapp.png" alt="Logo Sonriapp">
       </div>
+      
+      <!--      Derechos Reservados-->
       <p class="textoFooter">SonriApp V1.0 creada por Sunit ®.<br>Copyright © Todos los Derechos Reservados - 2017.</p>
     </div>
-  
-  
-  
   </div>
 
 </ion-content>

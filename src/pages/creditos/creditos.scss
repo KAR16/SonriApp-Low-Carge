@@ -1,12 +1,12 @@
 page-creditos {
   
-//  Imagen del Miembro
+  //  Imagen del Miembro
   .imagenMiembro{
     width: 200px !important;
     height: 200px !important;
   }
   
-//  contenedor de la imagen
+  //  contenedor de la imagen
   .card, .card-ios{
     border-radius: 50%;
     width: 200px !important;
@@ -16,7 +16,7 @@ page-creditos {
     display: block;
   }
   
-//  Espacio entre las imagenes
+  //  Espacio entre las imagenes
   ion-item, .item-ios{
     padding-top: 0% !important;
   }
@@ -25,7 +25,7 @@ page-creditos {
     text-align: center;
   }
   
-//  Contenido Miembros
+  //  Contenido Miembros
   .nombreDoctor{
     font-family: 'SonriFont-Semibold';
     font-size: 26px;
@@ -41,12 +41,7 @@ page-creditos {
       font-size: 18px;
   }
   
-  .textoFooter{
-    font-family: 'SonriFont-Light';
-    font-size: 1.1em;
-  }
-  
-//  Linea divisora de items
+  //  Linea divisora de items
   .label-md{
         margin: 13px 0;
     }
@@ -55,17 +50,17 @@ page-creditos {
         padding: 5%;
     }
   
-//  Color de la linea divisora
+  //  Color de la linea divisora
   .list-ios .item-block .item-inner{
     border-bottom: 1px solid #dedede !important;
   }
   
-//  Linea divisora del ultimo item
+  //  Linea divisora del ultimo item
   .list-md > .item-block:last-child .item-inner, .list-ios > .item-block:last-child .item-inner{
     border-bottom: 1px solid #dedede;
   }
   
-//    Información de los miembros
+  //  Información de los miembros
   .infoMiembro{
       text-align: center;
       padding-top: 5%;
@@ -88,6 +83,11 @@ page-creditos {
   
   .contFooter p{
     padding: 5% 0;
+  }
+  
+  .textoFooter{
+    font-family: 'SonriFont-Light';
+    font-size: 1.1em;
   }
 
 }

@@ -7,10 +7,13 @@ import { DetalleConstelacionesPage } from '../detalle-constelaciones/detalle-con
   templateUrl: 'constelaciones.html'
 })
 export class ConstelacionesPage {
-
+  
+  //Array de constelaciones
   constelaciones=[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  
+  //Llenamos el array con la información de las constelaciones
   this.constelaciones = [
     {
       'nombre_const': 'Draco',
@@ -743,7 +746,7 @@ export class ConstelacionesPage {
   }
 
   ionViewDidLoad(){
-
+    console.log('ConstelacionPage');
   };
 
 

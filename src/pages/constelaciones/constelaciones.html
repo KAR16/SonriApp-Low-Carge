@@ -10,12 +10,18 @@
 
 <ion-content>
   <ion-list>
+    <!--    Items por constelación-->
     <ion-item *ngFor="let constelacion of constelaciones" (click)="detalleConstelaciones(constelacion)" [ngClass]="constelacion.animacion">
+      
+      <!--      Icono de Constelación-->
       <ion-avatar item-left>
           <img src="{{constelacion.img_const}}">
       </ion-avatar>
+      <!--  Nombre Constelación-->
       <h2>{{constelacion.nombre_const}}</h2>
+      <!--      Departamento Sede-->
       <h3>{{constelacion.sede}}</h3>
+      <!--      Fecha de Nacimiento-->
       <p>{{constelacion.nacimiento}}</p>
     </ion-item>
   </ion-list>
