@@ -108,6 +108,7 @@ button .item-inner{
 .toolbar-title-md, .toolbar-title-ios{
   color: #FFF !important;
   font-size: 18px !important;
+  font-weight: normal;
 }
 
 
@@ -141,6 +142,10 @@ button .item-inner{
 
     .img-logo{
       padding-top: 16%;
+    }
+  
+    .toolbar-title-md, .toolbar-title-ios{
+      font-size: 15px !important;
     }
 }
 
