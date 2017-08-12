@@ -28,7 +28,7 @@ export class CreditosPage {
     {
       'nombre_civil': 'Alan Piedrasanta',
       'roll': 'Diseñador',
-      'foto': 'assets/img/general/alan-2.jpg',
+      'foto': 'assets/img/general/alan.jpg',
       'datos': '<h1>Dr. Chow Chow</h1><h2>Elmer Moreno</h2><h3>Desarrollador</h3>'
     }];
   
