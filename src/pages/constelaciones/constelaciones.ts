@@ -116,105 +116,6 @@ export class ConstelacionesPage {
       'historia': '<p>Creada en el año 2009, por el crecimiento radical que Fábrica de Sonrisas tuvo durante la tercera generación y forma parte de las tres primeras constelaciones. Se le nombro Unicornio ya que este simboliza la pureza. Generalmente los unicornios viven en el bosque o jardines, por ello la primera payaescuela impartida en esta Constelación se desarrolló en un lugar rodeado de árboles y vegetación al que llamaban “Valle de Unicornio”. Su mascota es Chuby, un tierno unicornio fabuloso de naturaleza honrosa y pura. El lema de constelación es “la imaginación es el Limite”.</p>'
     },
     {
-      'nombre_const': 'Camaleón',
-      'img_const': 'assets/img/sedes/camaleon.png',
-      'color_const': 'Blanco',
-      'cod_color': '#FFF',
-      'nacimiento': 'Julio 2011',
-      'fecha': new Date(2011, 6, 1),
-      'sede': 'Guatemala, Guatemala',
-      'redes' : [{
-      'nombre_red': 'facebook',
-      'icon_red': 'logo-facebook',
-      'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
-      }],
-      'mascota': 'Camaleón',
-      'nombre_mascota': 'Duf',
-      'img_mascota': 'assets/img/mascotas/duf.png',
-      'lema': '-',
-      'animacion': 'animated bounceInRight',
-      'historia': '<p>Nace en la octava generación, debido a que hasta ese momento las payaescuelas se realizaban solo los días sábados y Fábrica de Sonrisas deseaba dar una oportunidad a todos aquellos que quisieran participar el día Domingo, sus primeros coordinadores fueron la Dra. Tortolita y el Dr. Rockstar. Esta constelación está formada por tres estrellas, muy brillantes, de color amarillo, rojo y azul que representan la unión de 3 constelaciones en una sola.<br><br>Su mascota es un pequeño camaleón verde con muchos colores que se adapta a su entorno rápidamente, sin embargo, nunca deja su esencia o sus buenos sentimientos atrás. Su nombre es Duf debido a la unión de las iniciales de las primeras constelaciones de Fábrica de Sonrisas, Draco, Unicornio y Fénix, el color que representa a la constelación es el blanco por su pureza.</p>'
-    },
-    {
-      'nombre_const': 'Batz',
-      'img_const': 'assets/img/sedes/batz.png',
-      'color_const': 'Café',
-      'cod_color': '#4F2B15',
-      'nacimiento': 'Julio 2011',
-      'fecha': new Date(2011, 6, 1),
-      'sede': 'Guatemala, Guatemala',
-      'redes' : [{
-      'nombre_red': 'facebook',
-      'icon_red': 'logo-facebook',
-      'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
-      }],
-      'mascota': 'Mono',
-      'nombre_mascota': 'Wirik',
-      'img_mascota': 'assets/img/mascotas/wirik.png',
-      'lema': 'Tu eres el inicio de tus sueños y el límite de tu destino',
-      'animacion': 'animated bounceInLeft',
-      'historia': '<p>Surge con el nacimiento de la payaescuela de día domingo por la mañana, en la octava generación en el año 2011, debido a que la respuesta de los voluntarios fue extraordinaria, viéndose en la necesidad de crear una nueva constelación, Batz, que tuvo un nacimiento corrido pero lleno de energía como su guardián Wirik, cuyo significado es cazador de sueños y es un simpático monito que siempre tiene una sonrisa para dar.</p>'
-    },
-    {
-      'nombre_const': 'Ursus',
-      'img_const': 'assets/img/sedes/ursus.png',
-      'color_const': 'Azul Marino',
-      'cod_color': '#000022',
-      'nacimiento': 'Enero 2013',
-      'fecha': new Date(2013, 0, 1),
-      'sede': 'Guatemala, Guatemala',
-      'redes' : [{
-      'nombre_red': 'facebook',
-      'icon_red': 'logo-facebook',
-      'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
-      },
-      {
-      'nombre_red': 'twitter',
-      'icon_red': 'logo-twitter',
-      'color_red': 'twitter',
-      'url_red': 'https://twitter.com/fds_guate'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fdsguate/'
-      }],
-      'mascota': 'Osa',
-      'nombre_mascota': 'Nuru',
-      'img_mascota': 'assets/img/mascotas/nuru.png',
-      'lema': 'La fuerza sale del corazón',
-      'animacion': 'animated bounceInRight',
-      'historia': '<p>Ursus Minor es la última constelación que nace en Fábrica de Sonrisas sede central, en el año 2013. Para dar cabida a un nuevo horario de payaescuela. Su mascota es Nuru, una pequeña osa llena de valor y poderes especiales, que representa fuerza interior, sabiduría e intuición.<br><br> La estrella más conocida de esta constelación es la estrella del norte, que permanece casi fija en el cielo, y ha servido de guía a miles de navegantes, por lo que Nuru, la lleva en su mano, recordándonos que somos una luz en el camino de otros. Utilizando el lema “La fuerza sale del corazón”, su color es el azul marino.</p>'
-    },
-    {
       'nombre_const': 'Crux del Sur',
       'img_const': 'assets/img/sedes/crux_del_sur.png',
       'color_const': 'Verde Grama',
@@ -377,6 +278,72 @@ export class ConstelacionesPage {
       'historia': '<p>Fábrica de Sonrisas Cobán nació en junio del año 2011, el nombre de esta constelación es Áquila, inspirados en el proceso que sufre a cierta edad el águila, en la que se renueva por 5 meses, en este proceso el águila debe romperse las garras, el pico y quitarse las plumas para reconstruirse con una vida nueva coincidiendo con el tiempo de formación de nuestros voluntarios.<br><br>El lema con el que se identifican los voluntarios de Cobán es “La Sonrisas y La Alegría, Nuestro Idioma Universal”. La mascota lleva por nombre Chaim, que en Q’eqchi’ significa estrella, nosotros como voluntarios subimos como estrellas hacia una constelación. </p>'
     },
     {
+      'nombre_const': 'Bat´z',
+      'img_const': 'assets/img/sedes/batz.png',
+      'color_const': 'Café',
+      'cod_color': '#4F2B15',
+      'nacimiento': 'Julio 2011',
+      'fecha': new Date(2011, 6, 1),
+      'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
+      'mascota': 'Mono',
+      'nombre_mascota': 'Wirik',
+      'img_mascota': 'assets/img/mascotas/wirik.png',
+      'lema': 'Tu eres el inicio de tus sueños y el límite de tu destino',
+      'animacion': 'animated bounceInLeft',
+      'historia': '<p>Surge con el nacimiento de la payaescuela de día domingo por la mañana, en la octava generación en el año 2011, debido a que la respuesta de los voluntarios fue extraordinaria, viéndose en la necesidad de crear una nueva constelación, Batz, que tuvo un nacimiento corrido pero lleno de energía como su guardián Wirik, cuyo significado es cazador de sueños y es un simpático monito que siempre tiene una sonrisa para dar.</p>'
+    },
+    {
+      'nombre_const': 'Camaleón',
+      'img_const': 'assets/img/sedes/camaleon.png',
+      'color_const': 'Blanco',
+      'cod_color': '#FFF',
+      'nacimiento': 'Julio 2011',
+      'fecha': new Date(2011, 6, 1),
+      'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
+      'mascota': 'Camaleón',
+      'nombre_mascota': 'Duf',
+      'img_mascota': 'assets/img/mascotas/duf.png',
+      'lema': '-',
+      'animacion': 'animated bounceInRight',
+      'historia': '<p>Nace en la octava generación, debido a que hasta ese momento las payaescuelas se realizaban solo los días sábados y Fábrica de Sonrisas deseaba dar una oportunidad a todos aquellos que quisieran participar el día Domingo, sus primeros coordinadores fueron la Dra. Tortolita y el Dr. Rockstar. Esta constelación está formada por tres estrellas, muy brillantes, de color amarillo, rojo y azul que representan la unión de 3 constelaciones en una sola.<br><br>Su mascota es un pequeño camaleón verde con muchos colores que se adapta a su entorno rápidamente, sin embargo, nunca deja su esencia o sus buenos sentimientos atrás. Su nombre es Duf debido a la unión de las iniciales de las primeras constelaciones de Fábrica de Sonrisas, Draco, Unicornio y Fénix, el color que representa a la constelación es el blanco por su pureza.</p>'
+    },
+    {
       'nombre_const': 'Picis',
       'img_const': 'assets/img/sedes/picis.png',
       'color_const': 'Aqua',
@@ -431,6 +398,39 @@ export class ConstelacionesPage {
       'historia': '<p>En el 2012 empezó el sueño de la primera convocatoria, que fue realizada el 15 de abril en el departamento de Retalhuleu. El 21 de abril inició el proceso de formación para los nuevos voluntarios de Retalhuleu, el mismo día que el calendario astrológico marca el inicio de la constelación Taurus, durante este proceso los voluntarios no encontraron amigos, encontraron familia.<br><br>Los voluntarios que participaron en la formación estaban llenos de energía, expresividad y vida, igual que el color fucsia, color que los representa, el grupo de voluntarios se dividió en 4 grupos, que fueron parte importante del proceso, así como las 4 estrellas más importantes que forman la constelación Taurus.<br><br>El proceso de formación finalizó el día 20 de mayo, coincidentemente el mismo día que el calendario astrológico marca el final de la constelación Taurus, una nueva constelación había nacido en el universo de Fábrica de Sonrisas, con voluntarios llenos de amor, dispuestos a embestir de sonrisas nuestro camino, tal como lo haría Toribio su mascota.<br><br>El nombre de la mascota se dio por el ganado de esa época, las cuatro estrellas que tiene en su pañuelo representan los 4 grupos que se formaron durante el proceso de formación de la primera generación de voluntarios de Fábrica de Sonrisas en Retalhuleu. Su lema es “Una embestida de amor”.</p>'
     },
     {
+      'nombre_const': 'Ursus',
+      'img_const': 'assets/img/sedes/ursus.png',
+      'color_const': 'Azul Marino',
+      'cod_color': '#000022',
+      'nacimiento': 'Enero 2013',
+      'fecha': new Date(2013, 0, 1),
+      'sede': 'Guatemala, Guatemala',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/FDS.Guatemala/'
+      },
+      {
+      'nombre_red': 'twitter',
+      'icon_red': 'logo-twitter',
+      'color_red': 'twitter',
+      'url_red': 'https://twitter.com/fds_guate'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fdsguate/'
+      }],
+      'mascota': 'Osa',
+      'nombre_mascota': 'Nuru',
+      'img_mascota': 'assets/img/mascotas/nuru.png',
+      'lema': 'La fuerza sale del corazón',
+      'animacion': 'animated bounceInRight',
+      'historia': '<p>Ursus Minor es la última constelación que nace en Fábrica de Sonrisas sede central, en el año 2013. Para dar cabida a un nuevo horario de payaescuela. Su mascota es Nuru, una pequeña osa llena de valor y poderes especiales, que representa fuerza interior, sabiduría e intuición.<br><br> La estrella más conocida de esta constelación es la estrella del norte, que permanece casi fija en el cielo, y ha servido de guía a miles de navegantes, por lo que Nuru, la lleva en su mano, recordándonos que somos una luz en el camino de otros. Utilizando el lema “La fuerza sale del corazón”, su color es el azul marino.</p>'
+    },
+    {
       'nombre_const': 'Keh',
       'img_const': 'assets/img/sedes/keh.png',
       'color_const': 'Beige',
@@ -464,33 +464,6 @@ export class ConstelacionesPage {
       'historia': '<p>Fábrica de Sonrisas Mazatenango en Suchitepéquez nace en febrero del año 2013, su nombre es Constelación Keh, es la pronunciación del nahual venado, que es el símbolo departamental de este bello lugar. Su mascota es un venado llamado Venadino, el color que lo representa es el beige. Su lema es “Un salto de amor y felicidad”.</p>'
     },
     {
-      'nombre_const': 'Cisne',
-      'img_const': 'assets/img/sedes/cisne.png',
-      'color_const': 'Rosado',
-      'cod_color': '#FF84BD',
-      'nacimiento': 'Septiembre 2013',
-      'fecha': new Date(2013, 8, 1),
-      'sede': 'Santa Ana, El Salvador',
-      'redes' : [{
-      'nombre_red': 'facebook',
-      'icon_red': 'logo-facebook',
-      'color_red': 'facebook',
-      'url_red': 'https://www.facebook.com/fds.sta.ana.sv/'
-      },
-      {
-      'nombre_red': 'instagram',
-      'icon_red': 'logo-instagram',
-      'color_red': 'instagram',
-      'url_red': 'https://www.instagram.com/fds_cisne/'
-      }],
-      'mascota': 'Cisne',
-      'nombre_mascota': 'Whip',
-      'img_mascota': 'assets/img/mascotas/whip.png',
-      'lema': 'Sonreimos con pasión para alegrar tu corazón',
-      'animacion': 'animated bounceInRight',
-      'historia': '<p>Está expansión de Fábrica de Sonrisas San Salvador a Santa Ana, se realizó en el año 2013 graduando 5 doctores, actualmente consta de 29 doctores graduados y 5 generaciones comprometidas con cambiar al mundo una persona a la vez.<br>Para los antiguos griegos, la constelación del Cisne estaba relacionada con el mito de Zeus y la diosa Némesis quien, para escapar de este se transformaba en diferentes animales. Para todos los miembros de esta constelación, la transformación será la herramienta principal para acabar con todas las lágrimas, miedo, debilidad, enojo, soledad y todo aquello que evita que el amor y la alegría habiten en los corazones de las personas. Transformándonos en nuestro personaje mágico llevaremos sonrisas, juegos, baile, canto, mucho amor y sorpresas a todos aquellos que lo necesitan.<br><br>Cisne es valiente, atrevido y tiene muchas ganas de cambiar la forma en que las personas ven el mundo, haciendo uso de su simpatía, coraje y perseverancia. Por lo que su lema es “Sonreímos con pasión, para alegrar tu corazón”.<br><br>La mascota de la constelación es un cisne llamado WHIP, bautizado así por la primera generación, dicho nombre representa la fortaleza y la perseverancia de dichos sonriseros por ver crecer la constelación y cambiar el mundo a muchas más personas en Santa Ana.</p>'
-    },
-    {
       'nombre_const': 'Scutum',
       'img_const': 'assets/img/sedes/scutum.png',
       'color_const': 'Azul Pavo',
@@ -522,6 +495,33 @@ export class ConstelacionesPage {
       'lema': 'Nuestras sonrisas, el mejor escudo',
       'animacion': 'animated bounceInLeft',
       'historia': '<p>La primera convocatoria para Antigua Guatemala fue el domingo 7 de abril de 2013. Se eligió el nombre Scutum porque la fecha de la convocatoria coincide con el descubrimiento de esta constelación, tiene una de las estrellas más pequeñas por lo que esto hizo click con la ideología de los voluntarios de este departamento, con gestos y pequeñas acciones se logran grandes cambios.<br><br>El nombre de su mascota es Kinich, el nombre del que provino es de Kinich Kakmó es de origen Maya, y se compone de la siguiente forma KIN que significa sol, ICH qué quiere decir cara, KAAK fuego y MOO guacamaya.<br><br>Los mayas creían que el dios Kinich bajaba en el ardor del sol para purificar, usando la forma de una guacamaya y la interpretación que se le deba en la constelación Scutum es que esta guacamaya bajaría para llenar de alegría y color al departamento de Antigua Guatemala e irradiar de amor y sonrisas como el mismo sol. El lema con el cual se identifican los voluntarios de Antigua Guatemala es "Nuestras sonrisas el mejor escudo".</p>'
+    },
+    {
+      'nombre_const': 'Cisne',
+      'img_const': 'assets/img/sedes/cisne.png',
+      'color_const': 'Rosado',
+      'cod_color': '#FF84BD',
+      'nacimiento': 'Septiembre 2013',
+      'fecha': new Date(2013, 8, 1),
+      'sede': 'Santa Ana, El Salvador',
+      'redes' : [{
+      'nombre_red': 'facebook',
+      'icon_red': 'logo-facebook',
+      'color_red': 'facebook',
+      'url_red': 'https://www.facebook.com/fds.sta.ana.sv/'
+      },
+      {
+      'nombre_red': 'instagram',
+      'icon_red': 'logo-instagram',
+      'color_red': 'instagram',
+      'url_red': 'https://www.instagram.com/fds_cisne/'
+      }],
+      'mascota': 'Cisne',
+      'nombre_mascota': 'Whip',
+      'img_mascota': 'assets/img/mascotas/whip.png',
+      'lema': 'Sonreimos con pasión para alegrar tu corazón',
+      'animacion': 'animated bounceInRight',
+      'historia': '<p>Está expansión de Fábrica de Sonrisas San Salvador a Santa Ana, se realizó en el año 2013 graduando 5 doctores, actualmente consta de 29 doctores graduados y 5 generaciones comprometidas con cambiar al mundo una persona a la vez.<br>Para los antiguos griegos, la constelación del Cisne estaba relacionada con el mito de Zeus y la diosa Némesis quien, para escapar de este se transformaba en diferentes animales. Para todos los miembros de esta constelación, la transformación será la herramienta principal para acabar con todas las lágrimas, miedo, debilidad, enojo, soledad y todo aquello que evita que el amor y la alegría habiten en los corazones de las personas. Transformándonos en nuestro personaje mágico llevaremos sonrisas, juegos, baile, canto, mucho amor y sorpresas a todos aquellos que lo necesitan.<br><br>Cisne es valiente, atrevido y tiene muchas ganas de cambiar la forma en que las personas ven el mundo, haciendo uso de su simpatía, coraje y perseverancia. Por lo que su lema es “Sonreímos con pasión, para alegrar tu corazón”.<br><br>La mascota de la constelación es un cisne llamado WHIP, bautizado así por la primera generación, dicho nombre representa la fortaleza y la perseverancia de dichos sonriseros por ver crecer la constelación y cambiar el mundo a muchas más personas en Santa Ana.</p>'
     },
     {
       'nombre_const': 'Andromeda',
