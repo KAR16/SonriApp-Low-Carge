@@ -524,7 +524,7 @@ export class ConstelacionesPage {
       'historia': '<p>Está expansión de Fábrica de Sonrisas San Salvador a Santa Ana, se realizó en el año 2013 graduando 5 doctores, actualmente consta de 29 doctores graduados y 5 generaciones comprometidas con cambiar al mundo una persona a la vez.<br>Para los antiguos griegos, la constelación del Cisne estaba relacionada con el mito de Zeus y la diosa Némesis quien, para escapar de este se transformaba en diferentes animales. Para todos los miembros de esta constelación, la transformación será la herramienta principal para acabar con todas las lágrimas, miedo, debilidad, enojo, soledad y todo aquello que evita que el amor y la alegría habiten en los corazones de las personas. Transformándonos en nuestro personaje mágico llevaremos sonrisas, juegos, baile, canto, mucho amor y sorpresas a todos aquellos que lo necesitan.<br><br>Cisne es valiente, atrevido y tiene muchas ganas de cambiar la forma en que las personas ven el mundo, haciendo uso de su simpatía, coraje y perseverancia. Por lo que su lema es “Sonreímos con pasión, para alegrar tu corazón”.<br><br>La mascota de la constelación es un cisne llamado WHIP, bautizado así por la primera generación, dicho nombre representa la fortaleza y la perseverancia de dichos sonriseros por ver crecer la constelación y cambiar el mundo a muchas más personas en Santa Ana.</p>'
     },
     {
-      'nombre_const': 'Andromeda',
+      'nombre_const': 'Andrómeda',
       'img_const': 'assets/img/sedes/andromeda.png',
       'color_const': 'Vinotinto',
       'cod_color': '#CD0043',
