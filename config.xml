@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="app.SonriApp" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="app.SonriApp" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SonriApp</name>
-  <description>SonriApp producto para Fábrica de Sonrisas trabajado por Sunit</description>
+  <description>SonriApp producto para Fábrica de Sonrisas desarrollado por Sunit</description>
   <author email="sunitcor@gmail.com" href="">Sunit</author>
   <content src="index.html"/>
   <access origin="*"/>

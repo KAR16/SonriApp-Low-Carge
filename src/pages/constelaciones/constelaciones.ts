@@ -139,7 +139,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Cruxito',
       'img_mascota': 'assets/img/mascotas/cruxito.png',
       'lema': 'El amor nos une',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>Esta constelación inició con el sueño de Julio Roberto Maldonado, Dr. Jirafita quien anteriormente había participado en un taller de Fábrica de Sonrisas en Guatemala. Al recibir dicho taller Julio Roberto quedo entusiasmado así que contacto a varios amigos y a Andrés Ruiz uno de los fundadores de Fábrica de Sonrisas sede central, para poder llevar este proyecto a Coatepeque y así mes con mes un grupo viajaba para lograr que en la primera generación se graduaran 19 voluntarios.<br><br>Crux del Sur está formada por cuatro estrellas, cada una de ellas representa a uno de los fundadores de la Asociación que se acercó por primera vez a Coatepeque, además su ubicación está al sur como este municipio y su constelación vecina es Orión, nombre de la constelación que había nacido anteriormente en El Salvador lo que hacía más especial a la misma.<br><br>Su mascota es una serpiente llamada Cruxito, que representa a Coatepeque ya que viene del vocablo Coaltepec cuyo significado es cerro de serpientes, su color es rojo porque representa el amor por el prójimo. Y su lema es “El amor nos une.</p>'
     },
     {
@@ -172,7 +172,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Regil',
       'img_mascota': 'assets/img/mascotas/regil.png',
       'lema': 'Orión ilumina con sonrisas tu corazón',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>En la mitología griega se asocia a Orión con El Cazador. En la realidad actual de San Salvador no es un cazador mitológico, sino un cazador real, verdadero, y cien por ciento humano. Será el responsable de cazar llantos, tristezas, desgracias, miserias, utilizando su mejor arma y la más poderosa de todas, su sonrisa. Orión con su audacia y tenacidad, cazará todo lo malo, para que haya espacio para todo lo bueno. Esta constelación está formada por una legión de cazadores que terminaran con el odio, para que prevalezca el amor. Orión, el Cazador Gigante o el Guerrero, era un gigante tan alto que podía atravesar caminando cualquier mar, esa grandeza se tiene que ver reflejada en su gran corazón. El nombre de su guerrero gigantes es Rigel, como la estrella más brillante de esta constelación, el color con el que se identifica a la constelación es el naranja.</p>'
     },
     {
@@ -193,7 +193,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Ras',
       'img_mascota': 'assets/img/mascotas/ras.png',
       'lema': 'Dejando huellas de amor',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>La constelación nace por el Dr. Puppy y la Dra. Robotina dos voluntarias que se gradúan en el 2009 de la cuarta generación de Fábrica de Sonrisas Guatemala, ellos son los que gestionan crear el proyecto en el departamento de Jalapa, la primera convocatoria es el 24 de abril del 2010.<br><br>Naciendo con el nombre de Pegasus, el color con el cual se identifican es el gris, la mascota es un Pegaso llamado Ras y su nombre significa guía, jefe o cabeza en un idioma de Etiopía (los colores de la bandera de Jalapa son verde, amarillo y rojo, sus colores se asemejan a los de Etiopía)<br>El lema es: Dejando huellas de amor, el cuál se elige porque según la leyenda dónde un Pegaso caminaba brotaba agua.</p>'
     },
     {
@@ -226,7 +226,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Kawi',
       'img_mascota': 'assets/img/mascotas/kawi.png',
       'lema': 'Dejando huella',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Fábrica de Sonrisas Quetzaltenango se funda el 14 de agosto de 2010, día en que se llevó a cabo su primera convocatoria, el proceso de formación fue impartido por 17 doctores originarios de Guatemala y Coatepeque. Su aniversario se celebra el 28 de noviembre, fecha en la cual se graduó la primera generación.<br><br>Balam, es una de las constelaciones reconocidas por la cultura maya y su nombre significa “Jaguar”, el cual es un animal sagrado y el más representativo para nuestros ancestros.  Somos jaguares sonrientes y nocturnos, nacidos bajo la luna que nos ilumina y cuida, esa luna que nos recuerda que somos estrellas con luz propia que ve la vida de manera positiva.<br><br>La constelación Balam nace, con Jaguares comprometidos a cambiar la vida de las personas a las que visitan, cambiando de uno en uno el mundo, haciendo de la sonrisa la mejor medicina para el alma y el corazón.<br><br>“KAWI” es el nombre del pequeño jaguar mascota. “Kawi” era un término con el que los antiguos mayas denominaban a sus guías y acompañantes. ¡Este pequeño amiguito nació para acompañar y guiar a la gente de buen corazón! El lema con el cual se identifican los voluntarios de Quetzaltenango es “Dejamos huella”.</p>'
     },
     {
@@ -247,7 +247,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Leonardo',
       'img_mascota': 'assets/img/mascotas/leo.png',
       'lema': 'La risa es algo serio',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>Fábrica de Sonrisas Chiquimula nació en marzo de 2011, se llama así debido a que es la constelación que tiene las estrellas más brillantes, actualmente hay 7 generaciones. La primera generación graduó a 44 doctores, el color de Leo es verde Neon debido a que brilla en la oscuridad, su mascota se llama Leonardo que es un león muy simpático. El lema con el que se identifican los voluntarios de Chiquimula es “La risa… es algo serio”.</p>'
     },
     {
@@ -274,7 +274,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Chahim',
       'img_mascota': 'assets/img/mascotas/chahim.png',
       'lema': 'La sonrisa y la alegría es nuestro idioma universal',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Fábrica de Sonrisas Cobán nació en junio del año 2011, el nombre de esta constelación es Áquila, inspirados en el proceso que sufre a cierta edad el águila, en la que se renueva por 5 meses, en este proceso el águila debe romperse las garras, el pico y quitarse las plumas para reconstruirse con una vida nueva coincidiendo con el tiempo de formación de nuestros voluntarios.<br><br>El lema con el que se identifican los voluntarios de Cobán es “La Sonrisas y La Alegría, Nuestro Idioma Universal”. La mascota lleva por nombre Chaim, que en Q’eqchi’ significa estrella, nosotros como voluntarios subimos como estrellas hacia una constelación. </p>'
     },
     {
@@ -307,7 +307,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Wirik',
       'img_mascota': 'assets/img/mascotas/wirik.png',
       'lema': 'Tu eres el inicio de tus sueños y el límite de tu destino',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>Surge con el nacimiento de la payaescuela de día domingo por la mañana, en la octava generación en el año 2011, debido a que la respuesta de los voluntarios fue extraordinaria, viéndose en la necesidad de crear una nueva constelación, Batz, que tuvo un nacimiento corrido pero lleno de energía como su guardián Wirik, cuyo significado es cazador de sueños y es un simpático monito que siempre tiene una sonrisa para dar.</p>'
     },
     {
@@ -340,7 +340,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Duf',
       'img_mascota': 'assets/img/mascotas/duf.png',
       'lema': '-',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Nace en la octava generación, debido a que hasta ese momento las payaescuelas se realizaban solo los días sábados y Fábrica de Sonrisas deseaba dar una oportunidad a todos aquellos que quisieran participar el día Domingo, sus primeros coordinadores fueron la Dra. Tortolita y el Dr. Rockstar. Esta constelación está formada por tres estrellas, muy brillantes, de color amarillo, rojo y azul que representan la unión de 3 constelaciones en una sola.<br><br>Su mascota es un pequeño camaleón verde con muchos colores que se adapta a su entorno rápidamente, sin embargo, nunca deja su esencia o sus buenos sentimientos atrás. Su nombre es Duf debido a la unión de las iniciales de las primeras constelaciones de Fábrica de Sonrisas, Draco, Unicornio y Fénix, el color que representa a la constelación es el blanco por su pureza.</p>'
     },
     {
@@ -367,7 +367,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Sonri y Sueños',
       'img_mascota': 'assets/img/mascotas/sonri_sueños.png',
       'lema': 'De los amigos siempre cerca',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>Nace el 31 de marzo de 2012, con la graduación de la primera generación de voluntarios. Las mascotas de Piscis son dos amigos delfines, uno llamado “Sonri” y el otro llamado “Sueños”, que son de personalidades amables e intuitivas, les gusta perderse en el misterio y el ridículo para sonreír y soñar, son sensibles a los sentimientos de los demás y muy simpáticos. El lema con el que se identifica esta constelación es “De los amigos siempre cerca”.</p>'
     },
     {
@@ -394,7 +394,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Torivio',
       'img_mascota': 'assets/img/mascotas/torivio.png',
       'lema': 'Una embestida de amor',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>En el 2012 empezó el sueño de la primera convocatoria, que fue realizada el 15 de abril en el departamento de Retalhuleu. El 21 de abril inició el proceso de formación para los nuevos voluntarios de Retalhuleu, el mismo día que el calendario astrológico marca el inicio de la constelación Taurus, durante este proceso los voluntarios no encontraron amigos, encontraron familia.<br><br>Los voluntarios que participaron en la formación estaban llenos de energía, expresividad y vida, igual que el color fucsia, color que los representa, el grupo de voluntarios se dividió en 4 grupos, que fueron parte importante del proceso, así como las 4 estrellas más importantes que forman la constelación Taurus.<br><br>El proceso de formación finalizó el día 20 de mayo, coincidentemente el mismo día que el calendario astrológico marca el final de la constelación Taurus, una nueva constelación había nacido en el universo de Fábrica de Sonrisas, con voluntarios llenos de amor, dispuestos a embestir de sonrisas nuestro camino, tal como lo haría Toribio su mascota.<br><br>El nombre de la mascota se dio por el ganado de esa época, las cuatro estrellas que tiene en su pañuelo representan los 4 grupos que se formaron durante el proceso de formación de la primera generación de voluntarios de Fábrica de Sonrisas en Retalhuleu. Su lema es “Una embestida de amor”.</p>'
     },
     {
@@ -493,7 +493,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Qinich',
       'img_mascota': 'assets/img/mascotas/qinich.png',
       'lema': 'Nuestras sonrisas, el mejor escudo',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>La primera convocatoria para Antigua Guatemala fue el domingo 7 de abril de 2013. Se eligió el nombre Scutum porque la fecha de la convocatoria coincide con el descubrimiento de esta constelación, tiene una de las estrellas más pequeñas por lo que esto hizo click con la ideología de los voluntarios de este departamento, con gestos y pequeñas acciones se logran grandes cambios.<br><br>El nombre de su mascota es Kinich, el nombre del que provino es de Kinich Kakmó es de origen Maya, y se compone de la siguiente forma KIN que significa sol, ICH qué quiere decir cara, KAAK fuego y MOO guacamaya.<br><br>Los mayas creían que el dios Kinich bajaba en el ardor del sol para purificar, usando la forma de una guacamaya y la interpretación que se le deba en la constelación Scutum es que esta guacamaya bajaría para llenar de alegría y color al departamento de Antigua Guatemala e irradiar de amor y sonrisas como el mismo sol. El lema con el cual se identifican los voluntarios de Antigua Guatemala es "Nuestras sonrisas el mejor escudo".</p>'
     },
     {
@@ -520,7 +520,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Whip',
       'img_mascota': 'assets/img/mascotas/whip.png',
       'lema': 'Sonreimos con pasión para alegrar tu corazón',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Está expansión de Fábrica de Sonrisas San Salvador a Santa Ana, se realizó en el año 2013 graduando 5 doctores, actualmente consta de 29 doctores graduados y 5 generaciones comprometidas con cambiar al mundo una persona a la vez.<br>Para los antiguos griegos, la constelación del Cisne estaba relacionada con el mito de Zeus y la diosa Némesis quien, para escapar de este se transformaba en diferentes animales. Para todos los miembros de esta constelación, la transformación será la herramienta principal para acabar con todas las lágrimas, miedo, debilidad, enojo, soledad y todo aquello que evita que el amor y la alegría habiten en los corazones de las personas. Transformándonos en nuestro personaje mágico llevaremos sonrisas, juegos, baile, canto, mucho amor y sorpresas a todos aquellos que lo necesitan.<br><br>Cisne es valiente, atrevido y tiene muchas ganas de cambiar la forma en que las personas ven el mundo, haciendo uso de su simpatía, coraje y perseverancia. Por lo que su lema es “Sonreímos con pasión, para alegrar tu corazón”.<br><br>La mascota de la constelación es un cisne llamado WHIP, bautizado así por la primera generación, dicho nombre representa la fortaleza y la perseverancia de dichos sonriseros por ver crecer la constelación y cambiar el mundo a muchas más personas en Santa Ana.</p>'
     },
     {
@@ -718,7 +718,7 @@ export class ConstelacionesPage {
       'nombre_mascota': 'Gros',
       'img_mascota': 'assets/img/general/hoop.png',
       'lema': '-',
-      'animacion': 'animated bounceInRight',
+      'animacion': 'animated bounceInLeft',
       'historia': '<p>Esta constelación no posee Historia.</p>'
     },
     {
@@ -739,7 +739,7 @@ export class ConstelacionesPage {
       'nombre_mascota': '-',
       'img_mascota': 'assets/img/general/hoop.png',
       'lema': '-',
-      'animacion': 'animated bounceInLeft',
+      'animacion': 'animated bounceInRight',
       'historia': '<p>Merak es una estrella familiar para los observadores del hemisferio norte como estrella apuntadora, llamada así porque al extender la línea que la une con la cercana Dubhe (α Ursae Majoris), se llega a Polaris, la Estrella Polar.<br><br>Merak nace el 22 de abril de 2017 en Santa Cruz del Quiché con 15 estrellas que se unieron para formar esta constelación que se caracteriza por su calidez y servicio. Los voluntarios de esta constelación creen en la unidad, que las acciones placenteras y cosas materiales que nos traen felicidad, nunca se compararan con la sonrisa, un abrazo o ver que lograste hacer reír a quien amas.</p>'
     }
   ];
